@@ -1,0 +1,249 @@
+% ============================================================================
+% Fichier  : partie1/P01_C02_risque_decision.tex
+% Titre    : Du Risque à la Décision
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% ============================================================================
+% Sources : ISO/IEC 27001:2022 ; ISO 31000:2018. Mairie d'Eséka : cas fictif.
+% ============================================================================
+
+\chapter{Du Risque à la Décision}
+\label{chap:enjeux}
+\chaptermark{Du risque à la décision}
+
+\epigraph{%
+    « Sécuriser, c'est décider~: quel risque accepter, lequel réduire,\\
+    et avec quelles ressources. »%
+}{Principe du cours}
+
+\niveauChapitre{Fondamental}{Le Chapitre~\ref{chap:cia}.}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Relier la sécurité aux enjeux économiques, réglementaires et
+          stratégiques de l'organisation.
+    \item Identifier les acteurs de la sécurité et leurs responsabilités.
+    \item Définir le patrimoine informationnel à protéger.
+    \item Comprendre que la sécurité est une décision fondée sur le risque.
+    \item Situer la mairie d'Eséka dans son écosystème (ANTIC, parties
+          prenantes).
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Question directrice : au nom de quoi la mairie investit-elle dans la sécurité ?}
+% ============================================================================
+
+Dépenser pour la sécurité, c'est renoncer à dépenser ailleurs. Ce chapitre
+montre que cette dépense se justifie par des enjeux, s'organise autour
+d'acteurs et se décide en fonction du risque.
+
+\medskip
+\textbf{Plan du chapitre.}
+\begin{enumerate}
+    \item Les enjeux (section~\ref{sec:c02-enjeux}).
+    \item Les acteurs (section~\ref{sec:c02-acteurs}).
+    \item Le patrimoine informationnel (section~\ref{sec:c02-patrimoine}).
+    \item La sécurité, une décision (section~\ref{sec:c02-decision}).
+    \item L'écosystème de la mairie (section~\ref{sec:c02-ecosysteme}).
+\end{enumerate}
+
+\separateur
+
+% ============================================================================
+\section{Les Enjeux}
+\label{sec:c02-enjeux}
+% ============================================================================
+
+\begin{tableaucours}{L{3.4cm}L{9.0cm}}{%
+    \tableauHeader{Enjeu} &
+    \tableauHeader{Pour la mairie d'Eséka}
+}
+Économique & Service interrompu, recettes de taxes retardées, remédiation coûteuse \\
+Réglementaire & Loi 2024/017 sur les données personnelles, obligations de l'ANTIC \\
+Stratégique & Confiance des usagers, image de la commune, continuité du service public \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~2.1. Les enjeux de la sécurité pour la mairie}\end{center}
+
+Pour une collectivité, l'enjeu premier n'est pas le chiffre d'affaires mais la
+\termecle{continuité du service public} et la confiance des administrés. Un
+état civil à l'arrêt, c'est un citoyen qui ne peut ni se marier, ni inscrire
+un enfant, ni prouver son identité.
+
+% ============================================================================
+\section{Les Acteurs}
+\label{sec:c02-acteurs}
+% ============================================================================
+
+\begin{tableaucours}{L{3.6cm}L{8.8cm}}{%
+    \tableauHeader{Acteur} &
+    \tableauHeader{Responsabilité}
+}
+Le maire (direction) & Impulse, valide la politique, alloue les ressources, assume \\
+RSSI & Pilote la sécurité, apprécie les risques, propose les mesures \\
+DSI & Met en \oe uvre les solutions techniques \\
+DPO / conseil & Veille à la conformité des traitements de données personnelles \\
+Agents (utilisateurs) & Respectent les règles, signalent les incidents \\
+ANTIC & Autorité nationale : appui, contrôle, réponse aux incidents \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~2.2. Les acteurs et leurs responsabilités}\end{center}
+
+La sécurité n'est l'affaire de personne si elle est l'affaire de tous sans
+responsabilité nommée. La première décision du maire, nommer une \sigle{RSSI},
+crée le point où la responsabilité se concentre.
+
+\begin{boxmetier}{Direction générale}
+\textbf{Le rôle que nul ne peut déléguer.} Le maire peut déléguer la mise en
+\oe uvre, jamais la responsabilité finale. C'est lui qui arbitre entre le
+risque et le coût, parce que lui seul engage la commune.
+\end{boxmetier}
+
+% ============================================================================
+\section{Le Patrimoine Informationnel}
+\label{sec:c02-patrimoine}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{Patrimoine informationnel}~: ensemble des informations de valeur
+d'une organisation et des moyens qui les portent. Le protéger suppose d'abord
+de le connaître.
+\end{boxdef}
+
+\begin{boxobjet}{Le patrimoine de la mairie}
+\textbf{Constatation.} Avant la démarche, la mairie n'a aucun inventaire de
+ses informations sensibles.
+
+\medskip
+\textbf{Analyse.} On ne protège bien que ce que l'on a recensé. L'opération
+\textsc{Nyong} commencera par un inventaire~: état civil, fichier des
+contribuables, délibérations du conseil, messagerie, site web. Sans cet
+inventaire, l'appréciation des risques n'a pas d'objet.
+\end{boxobjet}
+
+% ============================================================================
+\section{La Sécurité, une Décision}
+\label{sec:c02-decision}
+% ============================================================================
+
+La sécurité absolue n'existe pas et coûterait trop cher. Sécuriser, c'est
+donc \termecle{décider}~: pour chaque risque, choisir de le réduire, de le
+transférer, de l'éviter ou de l'accepter (Chapitre~\ref{chap:traitement}).
+Cette décision appartient à la direction, sur proposition du \sigle{RSSI} et au
+vu des risques appréciés.
+
+\begin{boxinfo}
+\textbf{Le fondement du SMSI.} Tout le cours découle de cette idée~: la
+sécurité se \emph{décide} sur la base du \emph{risque}. C'est pourquoi
+l'appréciation des risques (partie IV) est le cœur de la norme
+\norme{ISO/IEC 27001}.
+\end{boxinfo}
+
+% ============================================================================
+\section{L'Écosystème de la Mairie}
+\label{sec:c02-ecosysteme}
+% ============================================================================
+
+La mairie n'est pas seule. Elle dépend de prestataires (hébergeur du site,
+éditeur du logiciel d'état civil), relève d'autorités (ANTIC, tutelle) et sert
+des usagers. Ces \termecle{parties intéressées} ont des attentes de sécurité
+qui s'imposent au \sigle{SMSI} et seront recensées à la clause~4 de la norme
+(Chapitre~\ref{chap:clauses46}).
+
+\begin{boxjuris}
+La loi camerounaise n°~2024/017 du 23~décembre~2024 sur la protection des
+données à caractère personnel impose au responsable de traitement (ici, la
+mairie) de garantir la sécurité des données qu'il détient. La sécurité n'est
+donc pas seulement prudente~: elle est une obligation légale.
+\end{boxjuris}
+
+\separateur
+
+\begin{boxresume}
+\textbf{Ce qu'il faut retenir de ce chapitre~:}
+\begin{itemize}
+    \item La sécurité répond à des \textbf{enjeux} économiques,
+          réglementaires et stratégiques~; pour une mairie, la continuité du
+          service public prime.
+    \item Chaque \textbf{acteur} a une responsabilité nommée~; la direction
+          assume, le \sigle{RSSI} pilote.
+    \item On protège un \textbf{patrimoine informationnel} qu'il faut d'abord
+          inventorier.
+    \item Sécuriser est une \textbf{décision} fondée sur le risque.
+    \item Les \textbf{parties intéressées} imposent des attentes au
+          \sigle{SMSI}.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle de l'élève.} Je sais~: citer les trois types
+d'enjeux~; nommer les acteurs et leurs rôles~; définir le patrimoine
+informationnel~; expliquer pourquoi la sécurité est une décision~; citer une
+obligation légale.
+\end{boxinfo}
+
+\bigskip
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~2.1. Trois enjeux \niveaubase}]
+Donnez, pour la mairie, un exemple concret d'enjeu économique, réglementaire
+et stratégique.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~2.2. Qui fait quoi \niveaubase}]
+Reliez chaque acteur (maire, RSSI, DSI, agent) à sa responsabilité principale.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~2.3. Inventaire \niveaubase}]
+Listez cinq informations de valeur que détient une mairie.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~2.4. Responsabilité finale \niveaumoyen}]
+Pourquoi le maire ne peut-il pas déléguer la responsabilité finale de la
+sécurité~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~2.5. Décider \niveaumoyen}]
+« La mairie n'a qu'à tout sécuriser au maximum. » Montrez les limites de cette
+phrase.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~2.6. Parties intéressées \niveaumoyen}]
+Identifiez quatre parties intéressées de la mairie et une attente de sécurité
+pour chacune.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~2.7. Continuité publique \niveaumoyen}]
+Pourquoi la continuité du service public pèse-t-elle plus, pour une mairie,
+que pour une entreprise commerciale~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~2.8. Obligation légale \niveaumoyen}]
+En quoi la loi 2024/017 transforme-t-elle la sécurité des données de la mairie
+en obligation~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~2.9. Cartographie des acteurs \niveauexpert}]
+Dressez l'organigramme de sécurité que la mairie d'Eséka devrait adopter, avec
+les responsabilités de chacun.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~2.10. Argumentaire budgétaire \niveauexpert}]
+Rédigez l'argumentaire par lequel la RSSI justifie, devant le conseil, un
+budget sécurité, en s'appuyant sur les enjeux et le risque.
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item ISO/IEC 27001~\cite{iso27001}~; ISO 31000~\cite{iso31000}.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Décider une fois ne suffit pas~: il faut un cycle qui
+entretienne la décision. Le Chapitre~\ref{chap:pdca} présente le \sigle{PDCA}.
+\end{boxinfo}

@@ -1,0 +1,239 @@
+% ============================================================================
+% Fichier  : partie3/P03_C07_famille_27000.tex
+% Titre    : La Famille ISO/IEC 27000 et le SMSI
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% ============================================================================
+% Sources : ISO/IEC 27000:2018 ; 27001:2022 ; 27002, 27005. Fictif : Eséka.
+% ============================================================================
+
+\chapter{La Famille ISO/IEC 27000 et le SMSI}
+\label{chap:iso27000}
+\chaptermark{La famille ISO 27000}
+
+\epigraph{%
+    « Une norme ne protège rien par elle-même~:\\
+    elle organise la manière dont on se protège. »%
+}{Principe du cours}
+
+\niveauChapitre{Fondamental}{La partie II.}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Situer la famille \norme{ISO/IEC 27000} et ses principales normes.
+    \item Distinguer la norme d'exigences (27001) des normes de lignes
+          directrices.
+    \item Comprendre ce qu'est un \sigle{SMSI} au sens de la norme.
+    \item Expliquer le principe de la certification.
+    \item Replacer la démarche de la mairie dans ce cadre.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Question directrice : pourquoi s'appuyer sur une norme plutôt que bricoler ?}
+% ============================================================================
+
+La mairie pourrait inventer sa propre méthode. S'appuyer sur
+\norme{ISO/IEC 27001}, c'est hériter d'un cadre éprouvé, reconnu et auditable.
+Ce chapitre présente la famille de normes et le \sigle{SMSI} qu'elle définit.
+
+\medskip
+\textbf{Plan du chapitre.}
+\begin{enumerate}
+    \item La famille 27000 (section~\ref{sec:c07-famille}).
+    \item Exigences et lignes directrices (section~\ref{sec:c07-exigences}).
+    \item Le SMSI selon la norme (section~\ref{sec:c07-smsi}).
+    \item Le principe de la certification (section~\ref{sec:c07-certif}).
+    \item La mairie dans le cadre (section~\ref{sec:c07-mairie}).
+\end{enumerate}
+
+\separateur
+
+% ============================================================================
+\section{La Famille 27000}
+\label{sec:c07-famille}
+% ============================================================================
+
+\begin{tableaucours}{L{2.6cm}L{9.6cm}}{%
+    \tableauHeader{Norme} &
+    \tableauHeader{Objet}
+}
+ISO/IEC 27000 & Vue d'ensemble et vocabulaire \\
+ISO/IEC 27001 & Exigences du SMSI (la seule certifiable) \\
+ISO/IEC 27002 & Mesures de sécurité (code de bonne pratique) \\
+ISO/IEC 27005 & Gestion des risques de sécurité de l'information \\
+ISO/IEC 27004 & Mesure, indicateurs et évaluation \\
+ISO/IEC 27006 & Exigences des organismes de certification \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~7.1. Quelques normes de la famille ISO/IEC 27000}\end{center}
+
+La famille forme un système cohérent~: la 27001 \emph{exige}, les autres
+\emph{aident}. On ne se certifie que sur la 27001~; les autres soutiennent sa
+mise en \oe uvre.
+
+% ============================================================================
+\section{Exigences et Lignes Directrices}
+\label{sec:c07-exigences}
+% ============================================================================
+
+\begin{boxdef}
+Une norme d'\termecle{exigences} (\norme{ISO/IEC 27001}) énonce ce qui
+\emph{doit} être fait pour être conforme~; ses clauses emploient « doit ». Une
+norme de \termecle{lignes directrices} (27002, 27005) propose des bonnes
+pratiques~; elle emploie « il convient de ».
+\end{boxdef}
+
+La distinction est capitale en audit~: un auditeur vérifie le respect des
+\emph{exigences} de la 27001. Les lignes directrices éclairent le « comment »,
+sans être, elles, directement certifiables.
+
+% ============================================================================
+\section{Le SMSI selon la Norme}
+\label{sec:c07-smsi}
+% ============================================================================
+
+Le \sigle{SMSI} de la 27001 s'articule en sept clauses d'exigences
+(clauses~4 à~10), qui suivent le cycle \sigle{PDCA}~:
+
+\begin{tableaucours}{L{2.0cm}L{6.6cm}L{3.2cm}}{%
+    \tableauHeader{Clause} &
+    \tableauHeader{Exigence} &
+    \tableauHeader{Étape PDCA}
+}
+4 & Contexte de l'organisme & Plan \\
+5 & Leadership & Plan \\
+6 & Planification & Plan \\
+7 & Support & Do \\
+8 & Fonctionnement & Do \\
+9 & Évaluation des performances & Check \\
+10 & Amélioration & Act \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~7.2. Les clauses d'exigences et le PDCA}\end{center}
+
+Les Chapitres~\ref{chap:clauses46} et~\ref{chap:clauses710} détaillent ces
+clauses~; le Chapitre~\ref{chap:iso27002} traite les mesures de l'Annexe~A.
+
+% ============================================================================
+\section{Le Principe de la Certification}
+\label{sec:c07-certif}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{Certification \norme{ISO/IEC 27001}}~: attestation, délivrée par un
+organisme accrédité, qu'un \sigle{SMSI} satisfait aux exigences de la norme sur
+un périmètre défini. Elle se gagne par un audit et se maintient par des audits
+de surveillance.
+\end{boxdef}
+
+La certification ne prouve pas l'absence d'incident~: elle atteste que
+l'organisation \emph{gère} sa sécurité selon la norme. C'est une reconnaissance
+de maturité, non une garantie d'invulnérabilité.
+
+\begin{boxmetier}{Auditeur SMSI}
+\textbf{Auditer l'exigence, pas l'intention.} L'auditeur ne note pas la bonne
+volonté~: il vérifie, preuve à l'appui, que chaque « doit » de la norme est
+satisfait. Une mairie motivée mais sans preuves échoue.
+\end{boxmetier}
+
+% ============================================================================
+\section{La Mairie dans le Cadre}
+\label{sec:c07-mairie}
+% ============================================================================
+
+\begin{boxprocedure}
+\textbf{Constatation.} La mairie d'Eséka vise la certification \norme{ISO/IEC
+27001} de son \sigle{SMSI} sur le périmètre « services aux usagers » (état
+civil, taxes).
+
+\medskip
+\textbf{Analyse.} Le choix du périmètre est stratégique~: commencer par un
+périmètre maîtrisable, quitte à l'étendre ensuite. Les quatre phases du fil
+rouge (\textsc{Nyong}, \textsc{Kellé}, \textsc{Makak}, \textsc{Matomb})
+couvrent les clauses~4 à~10.
+\end{boxprocedure}
+
+\separateur
+
+\begin{boxresume}
+\textbf{Ce qu'il faut retenir de ce chapitre~:}
+\begin{itemize}
+    \item La \textbf{famille 27000} forme un système~: la 27001 exige, les
+          autres aident.
+    \item Seule \textbf{ISO/IEC 27001} est \textbf{certifiable}~; elle emploie
+          « doit ».
+    \item Le \textbf{SMSI} de la norme tient en sept clauses (4 à~10) alignées
+          sur le \sigle{PDCA}.
+    \item La \textbf{certification} atteste la maîtrise, non l'absence
+          d'incident.
+    \item La mairie vise un \textbf{périmètre} défini et maîtrisable.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle de l'élève.} Je sais~: citer les normes de la
+famille 27000~; distinguer exigences et lignes directrices~; énoncer les sept
+clauses~; expliquer la certification~; définir un périmètre.
+\end{boxinfo}
+
+\bigskip
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~7.1. La famille \niveaubase}]
+Associez chaque norme à son objet~: 27001, 27002, 27005.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~7.2. Doit ou il convient \niveaubase}]
+Laquelle de ces normes emploie « doit »~: 27001 ou 27002~? Pourquoi est-ce
+important~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~7.3. Les clauses \niveaubase}]
+Citez les sept clauses d'exigences de la 27001 et leur étape PDCA.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~7.4. Ce que prouve la certification \niveaumoyen}]
+« Une mairie certifiée ne peut pas être victime d'un incident. » Corrigez cette
+affirmation.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~7.5. Rôle des lignes directrices \niveaumoyen}]
+À quoi servent la 27002 et la 27005 si l'on se certifie sur la 27001~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~7.6. Périmètre \niveaumoyen}]
+Pourquoi la mairie commence-t-elle par un périmètre restreint~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~7.7. Preuve \niveaumoyen}]
+Pourquoi une mairie motivée mais sans preuves échoue-t-elle à l'audit~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~7.8. PDCA et clauses \niveaumoyen}]
+Reliez les clauses 9 et 10 aux étapes Check et Act, avec un exemple.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~7.9. Carte des normes \niveauexpert}]
+Dressez une carte des normes 27000 utiles à la mairie, en indiquant pour chaque
+étape du projet laquelle mobiliser.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~7.10. Note de périmètre \niveauexpert}]
+Rédigez la note qui définit et justifie le périmètre de certification de la
+mairie d'Eséka.
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item ISO/IEC 27000~\cite{iso27000}~; ISO/IEC 27001~\cite{iso27001}.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Le Chapitre~\ref{chap:clauses46} entre dans les premières
+clauses~: contexte, leadership et planification.
+\end{boxinfo}

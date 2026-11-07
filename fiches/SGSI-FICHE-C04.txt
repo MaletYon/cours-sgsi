@@ -1,0 +1,233 @@
+NDAP SUKULU · SGSI · fiche SGSI-FICHE-C04
+Chapitre 4 : La gouvernance de la sécurité
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. La gouvernance de la sécurité :
+      a) Oriente et décide
+      b) Exécute
+      c) Code
+      d) Vend
+
+ 2. Le management opérationnel :
+      a) Décide
+      b) Exécute
+      c) Ignore
+      d) Audite
+
+ 3. Une mission du RSSI est de :
+      a) Vendre
+      b) Ignorer
+      c) Piloter
+      d) Coder seul
+
+ 4. Le RSSI conseille :
+      a) La presse
+      b) Un concurrent
+      c) La météo
+      d) La direction
+
+ 5. Rattacher le RSSI au DSI pose un problème d' :
+      a) Indépendance
+      b) Budget
+      c) Météo
+      d) Horaire
+
+ 6. La direction, en gouvernance :
+      a) Code
+      b) Impulse et assume
+      c) Ignore
+      d) Vend
+
+ 7. Le comité de sécurité réunit :
+      a) Les usagers
+      b) La presse
+      c) Maire, RSSI, DSI
+      d) Des touristes
+
+ 8. Dans RACI, le A désigne :
+      a) L'agent
+      b) L'auditeur
+      c) L'achat
+      d) L'approbateur
+
+ 9. Dans RACI, le R désigne :
+      a) Le responsable
+      b) Le risque
+      c) Le registre
+      d) La revue
+
+10. La matrice RACI supprime :
+      a) Les budgets
+      b) Les responsabilités floues
+      c) Les mesures
+      d) Les audits
+
+11. L'engagement de la direction est la clause :
+      a) 10
+      b) 1
+      c) 5
+      d) 9
+
+12. Un bon rattachement du RSSI est :
+      a) Au DSI
+      b) À l'agent
+      c) À un tiers
+      d) Au maire
+
+13. Le comité de sécurité sert à :
+      a) Arbitrer les risques
+      b) Vendre
+      c) Coder
+      d) Nettoyer
+
+14. Gouverner répond à :
+      a) Comment
+      b) Quoi et pourquoi
+      c) Où seulement
+      d) Quand seulement
+
+15. La présence du maire au comité signale :
+      a) Un loisir
+      b) Un budget
+      c) Une priorité
+      d) Une panne
+
+16. Le RSSI coordonne :
+      a) La voirie
+      b) La bourse
+      c) La météo
+      d) Direction, DSI, agents
+
+17. Dans RACI, le C désigne :
+      a) Le consulté
+      b) Le coût
+      c) Le contrôle
+      d) La clé
+
+18. La clause 5 exige un leadership :
+      a) Déclaré
+      b) Prouvé
+      c) Caché
+      d) Vendu
+
+19. La gouvernance et le management sont :
+      a) Identiques
+      b) Inutiles
+      c) Distincts
+      d) Secrets
+
+20. Le RSSI définit :
+      a) Le menu
+      b) La météo
+      c) Le marché
+      d) La stratégie de sécurité
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. La gouvernance oriente et décide, le management exécute.
+      Vrai / Faux
+
+22. Rattacher le RSSI au DSI garantit son indépendance.
+      Vrai / Faux
+
+23. La matrice RACI supprime les responsabilités floues.
+      Vrai / Faux
+
+24. L'engagement de la direction est exigé par la clause 5.
+      Vrai / Faux
+
+25. Le maire peut déléguer la responsabilité finale.
+      Vrai / Faux
+
+26. Le comité de sécurité arbitre les risques.
+      Vrai / Faux
+
+27. Le RSSI se contente d'exécuter la technique.
+      Vrai / Faux
+
+28. La présence du maire au comité signale une priorité.
+      Vrai / Faux
+
+29. Dans RACI, le A désigne l'approbateur.
+      Vrai / Faux
+
+30. Gouverner et manager sont la même chose.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. La gouvernance ______ et décide.
+
+32. La personne qui pilote la sécurité est le ______.
+
+33. Dans RACI, le A désigne l'______.
+
+34. L'engagement de la direction est la clause ______.
+
+35. Le ______ de sécurité arbitre les risques.
+
+36. Un bon rattachement du RSSI est au ______.
+
+37. La matrice ______ supprime les responsabilités floues.
+
+38. Le management ______ ce que la gouvernance décide.
+
+39. Le RSSI ______ la stratégie de sécurité.
+
+40. La responsabilité finale ne se ______ pas.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

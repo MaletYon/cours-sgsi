@@ -1,0 +1,231 @@
+% ============================================================================
+% Fichier  : partie5/P05_C16_mesures_techniques.tex
+% Titre    : Mesures Techniques
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% ============================================================================
+% Sources : ISO/IEC 27002:2022 (thème technologique) ; ANSSI. Fictif : Eséka.
+% ============================================================================
+
+\chapter{Mesures Techniques}
+\label{chap:technique}
+\chaptermark{Mesures techniques}
+
+\epigraph{%
+    « Une bonne mesure technique applique une décision de sécurité~;\\
+    elle ne la remplace pas. »%
+}{Principe du cours}
+
+\niveauChapitre{Intermédiaire}{Le Chapitre~\ref{chap:orga}~; notions de réseaux.}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Distinguer les modèles de contrôle d'accès (\sigle{DAC}, \sigle{MAC},
+          \sigle{RBAC}).
+    \item Expliquer l'authentification forte (\sigle{MFA}).
+    \item Situer pare-feu, \sigle{VPN} et segmentation réseau.
+    \item Comprendre le rôle du chiffrement et de la journalisation.
+    \item Relier chaque mesure technique à un critère \sigle{DIC}.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Question directrice : quelles mesures techniques pour quels risques ?}
+% ============================================================================
+
+Les mesures techniques sont nombreuses~: le danger est de les empiler sans
+logique. Ce chapitre les présente en les rattachant aux risques et aux critères
+de sécurité de la mairie.
+
+\medskip
+\textbf{Plan du chapitre.}
+\begin{enumerate}
+    \item Le contrôle d'accès (section~\ref{sec:c16-acces}).
+    \item L'authentification forte (section~\ref{sec:c16-mfa}).
+    \item La sécurité réseau (section~\ref{sec:c16-reseau}).
+    \item Chiffrement et journalisation (section~\ref{sec:c16-crypto}).
+    \item Rattacher aux critères (section~\ref{sec:c16-dic}).
+\end{enumerate}
+
+\separateur
+
+% ============================================================================
+\section{Le Contrôle d'Accès}
+\label{sec:c16-acces}
+% ============================================================================
+
+\begin{tableaucours}{L{2.2cm}L{4.4cm}L{5.6cm}}{%
+    \tableauHeader{Modèle} &
+    \tableauHeader{Principe} &
+    \tableauHeader{Exemple}
+}
+DAC & Fondé sur l'identité, propriétaire & Permissions d'un fichier \\
+MAC & Fondé sur des étiquettes & Politique centralisée (SELinux) \\
+RBAC & Fondé sur les rôles & Un agent d'état civil voit l'état civil \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~16.1. Les modèles de contrôle d'accès}\end{center}
+
+Le \termecle{moindre privilège} commande~: chacun n'a que les droits
+nécessaires à sa tâche. À la mairie, le modèle \sigle{RBAC} convient~: on donne
+des droits par rôle (état civil, taxes), non par personne.
+
+% ============================================================================
+\section{L'Authentification Forte}
+\label{sec:c16-mfa}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{Authentification multifacteur} (\sigle{MFA})~: vérification de
+l'identité par au moins deux facteurs parmi~: ce que l'on sait (mot de passe),
+ce que l'on possède (jeton, téléphone), ce que l'on est (biométrie).
+\end{boxdef}
+
+La \sigle{MFA} réduit fortement le risque lié aux mots de passe volés ou
+faibles. Pour les accès sensibles de la mairie (administration du serveur
+d'état civil), elle devrait être la règle.
+
+% ============================================================================
+\section{La Sécurité Réseau}
+\label{sec:c16-reseau}
+% ============================================================================
+
+\begin{tableaucours}{L{3.4cm}L{8.6cm}}{%
+    \tableauHeader{Mesure} &
+    \tableauHeader{Rôle}
+}
+Pare-feu & Filtrer les flux, bloquer par défaut \\
+Segmentation & Isoler les réseaux (postes publics / serveurs) \\
+VPN & Chiffrer les accès distants \\
+IDS/IPS & Détecter ou bloquer les intrusions \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~16.2. Mesures de sécurité réseau}\end{center}
+
+La \termecle{segmentation} aurait limité l'incident d'Eséka~: si les postes du
+public avaient été isolés du serveur d'état civil, la clé n'aurait pas tout
+atteint. Cloisonner, c'est contenir.
+
+% ============================================================================
+\section{Chiffrement et Journalisation}
+\label{sec:c16-crypto}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{Chiffrement}~: rendre une information inintelligible sans la clé,
+pour protéger sa \emph{confidentialité}. \termecle{Journalisation}~:
+enregistrer les événements du système, pour la \emph{traçabilité} et la
+détection.
+\end{boxdef}
+
+Chiffrer le fichier des contribuables protège sa confidentialité même en cas de
+vol du support. Journaliser les accès à l'état civil permet de savoir qui a
+consulté quoi, et soutient l'enquête en cas d'incident (lien avec le cours de
+forensique, \sigle{LPI342}).
+
+\begin{boxmetier}{DSI}
+\textbf{Déployer ce que la politique décide.} Le \sigle{DSI} met en \oe uvre,
+mais ne décide pas seul~: il déploie les mesures que l'appréciation des risques
+a justifiées et que la politique a actées. La technique sert la décision, pas
+l'inverse.
+\end{boxmetier}
+
+% ============================================================================
+\section{Rattacher aux Critères}
+\label{sec:c16-dic}
+% ============================================================================
+
+\begin{boxprocedure}
+\textbf{Constatation.} La mairie déploie~: \sigle{RBAC}, \sigle{MFA},
+segmentation, chiffrement, journalisation, sauvegarde.
+
+\medskip
+\textbf{Analyse.} Chaque mesure sert un critère~: contrôle d'accès et
+chiffrement servent la \emph{confidentialité}~; sauvegarde et segmentation, la
+\emph{disponibilité}~; journalisation, la \emph{traçabilité}~; signature et
+contrôle d'intégrité, l'\emph{intégrité}. Rattacher chaque mesure à un critère
+évite d'en oublier et d'en empiler d'inutiles.
+\end{boxprocedure}
+
+\separateur
+
+\begin{boxresume}
+\textbf{Ce qu'il faut retenir de ce chapitre~:}
+\begin{itemize}
+    \item \textbf{DAC, MAC, RBAC}~: trois modèles de contrôle d'accès~; le
+          \textbf{moindre privilège} commande.
+    \item La \textbf{MFA} réduit le risque des mots de passe volés.
+    \item \textbf{Pare-feu, segmentation, VPN} cloisonnent et protègent le
+          réseau.
+    \item \textbf{Chiffrement} (confidentialité) et \textbf{journalisation}
+          (traçabilité) sont essentiels.
+    \item Chaque mesure technique se rattache à un \textbf{critère DIC}.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle de l'élève.} Je sais~: distinguer DAC, MAC, RBAC~;
+expliquer la MFA~; situer les mesures réseau~; décrire chiffrement et
+journalisation~; rattacher une mesure à un critère.
+\end{boxinfo}
+
+\bigskip
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~16.1. Les modèles \niveaubase}]
+Distinguez DAC, MAC et RBAC en une phrase chacun.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~16.2. MFA \niveaubase}]
+Qu'est-ce que la MFA, et quels sont les trois types de facteurs~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~16.3. Rôle d'une mesure \niveaubase}]
+À quoi sert la segmentation réseau~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~16.4. Moindre privilège \niveaumoyen}]
+Appliquez le moindre privilège aux agents d'état civil et des taxes.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~16.5. Segmentation \niveaumoyen}]
+Comment la segmentation aurait-elle limité l'incident de la clé \texttt{USB}~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~16.6. Chiffrer quoi \niveaumoyen}]
+Quelles informations de la mairie chiffreriez-vous en priorité, et pourquoi~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~16.7. Journaliser \niveaumoyen}]
+Quels événements journaliser sur le serveur d'état civil~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~16.8. Mesure et critère \niveaumoyen}]
+Reliez chaque mesure à un critère DIC~: chiffrement, sauvegarde,
+journalisation, RBAC.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~16.9. Architecture \niveauexpert}]
+Proposez une architecture réseau segmentée pour la mairie d'Eséka (public,
+agents, serveurs).
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~16.10. Plan technique \niveauexpert}]
+Dressez le plan des mesures techniques de la mairie, chacune rattachée à un
+risque et à un critère.
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item ISO/IEC 27002, thème technologique~\cite{iso27002}~; Guide d'hygiène
+          ANSSI~\cite{anssihygiene2017}.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Reste à se préparer au pire~: le Chapitre~\ref{chap:continuite}
+traite la continuité d'activité, \sigle{PCA} et \sigle{PRA}.
+\end{boxinfo}

@@ -1,0 +1,235 @@
+% ============================================================================
+% Fichier  : partie5/P05_C15_mesures_organisationnelles.tex
+% Titre    : Mesures Organisationnelles et Humaines
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% ============================================================================
+% Sources : ISO/IEC 27002:2022 (thèmes organisationnel et personnes). Fictif.
+% ============================================================================
+
+\chapter{Mesures Organisationnelles et Humaines}
+\label{chap:orga}
+\chaptermark{Mesures organisationnelles}
+
+\epigraph{%
+    « La technique protège les machines~;\\
+    la sensibilisation protège les décisions des gens. »%
+}{Principe du cours}
+
+\niveauChapitre{Intermédiaire}{La partie IV.}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Identifier les mesures organisationnelles clés.
+    \item Comprendre le poids du facteur humain dans la sécurité.
+    \item Concevoir une campagne de sensibilisation.
+    \item Sécuriser le cycle de vie de l'agent (arrivée, mobilité, départ).
+    \item Encadrer les fournisseurs et le télétravail.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Question directrice : comment agir sur ce qui n'est ni un logiciel ni un câble ?}
+% ============================================================================
+
+L'incident de la mairie est né d'un geste humain~: brancher une clé. Les
+mesures techniques ne suffisent pas~: il faut agir sur l'organisation et sur les
+personnes. Ce chapitre traite ces mesures.
+
+\medskip
+\textbf{Plan du chapitre.}
+\begin{enumerate}
+    \item Les mesures organisationnelles (section~\ref{sec:c15-orga}).
+    \item Le facteur humain (section~\ref{sec:c15-humain}).
+    \item La sensibilisation (section~\ref{sec:c15-sensibilisation}).
+    \item Le cycle de vie de l'agent (section~\ref{sec:c15-cyclevie}).
+    \item Fournisseurs et télétravail (section~\ref{sec:c15-tiers}).
+\end{enumerate}
+
+\separateur
+
+% ============================================================================
+\section{Les Mesures Organisationnelles}
+\label{sec:c15-orga}
+% ============================================================================
+
+\begin{tableaucours}{L{4.2cm}L{8.0cm}}{%
+    \tableauHeader{Mesure} &
+    \tableauHeader{Ce qu'elle installe}
+}
+Politiques et procédures & Le cadre écrit des règles \\
+Rôles et responsabilités & Qui fait quoi (matrice RACI) \\
+Classification de l'information & Des niveaux et des règles de manipulation \\
+Gestion des incidents & Un processus de signalement et de traitement \\
+Relations avec les fournisseurs & Des exigences de sécurité contractuelles \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~15.1. Mesures organisationnelles (ISO/IEC 27002)}\end{center}
+
+Ces mesures ne coûtent souvent que du temps et de la rigueur~: elles sont les
+premières à déployer, avant tout investissement technique.
+
+% ============================================================================
+\section{Le Facteur Humain}
+\label{sec:c15-humain}
+% ============================================================================
+
+\begin{boxdef}
+Le \termecle{facteur humain}~: part des incidents liée aux comportements des
+personnes (erreur, négligence, manipulation). Il est, dans la plupart des
+études, la première cause d'incident.
+\end{boxdef}
+
+L'agent n'est pas le maillon faible par nature~: il le devient faute de
+formation et de règles claires. Sensibiliser transforme le maillon faible en
+première ligne de défense.
+
+\begin{boxscenario}{Opération MAKAK. La clé piégée}
+\textbf{Constatation.} L'agent qui a branché la clé ignorait le risque~: il
+n'avait reçu ni règle écrite, ni formation.
+
+\medskip
+\textbf{Analyse} (confiance élevée). Le reproche ne vise pas l'agent mais
+l'organisation~: sans règle ni sensibilisation, le geste était prévisible.
+La mesure corrective est double~: interdire les clés personnelles \emph{et}
+former les agents.
+\end{boxscenario}
+
+% ============================================================================
+\section{La Sensibilisation}
+\label{sec:c15-sensibilisation}
+% ============================================================================
+
+\begin{tableaucours}{L{4.0cm}L{8.2cm}}{%
+    \tableauHeader{Thème} &
+    \tableauHeader{Message clé}
+}
+Mots de passe & Individuels, robustes, jamais partagés \\
+Hameçonnage & Vérifier l'expéditeur, ne pas cliquer dans le doute \\
+Supports amovibles & N'utiliser que des supports maîtrisés \\
+Données personnelles & Ne traiter que le nécessaire, protéger \\
+Signalement & Prévenir vite en cas de doute, sans crainte \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~15.2. Thèmes d'une campagne de sensibilisation}\end{center}
+
+Une campagne efficace est régulière, concrète et bienveillante~: on apprend à
+signaler sans être puni. Hameçonnage simulé, affiches et courtes sessions
+valent mieux qu'un règlement illisible.
+
+\begin{boxmetier}{Responsable conformité}
+\textbf{Prouver la sensibilisation.} La formation doit être tracée~: feuilles
+d'émargement, attestations, résultats des tests. En audit, « nous sensibilisons
+nos agents » ne vaut rien sans preuve.
+\end{boxmetier}
+
+% ============================================================================
+\section{Le Cycle de Vie de l'Agent}
+\label{sec:c15-cyclevie}
+% ============================================================================
+
+La sécurité suit l'agent de son arrivée à son départ~: à l'\termecle{arrivée},
+charte signée et accès minimal~; en cas de \termecle{mobilité}, droits
+réajustés~; au \termecle{départ}, accès révoqués et matériel restitué. Un
+compte d'agent parti et toujours actif est une porte ouverte.
+
+% ============================================================================
+\section{Fournisseurs et Télétravail}
+\label{sec:c15-tiers}
+% ============================================================================
+
+\begin{boxprocedure}
+\textbf{Constatation.} L'éditeur du logiciel d'état civil accède à distance aux
+données de la mairie, sans clause de sécurité au contrat.
+
+\medskip
+\textbf{Analyse.} C'est un risque de tiers~: la mairie reste responsable des
+données que son prestataire manipule. La mesure impose des \emph{exigences de
+sécurité contractuelles} et un contrôle des accès distants. Le télétravail des
+agents suit la même logique~: règles écrites et moyens maîtrisés.
+\end{boxprocedure}
+
+\separateur
+
+\begin{boxresume}
+\textbf{Ce qu'il faut retenir de ce chapitre~:}
+\begin{itemize}
+    \item Les \textbf{mesures organisationnelles} posent le cadre écrit, à
+          faible coût.
+    \item Le \textbf{facteur humain} est la première cause d'incident~; la
+          formation en fait une défense.
+    \item Une \textbf{campagne de sensibilisation} est régulière, concrète,
+          tracée.
+    \item La sécurité suit le \textbf{cycle de vie de l'agent}, du recrutement
+          au départ.
+    \item \textbf{Fournisseurs} et \textbf{télétravail} exigent des règles et
+          des contrats.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle de l'élève.} Je sais~: citer des mesures
+organisationnelles~; expliquer le facteur humain~; concevoir une campagne~;
+sécuriser le cycle de vie de l'agent~; encadrer fournisseurs et télétravail.
+\end{boxinfo}
+
+\bigskip
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~15.1. Mesures organisationnelles \niveaubase}]
+Citez trois mesures organisationnelles de l'ISO/IEC 27002.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~15.2. Facteur humain \niveaubase}]
+Pourquoi dit-on que l'humain est la première cause d'incident~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~15.3. Thèmes \niveaubase}]
+Citez quatre thèmes d'une campagne de sensibilisation.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~15.4. Blâmer qui \niveaumoyen}]
+Faut-il blâmer l'agent qui a branché la clé~? Argumentez.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~15.5. Prouver la formation \niveaumoyen}]
+Comment la mairie prouve-t-elle, en audit, qu'elle sensibilise ses agents~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~15.6. Départ d'un agent \niveaumoyen}]
+Quelles actions de sécurité au départ d'un agent~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~15.7. Risque de tiers \niveaumoyen}]
+Pourquoi la mairie reste-t-elle responsable des données manipulées par son
+prestataire~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~15.8. Télétravail \niveaumoyen}]
+Citez trois règles de sécurité pour le télétravail d'un agent de la mairie.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~15.9. Plan de campagne \niveauexpert}]
+Concevez un plan de campagne de sensibilisation sur un an pour la mairie
+d'Eséka.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~15.10. Clause fournisseur \niveauexpert}]
+Rédigez une clause de sécurité à insérer au contrat de l'éditeur du logiciel
+d'état civil.
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item ISO/IEC 27002, thèmes organisationnel et personnes~\cite{iso27002}~;
+          Guide d'hygiène ANSSI~\cite{anssihygiene2017}.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Les mesures humaines posées, le Chapitre~\ref{chap:technique}
+traite les mesures techniques~: accès, réseau, chiffrement, journalisation.
+\end{boxinfo}

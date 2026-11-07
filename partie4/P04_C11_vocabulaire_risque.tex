@@ -1,0 +1,225 @@
+% ============================================================================
+% Fichier  : partie4/P04_C11_vocabulaire_risque.tex
+% Titre    : Concepts et Vocabulaire du Risque
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% ============================================================================
+% Sources : ISO/IEC 27005:2022 ; ISO 31000:2018. Mairie d'Eséka : cas fictif.
+% ============================================================================
+
+\chapter{Concepts et Vocabulaire du Risque}
+\label{chap:vocabrisque}
+\chaptermark{Vocabulaire du risque}
+
+\epigraph{%
+    « On ne traite bien que les risques que l'on a su nommer. »%
+}{Principe du cours}
+
+\niveauChapitre{Fondamental}{La partie III.}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Définir actif, menace, vulnérabilité, impact et probabilité.
+    \item Énoncer les formules du risque et les interpréter.
+    \item Distinguer risque inhérent et risque résiduel.
+    \item Comprendre l'appétence et les critères d'acceptation du risque.
+    \item Appliquer le vocabulaire à un cas de la mairie.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Question directrice : qu'est-ce, au juste, qu'un risque ?}
+% ============================================================================
+
+Le mot « risque » est employé à tort et à travers. Pour l'apprécier, il faut
+le décomposer en éléments précis. Ce chapitre fixe le vocabulaire commun à
+toutes les méthodes.
+
+\medskip
+\textbf{Plan du chapitre.}
+\begin{enumerate}
+    \item Les cinq notions (section~\ref{sec:c11-notions}).
+    \item La formule du risque (section~\ref{sec:c11-formule}).
+    \item Inhérent et résiduel (section~\ref{sec:c11-residuel}).
+    \item Appétence et acceptation (section~\ref{sec:c11-appetence}).
+    \item Un cas appliqué (section~\ref{sec:c11-cas}).
+\end{enumerate}
+
+\separateur
+
+% ============================================================================
+\section{Les Cinq Notions}
+\label{sec:c11-notions}
+% ============================================================================
+
+\begin{boxdef}
+\begin{itemize}
+    \item \termecle{Actif}~: élément de valeur à protéger.
+    \item \termecle{Menace}~: cause potentielle d'un incident indésirable.
+    \item \termecle{Vulnérabilité}~: faiblesse exploitable par une menace.
+    \item \termecle{Impact}~: conséquence d'un incident.
+    \item \termecle{Probabilité} (ou vraisemblance)~: chance qu'un incident se
+          produise.
+\end{itemize}
+\end{boxdef}
+
+Ces notions s'enchaînent~: une \emph{menace} exploite une \emph{vulnérabilité}
+d'un \emph{actif}, avec une certaine \emph{probabilité}, et produit un
+\emph{impact}. Supprimer l'un des maillons, c'est réduire le risque.
+
+% ============================================================================
+\section{La Formule du Risque}
+\label{sec:c11-formule}
+% ============================================================================
+
+\begin{boxdef}
+Le \termecle{risque} se formule, selon le niveau de détail, par~:
+\[
+\text{Risque} = \text{Menace} \times \text{Vulnérabilité} \times \text{Impact}
+\quad\text{ou}\quad
+\text{Risque} = \text{Probabilité} \times \text{Impact}.
+\]
+\end{boxdef}
+
+Ces formules ne sont pas des calculs exacts mais des \emph{grilles de
+raisonnement}~: elles rappellent que le risque croît avec la probabilité et
+avec l'impact, et qu'un impact nul (actif sans valeur) annule le risque.
+
+% ============================================================================
+\section{Inhérent et Résiduel}
+\label{sec:c11-residuel}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{Risque inhérent}~: niveau de risque avant toute mesure.
+\termecle{Risque résiduel}~: niveau qui subsiste après traitement. Le risque
+résiduel n'est jamais nul~: il est accepté, explicitement, par la direction.
+\end{boxdef}
+
+Distinguer les deux évite deux illusions~: croire qu'on part de zéro (il y a
+toujours un risque inhérent) et croire qu'on arrive à zéro (il reste toujours
+un résiduel). Le management consiste à ramener le résiduel sous un seuil
+accepté.
+
+% ============================================================================
+\section{Appétence et Acceptation}
+\label{sec:c11-appetence}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{Appétence au risque}~: niveau de risque que l'organisation est prête
+à accepter. Les \termecle{critères d'acceptation} traduisent cette appétence en
+seuils concrets.
+\end{boxdef}
+
+Pour une mairie, l'appétence est faible sur l'état civil (qui fait foi) et plus
+élevée sur le site web d'information. Fixer l'appétence est une décision de
+gouvernance (le maire), pas un choix technique.
+
+\begin{boxmetier}{RSSI}
+\textbf{Chiffrer sans faux-semblant.} La RSSI sait que « Risque = P × I » ne
+produit pas un nombre scientifique, mais un classement défendable. L'important
+n'est pas la précision du chiffre~: c'est la cohérence du classement et la
+traçabilité du raisonnement.
+\end{boxmetier}
+
+% ============================================================================
+\section{Un Cas Appliqué}
+\label{sec:c11-cas}
+% ============================================================================
+
+\begin{boxobjet}{Le registre d'état civil}
+\textbf{Constatation.} Actif~: registre d'état civil numérisé. Menace~:
+rançongiciel apporté par clé \texttt{USB}. Vulnérabilité~: pas de sauvegarde,
+accès partagé. Impact~: service à l'arrêt, actes indisponibles.
+
+\medskip
+\textbf{Analyse} (confiance élevée). Probabilité élevée (la menace s'est déjà
+réalisée), impact majeur~: risque inhérent très élevé. Deux mesures,
+la sauvegarde quotidienne et l'interdiction des clés personnelles, réduisent la
+probabilité et l'impact, abaissant le risque résiduel à un niveau acceptable.
+\end{boxobjet}
+
+\separateur
+
+\begin{boxresume}
+\textbf{Ce qu'il faut retenir de ce chapitre~:}
+\begin{itemize}
+    \item Un risque enchaîne \textbf{actif, menace, vulnérabilité,
+          probabilité, impact}.
+    \item Les \textbf{formules} du risque sont des grilles de raisonnement, non
+          des calculs exacts.
+    \item Le \textbf{risque résiduel} subsiste toujours et s'accepte
+          explicitement.
+    \item L'\textbf{appétence} au risque est une décision de gouvernance.
+    \item Le vocabulaire s'applique à chaque \textbf{actif} de la mairie.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle de l'élève.} Je sais~: définir les cinq notions~;
+énoncer les formules du risque~; distinguer inhérent et résiduel~; expliquer
+l'appétence~; analyser un cas.
+\end{boxinfo}
+
+\bigskip
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~11.1. Les cinq notions \niveaubase}]
+Définissez actif, menace, vulnérabilité, impact et probabilité.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~11.2. La chaîne \niveaubase}]
+Pour le vol du fichier des contribuables, nommez la menace, la vulnérabilité et
+l'impact.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~11.3. Inhérent ou résiduel \niveaubase}]
+Un risque « avant toute mesure » est-il inhérent ou résiduel~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~11.4. Formule \niveaumoyen}]
+Pourquoi un impact nul annule-t-il le risque, même si la probabilité est
+élevée~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~11.5. Résiduel jamais nul \niveaumoyen}]
+Expliquez pourquoi le risque résiduel n'est jamais nul.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~11.6. Appétence \niveaumoyen}]
+Pourquoi l'appétence au risque de la mairie diffère-t-elle entre l'état civil
+et le site web~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~11.7. Casser un maillon \niveaumoyen}]
+Montrez qu'agir sur la vulnérabilité réduit le risque, sur l'exemple de la
+mairie.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~11.8. Chiffre défendable \niveaumoyen}]
+« Risque = P × I donne un nombre scientifique. » Nuancez.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~11.9. Analyse d'actif \niveauexpert}]
+Analysez le risque sur la messagerie de la mairie (actif, menace,
+vulnérabilité, probabilité, impact, inhérent, résiduel).
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~11.10. Critères d'acceptation \niveauexpert}]
+Proposez des critères d'acceptation du risque pour la mairie d'Eséka.
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item ISO/IEC 27005~\cite{iso27005}~; ISO 31000~\cite{iso31000}.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Le vocabulaire posé, le Chapitre~\ref{chap:methodes}
+présente les méthodes qui l'appliquent~: EBIOS RM, OCTAVE, MEHARI.
+\end{boxinfo}

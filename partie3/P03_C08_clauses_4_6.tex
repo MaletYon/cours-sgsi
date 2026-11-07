@@ -1,0 +1,229 @@
+% ============================================================================
+% Fichier  : partie3/P03_C08_clauses_4_6.tex
+% Titre    : Contexte, Leadership, Planification
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% ============================================================================
+% Sources : ISO/IEC 27001:2022, clauses 4 à 6. Mairie d'Eséka : cas fictif.
+% ============================================================================
+
+\chapter{Contexte, Leadership, Planification}
+\label{chap:clauses46}
+\chaptermark{Clauses 4 à 6}
+
+\epigraph{%
+    « Avant de planifier la sécurité, il faut savoir pour qui,\\
+    contre quoi et dans quelles limites. »%
+}{Principe du cours}
+
+\niveauChapitre{Intermédiaire}{Le Chapitre~\ref{chap:iso27000}.}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Déterminer le contexte et les parties intéressées (clause~4).
+    \item Préciser le domaine d'application du \sigle{SMSI}.
+    \item Caractériser le leadership exigé de la direction (clause~5).
+    \item Planifier les actions face aux risques et les objectifs (clause~6).
+    \item Comprendre le lien entre objectifs de sécurité et appréciation des
+          risques.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Question directrice : comment poser les fondations d'un SMSI conforme ?}
+% ============================================================================
+
+Les trois premières clauses d'exigences fixent le cadre~: qui, quoi, pourquoi,
+et avec quels objectifs. Ce chapitre les traduit pour la mairie d'Eséka.
+
+\medskip
+\textbf{Plan du chapitre.}
+\begin{enumerate}
+    \item Le contexte (clause~4) (section~\ref{sec:c08-contexte}).
+    \item Le domaine d'application (section~\ref{sec:c08-domaine}).
+    \item Le leadership (clause~5) (section~\ref{sec:c08-leadership}).
+    \item La planification (clause~6) (section~\ref{sec:c08-planif}).
+    \item Les objectifs de sécurité (section~\ref{sec:c08-objectifs}).
+\end{enumerate}
+
+\separateur
+
+% ============================================================================
+\section{Le Contexte (Clause 4)}
+\label{sec:c08-contexte}
+% ============================================================================
+
+\begin{boxdef}
+La clause~4 exige de déterminer les \termecle{enjeux internes et externes}
+pertinents, les \termecle{parties intéressées} et leurs attentes, puis de
+fixer le \termecle{domaine d'application} du \sigle{SMSI}.
+\end{boxdef}
+
+\begin{tableaucours}{L{3.2cm}L{9.0cm}}{%
+    \tableauHeader{Élément} &
+    \tableauHeader{Pour la mairie d'Eséka}
+}
+Enjeux externes & Loi 2024/017, attentes des usagers, menace cyber \\
+Enjeux internes & Budget contraint, compétences limitées, matériel vieillissant \\
+Parties intéressées & Usagers, tutelle, ANTIC, prestataires, agents \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~8.1. Le contexte de la mairie (clause 4)}\end{center}
+
+% ============================================================================
+\section{Le Domaine d'Application}
+\label{sec:c08-domaine}
+% ============================================================================
+
+Le \termecle{domaine d'application} (\emph{scope}) dit ce que couvre le
+\sigle{SMSI}~: quels services, sites, actifs et exclusions. Il doit être écrit
+et justifié~: un périmètre flou rend l'audit impossible.
+
+\begin{boxprocedure}
+\textbf{Constatation.} La mairie fixe le domaine~: « le système d'information
+des services aux usagers de la mairie d'Eséka (état civil et taxes), à
+l'exclusion du réseau technique de la voirie ».
+
+\medskip
+\textbf{Analyse.} L'exclusion est explicite et justifiée (la voirie ne traite
+pas de données sensibles). Un domaine clair protège contre l'extension
+incontrôlée et cadre l'audit.
+\end{boxprocedure}
+
+% ============================================================================
+\section{Le Leadership (Clause 5)}
+\label{sec:c08-leadership}
+% ============================================================================
+
+La clause~5 exige que la direction \termecle{démontre} son leadership~: établir
+la politique, attribuer rôles et responsabilités, fournir les ressources,
+promouvoir l'amélioration continue. Ce n'est pas une déclaration~: ce sont des
+actes vérifiables (Chapitre~\ref{chap:gouvernance}).
+
+\begin{boxmetier}{Direction générale}
+\textbf{Des preuves de leadership.} Le maire prouve son engagement par une
+politique signée, un budget voté, une RSSI nommée et sa présence au comité.
+L'auditeur demandera ces preuves~; les bonnes intentions ne comptent pas.
+\end{boxmetier}
+
+% ============================================================================
+\section{La Planification (Clause 6)}
+\label{sec:c08-planif}
+% ============================================================================
+
+\begin{boxdef}
+La clause~6 exige de planifier les \termecle{actions face aux risques et
+opportunités}, de définir le \termecle{processus d'appréciation et de
+traitement des risques}, et de fixer des \termecle{objectifs de sécurité}
+mesurables.
+\end{boxdef}
+
+La planification est le cœur « Plan » du \sigle{PDCA}. C'est ici que la norme
+renvoie à l'appréciation des risques (partie IV)~: on ne planifie pas au
+hasard, mais au vu des risques appréciés.
+
+% ============================================================================
+\section{Les Objectifs de Sécurité}
+\label{sec:c08-objectifs}
+% ============================================================================
+
+\begin{boxdef}
+Un \termecle{objectif de sécurité} est un résultat visé, cohérent avec la
+politique, \emph{mesurable}, suivi et mis à jour. « Améliorer la sécurité »
+n'est pas un objectif~; « sauvegarder quotidiennement l'état civil et le
+vérifier chaque mois » en est un.
+\end{boxdef}
+
+\begin{tableaucours}{L{5.4cm}L{3.0cm}L{3.4cm}}{%
+    \tableauHeader{Objectif} &
+    \tableauHeader{Indicateur} &
+    \tableauHeader{Cible}
+}
+Sauvegarder l'état civil & Fréquence & Quotidienne \\
+Former les agents & Taux de formation & 100 \% en 6 mois \\
+Réduire les accès partagés & Comptes nominatifs & 100 \% \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~8.2. Des objectifs de sécurité mesurables}\end{center}
+
+\separateur
+
+\begin{boxresume}
+\textbf{Ce qu'il faut retenir de ce chapitre~:}
+\begin{itemize}
+    \item La \textbf{clause~4} détermine contexte, parties intéressées et
+          domaine d'application.
+    \item Le \textbf{domaine d'application} doit être écrit, justifié, avec ses
+          exclusions.
+    \item La \textbf{clause~5} exige un leadership \emph{prouvé} de la
+          direction.
+    \item La \textbf{clause~6} planifie les actions face aux risques et fixe
+          les objectifs.
+    \item Un \textbf{objectif} de sécurité est mesurable et suivi.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle de l'élève.} Je sais~: déterminer le contexte et les
+parties intéressées~; rédiger un domaine d'application~; citer les preuves de
+leadership~; expliquer la planification~; formuler un objectif mesurable.
+\end{boxinfo}
+
+\bigskip
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~8.1. Contexte \niveaubase}]
+Donnez deux enjeux externes et deux enjeux internes de la mairie d'Eséka.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~8.2. Parties intéressées \niveaubase}]
+Citez quatre parties intéressées et une attente de sécurité pour chacune.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~8.3. Objectif mesurable \niveaubase}]
+Transformez « mieux gérer les mots de passe » en objectif mesurable.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~8.4. Domaine d'application \niveaumoyen}]
+Rédigez le domaine d'application du \sigle{SMSI} de la mairie, avec une
+exclusion justifiée.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~8.5. Preuves de leadership \niveaumoyen}]
+Citez quatre preuves par lesquelles le maire démontre son leadership.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~8.6. Périmètre flou \niveaumoyen}]
+Pourquoi un domaine d'application flou rend-il l'audit impossible~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~8.7. Planifier par le risque \niveaumoyen}]
+Expliquez pourquoi la clause~6 renvoie à l'appréciation des risques.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~8.8. Trois objectifs \niveaumoyen}]
+Proposez trois objectifs de sécurité mesurables pour la mairie, avec cible.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~8.9. Dossier de contexte \niveauexpert}]
+Rédigez le dossier de contexte (clause~4) complet de la mairie d'Eséka.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~8.10. Plan d'objectifs \niveauexpert}]
+Construisez un tableau de cinq objectifs de sécurité, avec indicateur, cible,
+responsable et échéance.
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item ISO/IEC 27001, clauses~4 à~6~\cite{iso27001}.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Le Chapitre~\ref{chap:clauses710} poursuit avec le support,
+le fonctionnement, l'évaluation et l'amélioration (clauses~7 à~10).
+\end{boxinfo}

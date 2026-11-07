@@ -1,0 +1,233 @@
+NDAP SUKULU · SGSI · fiche SGSI-FICHE-C02
+Chapitre 2 : Du risque à la décision
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. Pour une mairie, l'enjeu premier est :
+      a) La continuité du service public
+      b) Le chiffre d'affaires
+      c) La publicité
+      d) La bourse
+
+ 2. La loi 2024/017 relève de l'enjeu :
+      a) Économique
+      b) Réglementaire
+      c) Stratégique
+      d) Sportif
+
+ 3. La confiance des usagers relève de l'enjeu :
+      a) Économique
+      b) Réglementaire
+      c) Stratégique
+      d) Technique
+
+ 4. Le maire, en matière de sécurité :
+      a) Exécute
+      b) Code
+      c) Ignore
+      d) Impulse et assume
+
+ 5. Le RSSI, en matière de sécurité :
+      a) Pilote
+      b) Décide seul
+      c) Ignore
+      d) Vend
+
+ 6. L'ANTIC est une autorité :
+      a) Communale
+      b) Nationale
+      c) Privée
+      d) Étrangère
+
+ 7. Le patrimoine informationnel désigne :
+      a) Les bâtiments
+      b) Les véhicules
+      c) Les informations de valeur
+      d) Le mobilier
+
+ 8. Avant de protéger, il faut :
+      a) Vendre
+      b) Chiffrer
+      c) Détruire
+      d) Inventorier
+
+ 9. Sécuriser, c'est :
+      a) Décider par le risque
+      b) Tout interdire
+      c) Tout acheter
+      d) Attendre
+
+10. La décision de sécurité appartient à :
+      a) L'agent
+      b) La direction
+      c) Un tiers
+      d) Personne
+
+11. Une partie intéressée de la mairie est :
+      a) La météo
+      b) Un concurrent
+      c) Un usager
+      d) Un touriste
+
+12. La responsabilité finale ne se :
+      a) Partage
+      b) Vend
+      c) Chiffre
+      d) Délègue pas
+
+13. Un état civil à l'arrêt bloque :
+      a) Le citoyen
+      b) La bourse
+      c) La météo
+      d) La voirie
+
+14. Le DSI met en œuvre :
+      a) La loi
+      b) Les solutions techniques
+      c) Le budget
+      d) La politique seule
+
+15. Le DPO veille à :
+      a) La voirie
+      b) La bourse
+      c) La conformité des données
+      d) La météo
+
+16. La sécurité absolue :
+      a) Existe
+      b) Est gratuite
+      c) Est simple
+      d) N'existe pas
+
+17. On protège bien ce que l'on a :
+      a) Recensé
+      b) Vendu
+      c) Caché
+      d) Oublié
+
+18. Le coût d'un incident relève de l'enjeu :
+      a) Sportif
+      b) Économique
+      c) Culturel
+      d) Météo
+
+19. Les attentes des parties intéressées s'imposent au :
+      a) Budget
+      b) Marché
+      c) SMSI
+      d) Climat
+
+20. L'agent, en matière de sécurité :
+      a) Décide
+      b) Code
+      c) Audite
+      d) Respecte et signale
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. Pour une mairie, la continuité du service public prime.
+      Vrai / Faux
+
+22. Le maire peut déléguer la responsabilité finale.
+      Vrai / Faux
+
+23. On protège bien ce que l'on a inventorié.
+      Vrai / Faux
+
+24. La sécurité absolue existe et est gratuite.
+      Vrai / Faux
+
+25. Le RSSI pilote la sécurité.
+      Vrai / Faux
+
+26. La loi 2024/017 est un enjeu réglementaire.
+      Vrai / Faux
+
+27. Sécuriser, c'est décider en fonction du risque.
+      Vrai / Faux
+
+28. Les parties intéressées n'ont aucune attente de sécurité.
+      Vrai / Faux
+
+29. L'ANTIC est une autorité nationale.
+      Vrai / Faux
+
+30. Le patrimoine informationnel se protège sans le connaître.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. Pour une mairie, l'enjeu premier est la ______ du service public.
+
+32. La personne qui pilote la sécurité est le ______.
+
+33. L'ensemble des informations de valeur est le ______ informationnel.
+
+34. Sécuriser, c'est ______ en fonction du risque.
+
+35. La loi confie la responsabilité finale au ______.
+
+36. Avant de protéger, il faut ______.
+
+37. Les usagers et la tutelle sont des parties ______.
+
+38. L'autorité nationale de sécurité est l'______.
+
+39. La sécurité ______ n'existe pas.
+
+40. La loi 2024/017 relève de l'enjeu ______.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

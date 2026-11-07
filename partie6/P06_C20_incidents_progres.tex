@@ -1,0 +1,226 @@
+% ============================================================================
+% Fichier  : partie6/P06_C20_incidents_progres.tex
+% Titre    : Gérer les Incidents et Progresser
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% ============================================================================
+% Sources : ISO/IEC 27035 ; ISO/IEC 27001 clause 10. Mairie d'Eséka : fictif.
+% ============================================================================
+
+\chapter{Gérer les Incidents et Progresser}
+\label{chap:incidents}
+\chaptermark{Incidents et progrès}
+
+\epigraph{%
+    « Un incident bien géré n'est pas un échec~:\\
+    c'est le moment où le système apprend. »%
+}{Principe du cours}
+
+\niveauChapitre{Intermédiaire}{La partie VI.}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Décrire le processus de gestion des incidents.
+    \item Classer et prioriser un incident.
+    \item Conduire un retour d'expérience (\sigle{RETEX}).
+    \item Relier l'incident à l'amélioration continue (clause~10).
+    \item Mesurer les progrès du \sigle{SMSI} dans la durée.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Question directrice : comment transformer un incident en progrès ?}
+% ============================================================================
+
+L'histoire de la mairie a commencé par un incident. Ce dernier chapitre montre
+comment un \sigle{SMSI} gère les incidents et s'en sert pour progresser,
+bouclant le cycle du cours.
+
+\medskip
+\textbf{Plan du chapitre.}
+\begin{enumerate}
+    \item Le processus de gestion (section~\ref{sec:c20-processus}).
+    \item Classer et prioriser (section~\ref{sec:c20-classer}).
+    \item Le retour d'expérience (section~\ref{sec:c20-retex}).
+    \item L'incident, moteur d'amélioration (section~\ref{sec:c20-amelioration}).
+    \item Mesurer les progrès (section~\ref{sec:c20-progres}).
+\end{enumerate}
+
+\separateur
+
+% ============================================================================
+\section{Le Processus de Gestion}
+\label{sec:c20-processus}
+% ============================================================================
+
+\begin{boxdef}
+La \termecle{gestion des incidents}~: processus qui détecte, signale, qualifie,
+traite et clôt les incidents de sécurité, en tirant les leçons de chacun
+(\norme{ISO/IEC 27035}).
+\end{boxdef}
+
+\begin{tableaucours}{L{3.0cm}L{9.2cm}}{%
+    \tableauHeader{Étape} &
+    \tableauHeader{Contenu}
+}
+Détecter et signaler & Repérer et alerter, sans crainte de sanction \\
+Qualifier & Confirmer l'incident, en mesurer la portée \\
+Traiter & Contenir, éradiquer, rétablir \\
+Clore et apprendre & Documenter et conduire le RETEX \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~20.1. Le processus de gestion des incidents}\end{center}
+
+Le signalement est la clé~: un incident tu ne peut être traité. La culture du
+signalement sans blâme, posée à la sensibilisation (Chapitre~\ref{chap:orga}),
+porte ici ses fruits.
+
+% ============================================================================
+\section{Classer et Prioriser}
+\label{sec:c20-classer}
+% ============================================================================
+
+\begin{boxprocedure}
+\textbf{Constatation.} La mairie reçoit deux signalements~: un courriel
+d'hameçonnage non ouvert, et un poste d'état civil qui redémarre seul.
+
+\medskip
+\textbf{Analyse.} On classe selon l'\emph{impact} et l'\emph{urgence}~: le
+courriel non ouvert est mineur (surveiller)~; le poste d'état civil qui
+redémarre touche un actif critique (priorité haute, isoler et investiguer).
+Prioriser, c'est mettre les moyens là où l'enjeu est le plus fort.
+\end{boxprocedure}
+
+% ============================================================================
+\section{Le Retour d'Expérience}
+\label{sec:c20-retex}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{Retour d'expérience} (\sigle{RETEX})~: analyse, après un incident, de
+ce qui s'est passé, de ce qui a bien ou mal fonctionné, et des améliorations à
+apporter. Il vise la cause, non le coupable.
+\end{boxdef}
+
+Le \sigle{RETEX} de l'incident initial de la mairie a produit des mesures
+durables~: interdiction des clés personnelles, sauvegardes 3-2-1, comptes
+nominatifs, sensibilisation. L'incident, bien analysé, a été le point de départ
+de tout le \sigle{SMSI}.
+
+\begin{boxmetier}{RSSI}
+\textbf{Chercher la cause, pas la faute.} La RSSI conduit le \sigle{RETEX} dans
+un esprit d'amélioration~: on cherche pourquoi le système a permis l'incident,
+non qui a cliqué. Un RETEX accusateur tarit les signalements~; un RETEX
+constructif les encourage.
+\end{boxmetier}
+
+% ============================================================================
+\section{L'Incident, Moteur d'Amélioration}
+\label{sec:c20-amelioration}
+% ============================================================================
+
+L'incident alimente la clause~10 (amélioration)~: chaque \sigle{RETEX} génère
+des actions correctives qui éliminent des causes, et parfois des améliorations
+qui renforcent au-delà. C'est le « Act » du \sigle{PDCA}~: on referme la boucle
+et l'on relance un cycle plus mûr.
+
+% ============================================================================
+\section{Mesurer les Progrès}
+\label{sec:c20-progres}
+% ============================================================================
+
+\begin{boxobjet}{Le SMSI de la mairie, un an après}
+\textbf{Constatation.} Un an après l'incident, la mairie a~: une politique
+signée, des risques appréciés, des mesures déployées, un tableau de bord, un
+audit interne passé, une certification en vue.
+
+\medskip
+\textbf{Analyse.} Le progrès se mesure~: délai de reprise réduit, sauvegardes
+testées, agents formés, incidents mieux traités. La mairie ne promet pas le
+risque zéro~; elle démontre un risque \emph{maîtrisé}. C'est l'aboutissement du
+cours~: non pas un système parfait, mais un système qui apprend.
+\end{boxobjet}
+
+\separateur
+
+\begin{boxresume}
+\textbf{Ce qu'il faut retenir de ce chapitre~:}
+\begin{itemize}
+    \item La \textbf{gestion des incidents} détecte, signale, qualifie, traite
+          et clôt.
+    \item On \textbf{classe} et \textbf{priorise} selon l'impact et l'urgence.
+    \item Le \textbf{RETEX} cherche la cause, non le coupable.
+    \item L'incident nourrit l'\textbf{amélioration continue} (clause~10).
+    \item Le progrès se \textbf{mesure}~: un \sigle{SMSI} mûr maîtrise le
+          risque, sans l'annuler.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle de l'élève.} Je sais~: décrire le processus de
+gestion des incidents~; classer et prioriser~; conduire un RETEX~; relier
+l'incident à l'amélioration~; mesurer les progrès du \sigle{SMSI}.
+\end{boxinfo}
+
+\bigskip
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~20.1. Le processus \niveaubase}]
+Énoncez les quatre étapes de la gestion des incidents.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~20.2. Signaler \niveaubase}]
+Pourquoi le signalement sans blâme est-il essentiel~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~20.3. RETEX \niveaubase}]
+Qu'est-ce qu'un retour d'expérience, et que vise-t-il~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~20.4. Prioriser \niveaumoyen}]
+Entre le courriel non ouvert et le poste qui redémarre, lequel traiter d'abord~?
+Pourquoi~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~20.5. Cause ou faute \niveaumoyen}]
+Pourquoi un RETEX accusateur tarit-il les signalements~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~20.6. Incident et clause 10 \niveaumoyen}]
+Comment un incident alimente-t-il l'amélioration continue~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~20.7. L'incident fondateur \niveaumoyen}]
+Montrez comment l'incident initial de la mairie a produit des mesures durables.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~20.8. Mesurer le progrès \niveaumoyen}]
+Citez trois indicateurs montrant que le \sigle{SMSI} de la mairie a progressé.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~20.9. Procédure d'incident \niveauexpert}]
+Rédigez la procédure de gestion des incidents de la mairie d'Eséka (détection à
+clôture).
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~20.10. RETEX complet \niveauexpert}]
+Conduisez le RETEX écrit de l'incident initial de la mairie (déroulé, causes,
+actions correctives, améliorations).
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item ISO/IEC 27001, clause~10~\cite{iso27001}~; auditologie~\cite{minka2026auditologie}.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Clôture du cours.} De l'incident à la certification, la mairie d'Eséka
+a appris à \emph{décider} sa sécurité, à la \emph{tenir} dans la durée et à la
+\emph{prouver}. Tel est le management de la sécurité de l'information~: non pas
+un état que l'on atteint, mais une roue que l'on fait tourner. Planifier,
+déployer, contrôler, agir~: et recommencer, un cran plus haut.
+\end{boxinfo}

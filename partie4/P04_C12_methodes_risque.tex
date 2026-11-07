@@ -1,0 +1,244 @@
+% ============================================================================
+% Fichier  : partie4/P04_C12_methodes_risque.tex
+% Titre    : Les Méthodes d'Appréciation des Risques
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% ============================================================================
+% Sources : EBIOS Risk Manager (ANSSI, 2018) ; OCTAVE ; MEHARI ; ISO 27005.
+% Mairie d'Eséka : cas fictif.
+% ============================================================================
+
+\chapter{Les Méthodes d'Appréciation des Risques}
+\label{chap:methodes}
+\chaptermark{Les méthodes de risque}
+
+\epigraph{%
+    « Une méthode ne supprime pas le jugement~:\\
+    elle le rend traçable et partageable. »%
+}{Principe du cours}
+
+\niveauChapitre{Intermédiaire}{Le Chapitre~\ref{chap:vocabrisque}.}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Présenter \sigle{EBIOS} Risk Manager et ses cinq ateliers.
+    \item Décrire la méthode \sigle{OCTAVE} et ses trois phases.
+    \item Situer \sigle{MEHARI} et son approche par bases de connaissances.
+    \item Comparer les méthodes et choisir selon le contexte.
+    \item Appliquer une démarche d'appréciation à la mairie.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Question directrice : comment conduire une appréciation des risques sans se perdre ?}
+% ============================================================================
+
+Apprécier les risques « à l'intuition » produit des oublis et des injustices.
+Les méthodes structurent la démarche. Ce chapitre présente les principales et
+aide à choisir.
+
+\medskip
+\textbf{Plan du chapitre.}
+\begin{enumerate}
+    \item EBIOS Risk Manager (section~\ref{sec:c12-ebios}).
+    \item OCTAVE (section~\ref{sec:c12-octave}).
+    \item MEHARI (section~\ref{sec:c12-mehari}).
+    \item Comparer et choisir (section~\ref{sec:c12-choisir}).
+    \item Appliquer à la mairie (section~\ref{sec:c12-mairie}).
+\end{enumerate}
+
+\separateur
+
+% ============================================================================
+\section{EBIOS Risk Manager}
+\label{sec:c12-ebios}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{\sigle{EBIOS} Risk Manager}~: méthode française d'appréciation et de
+traitement des risques numériques, publiée par l'\sigle{ANSSI}, organisée en
+cinq ateliers.
+\end{boxdef}
+
+\begin{tableaucours}{L{1.4cm}L{4.6cm}L{6.2cm}}{%
+    \tableauHeader{Atelier} &
+    \tableauHeader{Nom} &
+    \tableauHeader{Produit}
+}
+1 & Cadrage et socle & Périmètre, valeurs métier, socle de sécurité \\
+2 & Sources de risque & Qui menace, pour quels objectifs \\
+3 & Scénarios stratégiques & Chemins d'attaque de haut niveau \\
+4 & Scénarios opérationnels & Chemins techniques détaillés \\
+5 & Traitement du risque & Mesures, risques résiduels \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~12.1. Les cinq ateliers d'EBIOS Risk Manager}\end{center}
+
+\sigle{EBIOS} \sigle{RM} met l'accent sur les \emph{sources de risque} et les
+\emph{scénarios}~: elle part de qui veut nuire et pourquoi, plutôt que d'une
+liste de vulnérabilités.
+
+% ============================================================================
+\section{OCTAVE}
+\label{sec:c12-octave}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{\sigle{OCTAVE}} (\emph{Operationally Critical Threat, Asset and
+Vulnerability Evaluation})~: méthode centrée sur les actifs critiques,
+organisée en trois phases.
+\end{boxdef}
+
+\begin{enumerate}
+    \item \textbf{Profils de menaces fondés sur les actifs}~: identifier les
+          actifs critiques et les menaces qui les visent.
+    \item \textbf{Vulnérabilités de l'infrastructure}~: analyser les
+          faiblesses techniques.
+    \item \textbf{Stratégie et plan de sécurité}~: évaluer impact et
+          probabilité, bâtir le plan.
+\end{enumerate}
+
+\sigle{OCTAVE} est conduite par l'organisation elle-même, ce qui favorise
+l'appropriation.
+
+% ============================================================================
+\section{MEHARI}
+\label{sec:c12-mehari}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{\sigle{MEHARI}} (Méthode Harmonisée d'Analyse de Risques)~: méthode
+du \sigle{CLUSIF} s'appuyant sur des bases de connaissances pour évaluer
+l'exposition et l'efficacité des mesures.
+\end{boxdef}
+
+\sigle{MEHARI} propose une analyse fine en situation normale, en cas de
+dysfonctionnement majeur, et par la vulnérabilité. Son atout est la richesse de
+ses bases~; son coût, leur lourdeur pour une petite structure.
+
+% ============================================================================
+\section{Comparer et Choisir}
+\label{sec:c12-choisir}
+% ============================================================================
+
+\begin{tableaucours}{L{2.6cm}L{4.4cm}L{5.2cm}}{%
+    \tableauHeader{Méthode} &
+    \tableauHeader{Force} &
+    \tableauHeader{Convient à}
+}
+EBIOS RM & Scénarios, sources de risque & Projets structurés, lien ISO 27005 \\
+OCTAVE & Appropriation interne & Organisations qui s'auto-évaluent \\
+MEHARI & Bases de connaissances & Structures matures et outillées \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~12.2. Choisir une méthode selon le contexte}\end{center}
+
+Aucune méthode n'est « la meilleure »~: la bonne est celle que l'organisation
+peut réellement conduire. Toutes sont compatibles avec \norme{ISO/IEC 27005}.
+
+% ============================================================================
+\section{Appliquer à la Mairie}
+\label{sec:c12-mairie}
+% ============================================================================
+
+\begin{boxprocedure}
+\textbf{Constatation.} La mairie d'Eséka, aux moyens limités, choisit
+\sigle{EBIOS} \sigle{RM} pour l'opération \textsc{Kellé}, en version allégée.
+
+\medskip
+\textbf{Analyse.} Le choix est cohérent~: \sigle{EBIOS} \sigle{RM} est
+publique, gratuite, outillée, et son approche par scénarios parle aux élus (qui
+veut nuire à la mairie, et comment). Une version allégée évite la lourdeur pour
+une petite structure.
+\end{boxprocedure}
+
+\begin{boxmetier}{RSSI}
+\textbf{Adapter, pas appliquer à la lettre.} La RSSI adapte la méthode à la
+taille de la mairie~: cinq ateliers menés en une journée d'atelier collectif,
+plutôt qu'une étude de plusieurs mois. La méthode sert le projet, pas
+l'inverse.
+\end{boxmetier}
+
+\separateur
+
+\begin{boxresume}
+\textbf{Ce qu'il faut retenir de ce chapitre~:}
+\begin{itemize}
+    \item \textbf{EBIOS RM} (ANSSI) structure l'appréciation en cinq ateliers,
+          centrés sur les scénarios.
+    \item \textbf{OCTAVE} part des actifs critiques en trois phases, par
+          auto-évaluation.
+    \item \textbf{MEHARI} s'appuie sur des bases de connaissances, pour
+          structures matures.
+    \item On \textbf{choisit} la méthode que l'organisation peut conduire~;
+          toutes sont compatibles ISO 27005.
+    \item La mairie adopte \textbf{EBIOS RM allégée} pour l'opération
+          \textsc{Kellé}.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle de l'élève.} Je sais~: citer les cinq ateliers
+d'EBIOS RM~; décrire les trois phases d'OCTAVE~; situer MEHARI~; comparer les
+méthodes~; justifier un choix.
+\end{boxinfo}
+
+\bigskip
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~12.1. Les ateliers \niveaubase}]
+Citez les cinq ateliers d'\sigle{EBIOS} Risk Manager.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~12.2. Les phases \niveaubase}]
+Énoncez les trois phases d'\sigle{OCTAVE}.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~12.3. MEHARI \niveaubase}]
+Quel est le principe de \sigle{MEHARI} et son principal atout~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~12.4. Source de risque \niveaumoyen}]
+En quoi EBIOS RM se distingue-t-elle en partant des sources de risque~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~12.5. Choisir \niveaumoyen}]
+Pour une petite mairie, quelle méthode recommandez-vous~? Justifiez.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~12.6. Adapter \niveaumoyen}]
+Pourquoi faut-il adapter la méthode à la taille de l'organisation~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~12.7. Atelier 1 \niveaumoyen}]
+Que produit l'atelier~1 d'EBIOS RM pour la mairie d'Eséka~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~12.8. Compatibilité ISO \niveaumoyen}]
+Pourquoi ces méthodes sont-elles toutes compatibles avec \norme{ISO/IEC 27005}~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~12.9. Mini-EBIOS \niveauexpert}]
+Conduisez un mini-atelier EBIOS RM sur l'état civil~: deux sources de risque,
+deux scénarios stratégiques.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~12.10. Note de méthode \niveauexpert}]
+Rédigez la note qui justifie, auprès du maire, le choix de méthode pour
+l'opération \textsc{Kellé}.
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item EBIOS Risk Manager~\cite{ebios2018}~; ISO/IEC 27005~\cite{iso27005}.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Les risques appréciés, il faut les cartographier et
+décider~: le Chapitre~\ref{chap:traitement} traite la cartographie et le
+traitement.
+\end{boxinfo}

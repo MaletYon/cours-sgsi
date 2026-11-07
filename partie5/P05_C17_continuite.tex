@@ -1,0 +1,226 @@
+% ============================================================================
+% Fichier  : partie5/P05_C17_continuite.tex
+% Titre    : Continuité d'Activité : PCA et PRA
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% ============================================================================
+% Sources : ISO 22301:2019 ; ISO/IEC 27002:2022. Mairie d'Eséka : cas fictif.
+% ============================================================================
+
+\chapter{Continuité d'Activité : PCA et PRA}
+\label{chap:continuite}
+\chaptermark{PCA et PRA}
+
+\epigraph{%
+    « Une sauvegarde que l'on n'a jamais restaurée\\
+    n'est pas une sauvegarde~: c'est un espoir. »%
+}{Principe du cours}
+
+\niveauChapitre{Intermédiaire}{Le Chapitre~\ref{chap:technique}.}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Distinguer plan de continuité (\sigle{PCA}) et plan de reprise
+          (\sigle{PRA}).
+    \item Conduire une analyse d'impact sur l'activité (\sigle{BIA}).
+    \item Définir \sigle{RTO}, \sigle{RPO}, \sigle{MTTR}, \sigle{MTBF}.
+    \item Appliquer la règle de sauvegarde \mbox{3-2-1} et tester les
+          restaurations.
+    \item Construire une stratégie de continuité adaptée à la mairie.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Question directrice : comment tenir le service quand le pire arrive ?}
+% ============================================================================
+
+L'incident a montré qu'une panne peut tout arrêter. La continuité prépare la
+mairie à tenir et à reprendre. Ce chapitre construit le \sigle{PCA} et le
+\sigle{PRA}.
+
+\medskip
+\textbf{Plan du chapitre.}
+\begin{enumerate}
+    \item PCA et PRA (section~\ref{sec:c17-pcapra}).
+    \item L'analyse d'impact (section~\ref{sec:c17-bia}).
+    \item Les indicateurs de continuité (section~\ref{sec:c17-indic}).
+    \item Sauvegarde et restauration (section~\ref{sec:c17-sauvegarde}).
+    \item La stratégie de la mairie (section~\ref{sec:c17-strategie}).
+\end{enumerate}
+
+\separateur
+
+% ============================================================================
+\section{PCA et PRA}
+\label{sec:c17-pcapra}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{Plan de continuité d'activité} (\sigle{PCA})~: dispositif qui maintient
+les activités critiques pendant un sinistre, éventuellement en mode dégradé.
+\termecle{Plan de reprise d'activité} (\sigle{PRA})~: dispositif qui rétablit le
+système après le sinistre. Le \sigle{PCA} tient~; le \sigle{PRA} répare.
+\end{boxdef}
+
+Pour la mairie, le \sigle{PCA} permet de continuer à délivrer des actes (même
+sur registre papier de secours)~; le \sigle{PRA} remet en service le système
+numérique.
+
+% ============================================================================
+\section{L'Analyse d'Impact}
+\label{sec:c17-bia}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{Analyse d'impact sur l'activité} (\sigle{BIA})~: étude qui identifie
+les activités critiques, évalue l'impact de leur interruption et fixe les délais
+tolérables. Elle fonde toute la stratégie de continuité.
+\end{boxdef}
+
+Le \sigle{BIA} répond à~: quelles activités ne peuvent s'arrêter~? combien de
+temps peut-on tenir sans elles~? quelle perte de données est tolérable~? À
+Eséka, l'état civil est l'activité la plus critique.
+
+% ============================================================================
+\section{Les Indicateurs de Continuité}
+\label{sec:c17-indic}
+% ============================================================================
+
+\begin{tableaucours}{L{2.0cm}L{10.2cm}}{%
+    \tableauHeader{Indicateur} &
+    \tableauHeader{Définition}
+}
+RTO & Délai maximal de remise en service visé \\
+RPO & Perte de données maximale acceptable (point de reprise) \\
+MTTR & Temps moyen de réparation \\
+MTBF & Temps moyen entre deux pannes \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~17.1. Indicateurs de continuité}\end{center}
+
+\sigle{RTO} et \sigle{RPO} commandent la stratégie~: un \sigle{RPO} d'une heure
+impose des sauvegardes au moins horaires~; un \sigle{RTO} de quatre heures
+impose des moyens de reprise rapides.
+
+% ============================================================================
+\section{Sauvegarde et Restauration}
+\label{sec:c17-sauvegarde}
+% ============================================================================
+
+\begin{boxdef}
+La règle \termecle{3-2-1}~: conserver \textbf{3} copies des données, sur
+\textbf{2} supports différents, dont \textbf{1} hors site. Elle protège contre
+la panne, l'erreur et le sinistre local.
+\end{boxdef}
+
+\begin{boxprocedure}
+\textbf{Constatation.} Avant la démarche, la mairie avait une seule copie de
+l'état civil, sur le même serveur que l'original, jamais testée.
+
+\medskip
+\textbf{Analyse} (confiance élevée). Cette « sauvegarde » violait la règle
+3-2-1 (une copie, un support, sur site) et n'avait jamais été restaurée~: elle
+ne protégeait rien. La mesure corrective impose trois copies, dont une hors
+site, et un \emph{test de restauration} mensuel. Une sauvegarde non testée est
+réputée inexistante.
+\end{boxprocedure}
+
+\begin{boxmetier}{DSI}
+\textbf{Tester, pas seulement sauvegarder.} Le \sigle{DSI} planifie des tests
+de restauration réguliers~: c'est le seul moyen de savoir que la sauvegarde
+fonctionne \emph{avant} d'en avoir besoin. Le jour du sinistre est le pire
+moment pour découvrir qu'elle est illisible.
+\end{boxmetier}
+
+% ============================================================================
+\section{La Stratégie de la Mairie}
+\label{sec:c17-strategie}
+% ============================================================================
+
+La mairie d'Eséka adopte une stratégie proportionnée~: sauvegarde quotidienne
+de l'état civil selon la règle 3-2-1, copie hors site chez la tutelle, registre
+papier de secours pour le mode dégradé, et test de restauration mensuel. Le
+\sigle{PCA} et le \sigle{PRA} sont écrits, diffusés et exercés.
+
+\separateur
+
+\begin{boxresume}
+\textbf{Ce qu'il faut retenir de ce chapitre~:}
+\begin{itemize}
+    \item Le \textbf{PCA} maintient l'activité~; le \textbf{PRA} rétablit le
+          système.
+    \item Le \textbf{BIA} identifie les activités critiques et fixe les délais
+          tolérables.
+    \item \textbf{RTO} et \textbf{RPO} commandent la stratégie de continuité.
+    \item La règle \textbf{3-2-1} et le \textbf{test de restauration} font
+          d'une copie une vraie sauvegarde.
+    \item La mairie adopte une stratégie \textbf{proportionnée} et
+          \textbf{exercée}.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle de l'élève.} Je sais~: distinguer PCA et PRA~;
+conduire un BIA~; définir RTO, RPO, MTTR, MTBF~; appliquer la règle 3-2-1~;
+bâtir une stratégie de continuité.
+\end{boxinfo}
+
+\bigskip
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~17.1. PCA ou PRA \niveaubase}]
+« Continuer à délivrer des actes pendant la panne » relève-t-il du PCA ou du
+PRA~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~17.2. Les indicateurs \niveaubase}]
+Définissez RTO et RPO.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~17.3. La règle 3-2-1 \niveaubase}]
+Énoncez la règle 3-2-1 de sauvegarde.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~17.4. BIA \niveaumoyen}]
+Quelle est l'activité la plus critique de la mairie, et pourquoi~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~17.5. RPO et fréquence \niveaumoyen}]
+Un RPO d'une heure impose quelle fréquence de sauvegarde~? Justifiez.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~17.6. Fausse sauvegarde \niveaumoyen}]
+Pourquoi la « sauvegarde » initiale de la mairie ne protégeait-elle rien~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~17.7. Tester \niveaumoyen}]
+Pourquoi faut-il tester les restaurations, et à quelle fréquence~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~17.8. Mode dégradé \niveaumoyen}]
+Décrivez un mode dégradé pour l'état civil en cas de panne prolongée.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~17.9. Stratégie 3-2-1 \niveauexpert}]
+Concevez la stratégie de sauvegarde 3-2-1 complète de la mairie d'Eséka.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~17.10. PRA rédigé \niveauexpert}]
+Rédigez un plan de reprise d'activité d'une page pour le serveur d'état civil
+(RTO, RPO, étapes, responsables).
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item ISO 22301~\cite{iso22301}~; ISO/IEC 27002~\cite{iso27002}.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Les mesures en place, il faut les piloter~: la partie VI
+s'ouvre au Chapitre~\ref{chap:indicateurs} sur la surveillance et les
+indicateurs.
+\end{boxinfo}

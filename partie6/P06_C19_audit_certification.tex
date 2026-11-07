@@ -1,0 +1,233 @@
+% ============================================================================
+% Fichier  : partie6/P06_C19_audit_certification.tex
+% Titre    : L'Audit du SMSI et la Certification
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% ============================================================================
+% Sources : ISO 19011:2018 ; ISO/IEC 27006:2015 ; ISO/IEC 27001 clause 9.2-9.3.
+% Mairie d'Eséka : cas fictif.
+% ============================================================================
+
+\chapter{L'Audit du SMSI et la Certification}
+\label{chap:audit}
+\chaptermark{Audit et certification}
+
+\epigraph{%
+    « L'audit ne cherche pas le coupable~:\\
+    il cherche l'écart entre ce qui est dit et ce qui est fait. »%
+}{Principe du cours}
+
+\niveauChapitre{Intermédiaire}{Le Chapitre~\ref{chap:indicateurs}.}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Distinguer audit interne et audit de certification.
+    \item Décrire la méthodologie d'audit (ISO 19011).
+    \item Caractériser constat, preuve, non-conformité et écart.
+    \item Expliquer la revue de direction.
+    \item Décrire le cycle de certification \norme{ISO/IEC 27001}.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Question directrice : comment faire reconnaître que la sécurité est maîtrisée ?}
+% ============================================================================
+
+La mairie pense son \sigle{SMSI} solide. Un audit le vérifie, et la
+certification l'atteste. Ce chapitre présente l'audit, la revue de direction
+et le chemin vers la certification.
+
+\medskip
+\textbf{Plan du chapitre.}
+\begin{enumerate}
+    \item Les types d'audit (section~\ref{sec:c19-types}).
+    \item La méthodologie (section~\ref{sec:c19-methodo}).
+    \item Constat, preuve, écart (section~\ref{sec:c19-constat}).
+    \item La revue de direction (section~\ref{sec:c19-revue}).
+    \item Le cycle de certification (section~\ref{sec:c19-cycle}).
+\end{enumerate}
+
+\separateur
+
+% ============================================================================
+\section{Les Types d'Audit}
+\label{sec:c19-types}
+% ============================================================================
+
+\begin{tableaucours}{L{3.2cm}L{9.0cm}}{%
+    \tableauHeader{Type} &
+    \tableauHeader{Qui et pourquoi}
+}
+Audit interne & Mené par l'organisation, exigé par la clause~9.2 \\
+Audit de seconde partie & Mené par un client ou une tutelle \\
+Audit de certification & Mené par un organisme accrédité (tierce partie) \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~19.1. Les types d'audit}\end{center}
+
+L'\termecle{audit interne} prépare~: il détecte les écarts avant l'auditeur
+externe. L'\termecle{audit de certification} atteste, auprès des tiers, que le
+\sigle{SMSI} satisfait la norme.
+
+% ============================================================================
+\section{La Méthodologie}
+\label{sec:c19-methodo}
+% ============================================================================
+
+La norme \norme{ISO 19011} guide l'audit des systèmes de management~:
+planification, revue documentaire, entretiens et observations sur site,
+rédaction du rapport, suivi des actions. L'auditeur est \termecle{indépendant}
+de ce qu'il audite et procède par \termecle{échantillonnage}.
+
+\begin{boxprocedure}
+\textbf{Constatation.} Pour l'opération \textsc{Matomb}, le cabinet
+\textsc{Matomb Conseil} conduit l'audit interne de la mairie avant la
+certification.
+
+\medskip
+\textbf{Analyse.} L'audit interne est une répétition générale~: il cherche les
+écarts pendant qu'il est encore temps de les corriger. Un écart trouvé en
+interne se corrige~; le même écart trouvé en certification coûte un report.
+\end{boxprocedure}
+
+% ============================================================================
+\section{Constat, Preuve, Écart}
+\label{sec:c19-constat}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{Preuve d'audit}~: enregistrement vérifiable (document, observation,
+déclaration). \termecle{Constat}~: résultat de l'évaluation des preuves face à
+un critère. \termecle{Non-conformité}~: écart entre l'exigence et la réalité,
+\emph{majeure} (défaillance du système) ou \emph{mineure} (manquement isolé).
+\end{boxdef}
+
+L'auditeur sépare le \emph{fait} (ce qu'il constate, preuve à l'appui) de son
+\emph{appréciation}. Cette rigueur, qui distingue la constatation de l'analyse,
+est au cœur du métier d'auditeur~\cite{minka2026auditologie}.
+
+\begin{boxmetier}{Auditeur SMSI}
+\textbf{Pas de constat sans preuve.} L'auditeur ne note jamais une impression~:
+il adosse chaque constat à une preuve (un document, un relevé, une observation).
+Un écart sans preuve n'est pas un écart~: c'est un avis.
+\end{boxmetier}
+
+% ============================================================================
+\section{La Revue de Direction}
+\label{sec:c19-revue}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{Revue de direction} (clause~9.3)~: examen périodique du \sigle{SMSI}
+par la direction, qui passe en revue les résultats des audits, des mesures et
+des incidents, et décide des améliorations et des ressources.
+\end{boxdef}
+
+La revue de direction est le moment où la direction \emph{reprend la main}~:
+elle transforme les constats en décisions. Sans elle, l'audit resterait sans
+suite. À Eséka, le maire la préside deux fois par an.
+
+% ============================================================================
+\section{Le Cycle de Certification}
+\label{sec:c19-cycle}
+% ============================================================================
+
+\begin{tableaucours}{L{3.6cm}L{8.6cm}}{%
+    \tableauHeader{Étape} &
+    \tableauHeader{Contenu}
+}
+Audit initial (étape 1) & Revue documentaire, préparation \\
+Audit initial (étape 2) & Audit sur site, décision de certification \\
+Audits de surveillance & Chaque année, maintien du certificat \\
+Renouvellement & Au bout de trois ans, nouvel audit complet \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~19.2. Le cycle de certification ISO/IEC 27001}\end{center}
+
+La certification se \emph{gagne} en deux étapes et se \emph{maintient} par des
+audits de surveillance. Elle n'est pas acquise une fois pour toutes~: le
+\sigle{SMSI} doit continuer de tourner (Chapitre~\ref{chap:pdca}).
+
+\separateur
+
+\begin{boxresume}
+\textbf{Ce qu'il faut retenir de ce chapitre~:}
+\begin{itemize}
+    \item L'\textbf{audit interne} prépare~; l'\textbf{audit de certification}
+          atteste.
+    \item La \textbf{méthodologie} (ISO 19011) procède par preuves,
+          échantillonnage et indépendance.
+    \item Un \textbf{constat} s'adosse à une \textbf{preuve}~; une
+          \textbf{non-conformité} est majeure ou mineure.
+    \item La \textbf{revue de direction} transforme les constats en décisions.
+    \item La \textbf{certification} se gagne en deux étapes et se maintient par
+          surveillance.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle de l'élève.} Je sais~: distinguer les types
+d'audit~; décrire la méthodologie~; définir preuve, constat, non-conformité~;
+expliquer la revue de direction~; décrire le cycle de certification.
+\end{boxinfo}
+
+\bigskip
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~19.1. Types d'audit \niveaubase}]
+Distinguez audit interne et audit de certification.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~19.2. Preuve \niveaubase}]
+Qu'est-ce qu'une preuve d'audit~? Donnez deux exemples.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~19.3. Le cycle \niveaubase}]
+Énoncez les étapes du cycle de certification \norme{ISO/IEC 27001}.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~19.4. Majeure ou mineure \niveaumoyen}]
+Distinguez une non-conformité majeure d'une mineure, par un exemple à la
+mairie.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~19.5. Répétition générale \niveaumoyen}]
+Pourquoi l'audit interne est-il une « répétition générale »~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~19.6. Constat sans preuve \niveaumoyen}]
+Pourquoi un écart sans preuve n'est-il qu'un avis~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~19.7. Indépendance \niveaumoyen}]
+Pourquoi l'auditeur doit-il être indépendant de ce qu'il audite~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~19.8. Revue de direction \niveaumoyen}]
+Que décide la direction lors de la revue, et à partir de quoi~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~19.9. Plan d'audit \niveauexpert}]
+Rédigez le plan d'audit interne du \sigle{SMSI} de la mairie d'Eséka (périmètre,
+critères, étapes).
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~19.10. Fiche d'écart \niveauexpert}]
+Rédigez une fiche de non-conformité (constat, preuve, exigence, gravité, action
+corrective) pour un écart de la mairie.
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item ISO 19011~\cite{iso19011}~; ISO/IEC 27006~\cite{iso27006}~;
+          auditologie~\cite{minka2026auditologie}.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Reste le dernier maillon du cycle~: apprendre des
+incidents. Le Chapitre~\ref{chap:incidents} clôt le cours.
+\end{boxinfo}

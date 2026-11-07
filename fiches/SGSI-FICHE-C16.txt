@@ -1,0 +1,233 @@
+NDAP SUKULU · SGSI · fiche SGSI-FICHE-C16
+Chapitre 16 : Mesures techniques
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. DAC est un contrôle fondé sur l' :
+      a) Identité
+      b) Étiquette
+      c) Rôle
+      d) Jardin
+
+ 2. MAC est fondé sur des :
+      a) Rôles
+      b) Étiquettes
+      c) Ventes
+      d) Jardins
+
+ 3. RBAC est fondé sur les :
+      a) Identités
+      b) Ventes
+      c) Rôles
+      d) Climats
+
+ 4. Le moindre privilège donne les droits :
+      a) Maximaux
+      b) Secrets
+      c) Vendus
+      d) Nécessaires
+
+ 5. La MFA combine au moins :
+      a) 2 facteurs
+      b) 1 facteur
+      c) 0 facteur
+      d) 5 prix
+
+ 6. « Ce que l'on possède » est un :
+      a) Prix
+      b) Facteur
+      c) Climat
+      d) Jardin
+
+ 7. Le pare-feu filtre les :
+      a) Prix
+      b) Météos
+      c) Flux
+      d) Jardins
+
+ 8. La segmentation sert à :
+      a) Vendre
+      b) Peindre
+      c) Nettoyer
+      d) Cloisonner
+
+ 9. Le VPN chiffre les accès :
+      a) Distants
+      b) Locaux
+      c) Vendus
+      d) Peints
+
+10. Le chiffrement protège la :
+      a) Vente
+      b) Confidentialité
+      c) Météo
+      d) Voirie
+
+11. La journalisation sert la :
+      a) Vente
+      b) Météo
+      c) Traçabilité
+      d) Voirie
+
+12. À la mairie, le modèle adapté est :
+      a) DAC
+      b) Aucun
+      c) La vente
+      d) RBAC
+
+13. La segmentation aurait, à Eséka, :
+      a) Limité l'incident
+      b) Aggravé
+      c) Vendu
+      d) Peint
+
+14. La MFA réduit le risque des mots de passe :
+      a) Forts
+      b) Volés
+      c) Vendus
+      d) Peints
+
+15. Chiffrer protège même en cas de vol du :
+      a) Jardin
+      b) Climat
+      c) Support
+      d) Marché
+
+16. « Ce que l'on est » renvoie à la :
+      a) Vente
+      b) Météo
+      c) Voirie
+      d) Biométrie
+
+17. L'IDS sert à :
+      a) Détecter
+      b) Vendre
+      c) Peindre
+      d) Nettoyer
+
+18. Chaque mesure technique sert un critère :
+      a) De vente
+      b) DIC
+      c) Météo
+      d) Jardin
+
+19. Le DSI déploie ce que la politique :
+      a) Cache
+      b) Vend
+      c) Décide
+      d) Peint
+
+20. Cloisonner, c'est :
+      a) Vendre
+      b) Peindre
+      c) Nettoyer
+      d) Contenir
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. RBAC est un contrôle d'accès fondé sur les rôles.
+      Vrai / Faux
+
+22. La MFA combine au moins deux facteurs d'authentification.
+      Vrai / Faux
+
+23. La segmentation isole les réseaux pour contenir une attaque.
+      Vrai / Faux
+
+24. Le chiffrement protège la confidentialité.
+      Vrai / Faux
+
+25. Le moindre privilège donne tous les droits possibles.
+      Vrai / Faux
+
+26. La segmentation aurait limité l'incident de la clé USB.
+      Vrai / Faux
+
+27. Le moindre privilège consiste à accorder tous les droits possibles.
+      Vrai / Faux
+
+28. Le DSI décide seul des mesures, indépendamment de la politique.
+      Vrai / Faux
+
+29. Le DSI décide seul des mesures, sans la politique.
+      Vrai / Faux
+
+30. Le chiffrement sert d'abord la disponibilité des données.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. RBAC est un contrôle fondé sur les ______.
+
+32. La MFA combine au moins ______ facteurs.
+
+33. La ______ isole les réseaux pour contenir une attaque.
+
+34. Le chiffrement protège la ______.
+
+35. La journalisation sert la ______.
+
+36. Le moindre ______ donne les seuls droits nécessaires.
+
+37. Le VPN chiffre les accès ______.
+
+38. À la mairie, le modèle d'accès adapté est ______.
+
+39. Chaque mesure technique sert un critère ______.
+
+40. Cloisonner, c'est ______.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

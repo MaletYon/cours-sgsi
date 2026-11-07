@@ -1,0 +1,179 @@
+% ============================================================================
+% Fichier  : partie0/P00_decision_mairie.tex
+% Titre    : Prologue : la Décision de la Mairie
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% ============================================================================
+% Fil rouge : Mairie d'Eséka (Nyong-et-Kéllé). Cas fictif ; mécanismes et
+% références normatives exacts.
+% ============================================================================
+
+\chapter{Prologue : la Décision de la Mairie}
+\label{chap:prologue}
+\chaptermark{Prologue}
+
+\epigraph{%
+    « La sécurité n'est pas un produit que l'on achète,\\
+    c'est une décision que l'on tient dans la durée. »%
+}{Principe du cours}
+
+\niveauChapitre{Introductif}{Aucun prérequis. Les notions sont reprises en
+détail dans les chapitres.}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Comprendre qu'un incident de sécurité est d'abord un problème de
+          management, non de seule technique.
+    \item Distinguer la réaction ponctuelle d'une démarche durable et pilotée.
+    \item Découvrir le fil rouge de la mairie d'Eséka et ses quatre phases.
+    \item Situer le cycle \sigle{PDCA} au cœur du cours.
+    \item Formuler les questions auxquelles le cours répond.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{13 janvier 2026, 7 h 50, mairie d'Eséka}
+% ============================================================================
+
+L'agent d'état civil arrive avant l'ouverture au public. Il branche, comme
+chaque matin, la clé \texttt{USB} sur laquelle il a travaillé la veille chez
+lui. En quelques minutes, les fichiers du poste deviennent illisibles~: les
+actes de naissance numérisés, le registre des mariages, le tableur des
+redevances ne s'ouvrent plus. À 8~h~15, trois postes du service sont touchés,
+reliés au même dossier partagé. À 9~h, une file d'usagers attend des copies
+d'actes que la mairie ne peut plus délivrer.
+
+\medskip
+Ce que personne ne sait encore ce matin-là\footnote{Cas fictif établi pour le
+cours. Les noms (mairie d'Eséka, cabinet \textsc{Matomb Conseil}, agents
+cités), les dates et les montants sont fictifs~; les mécanismes de gestion et
+les références normatives (ISO/IEC 27001, 27002, 27005, lois camerounaises)
+sont exacts.}~: le mal n'est pas la clé \texttt{USB}. Le mal, c'est qu'un seul
+poste suffise à paralyser un service, qu'aucune sauvegarde récente n'existe,
+que le même mot de passe serve à tout le monde, et que personne, dans la
+mairie, n'ait jamais décidé qui est responsable de quoi en matière de
+sécurité.
+
+% ============================================================================
+\section{Réparer ne suffit pas}
+\label{sec:p00-reparer}
+% ============================================================================
+
+Le \sigle{DSI} de la commune, M.~\textsc{Biloa}, rétablit les postes en deux
+jours à partir d'une vieille copie. Le service rouvre. L'affaire pourrait
+s'arrêter là~: on a réparé. Mais le maire, M.~\textsc{Essama}, pose la bonne
+question en conseil~: « Qu'est-ce qui nous garantit que cela ne
+recommencera pas la semaine prochaine, en pire~? »
+
+\medskip
+La réponse est désagréable~: rien. Réparer traite l'incident du jour~; cela ne
+traite pas la \termecle{cause}. La cause est organisationnelle~: pas de
+politique, pas de rôles, pas d'appréciation des risques, pas de règles de
+sauvegarde, pas de contrôle. Tant que ces manques demeurent, le prochain
+incident est une question de temps. La mairie n'a pas un problème technique~:
+elle a un problème de \termecle{management de la sécurité}.
+
+\begin{boxmetier}{RSSI}
+\textbf{Du pompier au pilote.} Réagir à chaque incident, c'est être pompier.
+Un \sigle{RSSI} construit un système qui réduit le nombre d'incendies et
+limite leurs dégâts. Il ne promet pas le risque zéro~: il promet un risque
+\emph{connu}, \emph{décidé} et \emph{maîtrisé}.
+\end{boxmetier}
+
+% ============================================================================
+\section{La décision : un système, pas un achat}
+\label{sec:p00-decision}
+% ============================================================================
+
+Le maire ne débloque pas un budget pour « acheter de la sécurité ». Il prend
+une décision de gouvernance~: doter la mairie d'un \termecle{système de
+management de la sécurité de l'information} (\sigle{SMSI}), c'est-à-dire un
+ensemble de règles, de rôles et d'activités qui, ensemble, maintiennent la
+sécurité dans la durée. Il nomme Mme~\textsc{Abena} \sigle{RSSI} de la commune
+et mandate le cabinet \textsc{Matomb Conseil} pour l'accompagner vers une
+certification \norme{ISO/IEC 27001}.
+
+\begin{boxdef}
+\termecle{Système de management de la sécurité de l'information} (\sigle{SMSI})~:
+partie du système de management global qui, sur la base d'une appréciation des
+risques, établit, met en \oe uvre, exploite, surveille et améliore la sécurité
+de l'information~\cite{iso27001}. Ce n'est pas un logiciel~: c'est une manière
+organisée de décider et de tenir ses décisions.
+\end{boxdef}
+
+% ============================================================================
+\section{Le fil rouge : quatre phases}
+\label{sec:p00-filrouge}
+% ============================================================================
+
+Le cours suit la mairie d'Eséka, dans le département du Nyong-et-Kéllé, tout au
+long de sa démarche. Quatre phases, nommées d'après la géographie locale,
+structurent le fil rouge et reviennent dans les chapitres.
+
+\begin{tableaucours}{L{3.2cm}L{9.0cm}}{%
+    \tableauHeader{Phase} &
+    \tableauHeader{Ce qu'elle installe}
+}
+Opération \textsc{Nyong} & La gouvernance et la politique de sécurité (parties I et II) \\
+Opération \textsc{Kellé} & L'appréciation et le traitement des risques (partie IV) \\
+Opération \textsc{Makak} & La mise en \oe uvre des mesures (partie V) \\
+Opération \textsc{Matomb} & L'audit interne et la certification (partie VI) \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~0.1. Les quatre phases du fil rouge}\end{center}
+
+% ============================================================================
+\section{Le cœur du cours : le cycle PDCA}
+\label{sec:p00-pdca}
+% ============================================================================
+
+Un \sigle{SMSI} n'est pas un projet qui se termine~: c'est une \termecle{roue}
+qui tourne. Le cycle \sigle{PDCA} (\emph{Plan, Do, Check, Act}), ou roue de
+Deming, en est le moteur et revient à chaque partie du cours.
+
+\begin{tableaucours}{L{2.6cm}L{9.6cm}}{%
+    \tableauHeader{Étape} &
+    \tableauHeader{Ce que fait la mairie}
+}
+Planifier (\emph{Plan}) & Apprécier les risques, fixer la politique et les objectifs \\
+Déployer (\emph{Do}) & Mettre en \oe uvre les mesures et former les agents \\
+Contrôler (\emph{Check}) & Mesurer, auditer, passer en revue de direction \\
+Agir (\emph{Act}) & Corriger, améliorer, décider le cycle suivant \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~0.2. Le cycle PDCA appliqué à la mairie}\end{center}
+
+\begin{boxinfo}
+\textbf{Les questions auxquelles ce cours répond.}
+\begin{itemize}
+    \item Qui décide de la sécurité, et au nom de quoi~?
+    \item Comment connaître ses risques avant qu'ils ne deviennent des
+          incidents~?
+    \item Quelles mesures mettre en \oe uvre, et comment prouver qu'elles
+          fonctionnent~?
+    \item Comment faire reconnaître, par un audit, que la sécurité est
+          maîtrisée~?
+\end{itemize}
+\end{boxinfo}
+
+\separateur
+
+\begin{boxresume}
+\textbf{Ce qu'il faut retenir de ce prologue~:}
+\begin{itemize}
+    \item Un incident est d'abord un révélateur de \textbf{causes
+          organisationnelles}, pas seulement un problème technique.
+    \item \textbf{Réparer} traite le symptôme~; \textbf{manager} traite la
+          cause.
+    \item Un \textbf{SMSI} est un système durable de décisions tenues, non un
+          achat ponctuel.
+    \item Le fil rouge suit la \textbf{mairie d'Eséka} en quatre phases.
+    \item Le \textbf{cycle PDCA} est le moteur du cours.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Transition.} Avant de manager la sécurité, il faut la définir~: le
+Chapitre~\ref{chap:cia} pose ce qu'est la sécurité de l'information.
+\end{boxinfo}

@@ -1,0 +1,233 @@
+NDAP SUKULU · SGSI · fiche SGSI-FICHE-C05
+Chapitre 5 : La politique de sécurité du SI
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. La PSSI est approuvée par :
+      a) La direction
+      b) L'agent
+      c) Un tiers
+      d) La presse
+
+ 2. La PSSI est le texte :
+      a) Marchand
+      b) Fondateur du SMSI
+      c) Secret
+      d) Jetable
+
+ 3. Un objectif de la PSSI est d' :
+      a) Vendre
+      b) Cacher
+      c) Établir un cadre
+      d) Nuire
+
+ 4. La PSSI aide à :
+      a) Vendre
+      b) Coder
+      c) Nettoyer
+      d) Faciliter la décision
+
+ 5. La portée d'une politique délimite :
+      a) Ce qu'elle couvre
+      b) Le prix
+      c) La météo
+      d) La couleur
+
+ 6. « Les accès sont nominatifs » est une :
+      a) Procédure
+      b) Politique
+      c) Charte
+      d) Vente
+
+ 7. « Voici comment créer un compte » est une :
+      a) Politique
+      b) Charte
+      c) Procédure
+      d) Loi
+
+ 8. « Je m'engage à ne pas partager » est une :
+      a) Politique
+      b) Procédure
+      c) Loi
+      d) Charte
+
+ 9. Une politique non validée est un :
+      a) Brouillon
+      b) Texte fort
+      c) Contrat
+      d) Décret
+
+10. Une politique doit être :
+      a) Cachée
+      b) Diffusée
+      c) Vendue
+      d) Détruite
+
+11. Une section type de la PSSI est :
+      a) La météo
+      b) La voirie
+      c) Le contrôle d'accès
+      d) La paie
+
+12. La clause qui exige la politique est :
+      a) 10
+      b) 9
+      c) 1
+      d) 5.2
+
+13. La PSSI est comparée à :
+      a) Une constitution
+      b) Un menu
+      c) Une facture
+      d) Une affiche
+
+14. La PSSI sert à définir :
+      a) Les prix
+      b) Les responsabilités
+      c) La météo
+      d) Le marché
+
+15. La procédure décrit :
+      a) Le quoi
+      b) La météo
+      c) Le comment
+      d) Le prix
+
+16. Après rédaction, la politique est :
+      a) Vendue
+      b) Cachée
+      c) Jetée
+      d) Validée
+
+17. La conformité, dans la PSSI, traite :
+      a) Audits et sanctions
+      b) La météo
+      c) La voirie
+      d) La paie
+
+18. Une bonne politique est :
+      a) Jargonneuse
+      b) Claire
+      c) Secrète
+      d) Vendue
+
+19. Une politique se ______ périodiquement :
+      a) Vend
+      b) Cache
+      c) Révise
+      d) Détruit
+
+20. De la PSSI découlent :
+      a) Les prix
+      b) La météo
+      c) Le marché
+      d) Les règles particulières
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. La PSSI est approuvée par la direction.
+      Vrai / Faux
+
+22. La charte engage l'utilisateur par sa signature.
+      Vrai / Faux
+
+23. Une politique non validée ni diffusée est une vraie politique.
+      Vrai / Faux
+
+24. La clause 5.2 exige une politique de sécurité.
+      Vrai / Faux
+
+25. La PSSI facilite la prise de décision.
+      Vrai / Faux
+
+26. La procédure décrit les principes, pas les étapes.
+      Vrai / Faux
+
+27. Une politique doit être révisée périodiquement.
+      Vrai / Faux
+
+28. Une politique rédigée mais jamais diffusée protège déjà la mairie.
+      Vrai / Faux
+
+29. La conformité ne fait pas partie d'une politique de sécurité.
+      Vrai / Faux
+
+30. Une politique pleine de jargon est bien appliquée.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. La PSSI est approuvée par la ______.
+
+32. La ______ engage l'utilisateur par sa signature.
+
+33. La politique est exigée par la clause ______.
+
+34. Une politique non validée n'est qu'un ______.
+
+35. La procédure décrit le ______.
+
+36. La PSSI est le texte ______ du SMSI.
+
+37. Une politique se ______ périodiquement.
+
+38. La PSSI aide à faciliter la ______.
+
+39. « Les accès sont nominatifs » est une ______.
+
+40. La ______ délimite ce que couvre la politique.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

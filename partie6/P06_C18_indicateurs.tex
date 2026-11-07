@@ -1,0 +1,228 @@
+% ============================================================================
+% Fichier  : partie6/P06_C18_indicateurs.tex
+% Titre    : Surveillance, Mesure et Indicateurs
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% ============================================================================
+% Sources : ISO/IEC 27004:2016 ; ISO/IEC 27001:2022 (clause 9.1). Fictif : Eséka.
+% ============================================================================
+
+\chapter{Surveillance, Mesure et Indicateurs}
+\label{chap:indicateurs}
+\chaptermark{Mesure et indicateurs}
+
+\epigraph{%
+    « Ce qui ne se mesure pas ne se pilote pas~;\\
+    ce qui ne se pilote pas se dégrade. »%
+}{Principe du cours}
+
+\niveauChapitre{Intermédiaire}{La partie V.}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Comprendre l'exigence de surveillance et de mesure (clause~9.1).
+    \item Distinguer indicateurs de performance et de risque.
+    \item Construire un indicateur utile (mesurable, suivi, décidable).
+    \item Bâtir un tableau de bord de sécurité pour la direction.
+    \item Relier la mesure à la décision et à l'amélioration.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Question directrice : comment savoir si le SMSI fonctionne vraiment ?}
+% ============================================================================
+
+La mairie a déployé des mesures. Fonctionnent-elles~? Sans mesure, nul ne le
+sait. Ce chapitre construit les indicateurs et le tableau de bord qui
+répondent.
+
+\medskip
+\textbf{Plan du chapitre.}
+\begin{enumerate}
+    \item L'exigence de mesure (section~\ref{sec:c18-exigence}).
+    \item Performance et risque (section~\ref{sec:c18-kpikri}).
+    \item Un bon indicateur (section~\ref{sec:c18-bon}).
+    \item Le tableau de bord (section~\ref{sec:c18-tableau}).
+    \item De la mesure à la décision (section~\ref{sec:c18-decision}).
+\end{enumerate}
+
+\separateur
+
+% ============================================================================
+\section{L'Exigence de Mesure}
+\label{sec:c18-exigence}
+% ============================================================================
+
+\begin{boxdef}
+La clause~9.1 de \norme{ISO/IEC 27001} exige de déterminer \emph{quoi}
+surveiller et mesurer, \emph{comment}, \emph{quand} et \emph{qui} analyse les
+résultats. La norme \norme{ISO/IEC 27004} en donne les lignes directrices.
+\end{boxdef}
+
+Mesurer n'est pas accumuler des chiffres~: c'est choisir les quelques
+indicateurs qui éclairent une décision. Un bon dispositif de mesure est
+sélectif.
+
+% ============================================================================
+\section{Performance et Risque}
+\label{sec:c18-kpikri}
+% ============================================================================
+
+\begin{boxdef}
+Un \termecle{indicateur de performance} (\sigle{KPI}) mesure l'efficacité d'une
+mesure (taux d'agents formés). Un \termecle{indicateur de risque} (\sigle{KRI})
+alerte sur une exposition croissante (nombre de comptes sans \sigle{MFA}).
+\end{boxdef}
+
+Les deux se complètent~: les \sigle{KPI} disent « où en est-on », les
+\sigle{KRI} disent « où le danger monte ». Un tableau de bord équilibré
+comporte les deux.
+
+% ============================================================================
+\section{Un Bon Indicateur}
+\label{sec:c18-bon}
+% ============================================================================
+
+\begin{tableaucours}{L{3.6cm}L{8.6cm}}{%
+    \tableauHeader{Qualité} &
+    \tableauHeader{Signification}
+}
+Mesurable & On peut le calculer objectivement \\
+Pertinent & Il éclaire une décision réelle \\
+Suivi & Il est relevé à intervalle régulier \\
+Doté d'une cible & On sait ce qui est bon ou mauvais \\
+Attribué & Quelqu'un en répond \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~18.1. Qualités d'un bon indicateur}\end{center}
+
+Un indicateur que personne ne regarde ou qui ne change aucune décision est à
+supprimer~: il coûte sans servir.
+
+% ============================================================================
+\section{Le Tableau de Bord}
+\label{sec:c18-tableau}
+% ============================================================================
+
+\begin{tableaucours}{L{4.6cm}L{2.2cm}L{2.2cm}L{2.0cm}}{%
+    \tableauHeader{Indicateur} &
+    \tableauHeader{Type} &
+    \tableauHeader{Cible} &
+    \tableauHeader{État}
+}
+Agents formés & KPI & 100 \% & 80 \% \\
+Sauvegardes testées & KPI & Mensuel & À jour \\
+Comptes sans MFA & KRI & 0 & 5 \\
+Incidents du mois & KRI & -- & 2 \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~18.2. Extrait du tableau de bord de la mairie}\end{center}
+
+\begin{boxmetier}{RSSI}
+\textbf{Un tableau de bord pour décider.} La RSSI présente au comité un tableau
+d'une page, lisible par un non-technicien. Chaque indicateur hors cible
+appelle une décision~: former les agents restants, activer la MFA manquante.
+Le tableau de bord n'est pas un rapport~: c'est un outil de pilotage.
+\end{boxmetier}
+
+% ============================================================================
+\section{De la Mesure à la Décision}
+\label{sec:c18-decision}
+% ============================================================================
+
+\begin{boxprocedure}
+\textbf{Constatation.} Le tableau de bord montre 5~comptes sans \sigle{MFA} et
+un taux de formation de 80~\%.
+
+\medskip
+\textbf{Analyse.} Deux écarts à la cible appellent deux décisions~: activer la
+MFA sur les cinq comptes, achever la formation des agents restants. La mesure
+débouche sur l'action~: c'est le lien entre « Check » et « Act » du
+\sigle{PDCA} (Chapitre~\ref{chap:pdca}).
+\end{boxprocedure}
+
+La mesure alimente la revue de direction et l'audit (Chapitre~\ref{chap:audit})~:
+elle fournit les preuves chiffrées que le \sigle{SMSI} fonctionne et s'améliore.
+
+\separateur
+
+\begin{boxresume}
+\textbf{Ce qu'il faut retenir de ce chapitre~:}
+\begin{itemize}
+    \item La \textbf{clause~9.1} exige de mesurer quoi, comment, quand et par
+          qui.
+    \item Les \textbf{KPI} mesurent la performance~; les \textbf{KRI} alertent
+          sur le risque.
+    \item Un \textbf{bon indicateur} est mesurable, pertinent, suivi, doté
+          d'une cible, attribué.
+    \item Le \textbf{tableau de bord} est un outil de pilotage, lisible par la
+          direction.
+    \item La \textbf{mesure débouche sur la décision} et nourrit l'audit.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle de l'élève.} Je sais~: énoncer l'exigence de la
+clause~9.1~; distinguer KPI et KRI~; reconnaître un bon indicateur~; bâtir un
+tableau de bord~; relier mesure et décision.
+\end{boxinfo}
+
+\bigskip
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~18.1. Quoi mesurer \niveaubase}]
+Que doit déterminer la clause~9.1 au sujet de la mesure~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~18.2. KPI ou KRI \niveaubase}]
+« Taux d'agents formés » et « comptes sans MFA »~: lequel est un KPI, lequel un
+KRI~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~18.3. Bon indicateur \niveaubase}]
+Citez trois qualités d'un bon indicateur.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~18.4. Indicateur inutile \niveaumoyen}]
+Pourquoi supprimer un indicateur que personne ne regarde~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~18.5. Construire un KPI \niveaumoyen}]
+Construisez un KPI pour la mesure « sauvegarde de l'état civil ».
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~18.6. Hors cible \niveaumoyen}]
+Pour chaque indicateur hors cible du tableau de bord, proposez une décision.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~18.7. Lisible \niveaumoyen}]
+Pourquoi le tableau de bord doit-il être lisible par un non-technicien~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~18.8. Check et Act \niveaumoyen}]
+Montrez que la mesure relie les étapes Check et Act du PDCA.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~18.9. Tableau de bord \niveauexpert}]
+Construisez un tableau de bord de six indicateurs pour la mairie d'Eséka (type,
+cible, responsable).
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~18.10. Note de pilotage \niveauexpert}]
+Rédigez la note mensuelle de pilotage que la RSSI présente au comité de
+sécurité.
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item ISO/IEC 27004~\cite{iso27004}~; ISO/IEC 27001, clause~9.1~\cite{iso27001}.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Mesurer soi-même ne suffit pas~: il faut un regard
+extérieur. Le Chapitre~\ref{chap:audit} traite l'audit et la certification.
+\end{boxinfo}

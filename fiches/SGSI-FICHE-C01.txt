@@ -1,0 +1,233 @@
+NDAP SUKULU · SGSI · fiche SGSI-FICHE-C01
+Chapitre 1 : Qu'est-ce que la sécurité de l'information
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. La triade DIC désigne :
+      a) Disponibilité, Intégrité, Confidentialité
+      b) Durée, Impact, Coût
+      c) Données, Index, Clé
+      d) Droit, Impôt, Contrat
+
+ 2. La disponibilité garantit que l'information est :
+      a) Secrète
+      b) Accessible à qui de droit
+      c) Vendue
+      d) Chiffrée
+
+ 3. L'intégrité garantit que l'information n'est pas :
+      a) Lue
+      b) Classée
+      c) Altérée sans autorisation
+      d) Copiée
+
+ 4. La confidentialité garantit que l'information est :
+      a) Publique
+      b) Effacée
+      c) Datée
+      d) Réservée aux autorisés
+
+ 5. L'authenticité vérifie :
+      a) L'origine de l'information
+      b) Le prix
+      c) La taille
+      d) La couleur
+
+ 6. La non-répudiation empêche de :
+      a) Lire
+      b) Nier une action
+      c) Classer
+      d) Sauvegarder
+
+ 7. La traçabilité permet de :
+      a) Vendre
+      b) Chiffrer
+      c) Retracer les actions
+      d) Supprimer
+
+ 8. Un actif informationnel est :
+      a) Un câble
+      b) Une prise
+      c) Un écran
+      d) Une information de valeur
+
+ 9. La valeur se trouve dans :
+      a) L'information
+      b) Le disque dur
+      c) La prise
+      d) L'écran
+
+10. La sécurité de l'information couvre :
+      a) Les seuls ordinateurs
+      b) Toutes les formes d'information
+      c) La voirie
+      d) La paie
+
+11. Un acte lu à voix haute relève de la sécurité :
+      a) Informatique seule
+      b) De la voirie
+      c) De l'information
+      d) Nulle
+
+12. Le 13 janvier, le critère atteint est :
+      a) Confidentialité
+      b) Authenticité
+      c) Traçabilité
+      d) Disponibilité
+
+13. Le registre d'état civil numérisé est :
+      a) Un actif majeur
+      b) Sans valeur
+      c) Un câble
+      d) Un logiciel
+
+14. « CIA » en anglais correspond à :
+      a) Trois agences
+      b) Confidentiality, Integrity, Availability
+      c) Un logiciel
+      d) Un pays
+
+15. On lit un incident par :
+      a) Son coût
+      b) La météo
+      c) Le critère atteint sur un actif
+      d) La couleur
+
+16. Un acte authentique, non répudiable et tracé a une valeur :
+      a) Nulle
+      b) Marchande
+      c) Secrète
+      d) Juridique
+
+17. Verrouiller sans copie menace la :
+      a) Disponibilité
+      b) Confidentialité
+      c) Authenticité
+      d) Traçabilité
+
+18. On protège l'information pour sa :
+      a) Taille
+      b) Valeur
+      c) Couleur
+      d) Date
+
+19. La sécurité informatique protège :
+      a) L'information orale
+      b) Les dossiers papier
+      c) Les systèmes qui la traitent
+      d) La parole
+
+20. Distinguer les critères évite de conclure trop vite à un :
+      a) Incendie
+      b) Orage
+      c) Retard
+      d) Vol de données
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. La triade DIC : disponibilité, intégrité, confidentialité.
+      Vrai / Faux
+
+22. La sécurité de l'information se limite aux ordinateurs.
+      Vrai / Faux
+
+23. La valeur d'une information est dans le disque dur.
+      Vrai / Faux
+
+24. La non-répudiation empêche de nier une action.
+      Vrai / Faux
+
+25. Le chiffrement du 13 janvier a atteint la disponibilité.
+      Vrai / Faux
+
+26. Un dossier papier peut être un actif informationnel.
+      Vrai / Faux
+
+27. Confidentialité et disponibilité ne s'arbitrent jamais.
+      Vrai / Faux
+
+28. La traçabilité permet de retracer les actions.
+      Vrai / Faux
+
+29. La sécurité de l'information englobe la sécurité informatique.
+      Vrai / Faux
+
+30. On protège un support même sans penser à l'information.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. La triade DIC : Disponibilité, Intégrité, ______.
+
+32. L'______ vérifie l'origine de l'information.
+
+33. Une information de valeur à protéger est un ______.
+
+34. Le 13 janvier, le critère atteint est la ______.
+
+35. La sécurité de l'information dépasse la sécurité ______.
+
+36. La ______ permet de retracer les actions.
+
+37. En anglais, la triade se dit ______.
+
+38. La non-______ empêche de nier une action.
+
+39. On lit un incident par le ______ atteint sur un actif.
+
+40. On protège l'information pour sa ______.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

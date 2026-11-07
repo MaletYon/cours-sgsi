@@ -1,0 +1,233 @@
+NDAP SUKULU · SGSI · fiche SGSI-FICHE-C19
+Chapitre 19 : L'audit du SMSI et la certification
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. L'audit interne est exigé par la clause :
+      a) 9.2
+      b) 5
+      c) 6
+      d) 10
+
+ 2. L'audit de certification est mené par un organisme :
+      a) Interne
+      b) Accrédité
+      c) Secret
+      d) Marchand
+
+ 3. La norme d'audit des systèmes de management est :
+      a) 27001
+      b) 27005
+      c) 19011
+      d) 22301
+
+ 4. L'auditeur procède par :
+      a) Vente
+      b) Météo
+      c) Jardin
+      d) Échantillonnage
+
+ 5. L'auditeur doit être :
+      a) Indépendant
+      b) Partie
+      c) Vendeur
+      d) Peintre
+
+ 6. Une preuve d'audit est un enregistrement :
+      a) Oral
+      b) Vérifiable
+      c) Secret
+      d) Vendu
+
+ 7. Un écart sans preuve n'est qu'un :
+      a) Fait
+      b) Profit
+      c) Avis
+      d) Jardin
+
+ 8. Une non-conformité majeure est une défaillance du :
+      a) Jardin
+      b) Marché
+      c) Climat
+      d) Système
+
+ 9. La revue de direction relève de la clause :
+      a) 9.3
+      b) 10
+      c) 5
+      d) 6
+
+10. La revue de direction transforme les constats en :
+      a) Ventes
+      b) Décisions
+      c) Météos
+      d) Jardins
+
+11. La certification initiale a combien d'étapes :
+      a) 1
+      b) 5
+      c) 2
+      d) 10
+
+12. Entre deux certifications, il y a des audits de :
+      a) Vente
+      b) Météo
+      c) Jardin
+      d) Surveillance
+
+13. Le renouvellement intervient au bout de :
+      a) 3 ans
+      b) 1 an
+      c) 10 ans
+      d) Jamais
+
+14. L'audit interne est une répétition :
+      a) Générale
+      b) Vendue
+      c) Peinte
+      d) Cachée
+
+15. L'auditeur adosse chaque constat à une :
+      a) Rumeur
+      b) Vente
+      c) Preuve
+      d) Couleur
+
+16. Une non-conformité mineure est un manquement :
+      a) Global
+      b) Vendu
+      c) Peint
+      d) Isolé
+
+17. L'auditeur cherche l'écart entre le dit et le :
+      a) Fait
+      b) Vendu
+      c) Peint
+      d) Caché
+
+18. La certification se maintient par des audits de :
+      a) Vente
+      b) Surveillance
+      c) Météo
+      d) Jardin
+
+19. Le constat sépare le fait de son :
+      a) Prix
+      b) Climat
+      c) Appréciation
+      d) Jardin
+
+20. La revue de direction examine audits, mesures et :
+      a) Ventes
+      b) Météos
+      c) Jardins
+      d) Incidents
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. L'audit interne est exigé par la clause 9.2.
+      Vrai / Faux
+
+22. L'ISO 19011 guide l'audit des systèmes de management.
+      Vrai / Faux
+
+23. Un écart sans preuve n'est qu'un avis.
+      Vrai / Faux
+
+24. L'auditeur doit être indépendant de ce qu'il audite.
+      Vrai / Faux
+
+25. La certification initiale se déroule en deux étapes.
+      Vrai / Faux
+
+26. L'audit de certification est mené par l'organisation elle-même.
+      Vrai / Faux
+
+27. L'audit de certification est mené par l'organisation elle-même.
+      Vrai / Faux
+
+28. Une non-conformité majeure est une simple remarque sans conséquence.
+      Vrai / Faux
+
+29. Une non-conformité majeure est une simple remarque sans suite.
+      Vrai / Faux
+
+30. Un constat d'audit n'a pas besoin de preuve.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. L'audit interne est exigé par la clause ______.
+
+32. La norme d'audit des systèmes de management est l'ISO ______.
+
+33. Un écart sans preuve n'est qu'un ______.
+
+34. L'auditeur doit être ______ de ce qu'il audite.
+
+35. La revue de direction relève de la clause ______.
+
+36. La certification initiale a ______ étapes.
+
+37. Le renouvellement intervient au bout de ______ ans.
+
+38. L'audit de certification est mené par un organisme ______.
+
+39. Une non-conformité majeure est une défaillance du ______.
+
+40. La revue de direction transforme les constats en ______.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

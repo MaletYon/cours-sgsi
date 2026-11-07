@@ -1,0 +1,233 @@
+NDAP SUKULU · SGSI · fiche SGSI-FICHE-C10
+Chapitre 10 : ISO/IEC 27002 et les mesures de sécurité
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. L'Annexe A liste les :
+      a) Mesures
+      b) Prix
+      c) Météos
+      d) Jardins
+
+ 2. La 27002 guide la mise en œuvre des :
+      a) Ventes
+      b) Mesures
+      c) Couleurs
+      d) Climats
+
+ 3. La version 2022 compte combien de thèmes :
+      a) 2
+      b) 6
+      c) 4
+      d) 8
+
+ 4. Un thème de mesures est :
+      a) La vente
+      b) La météo
+      c) Le jardin
+      d) L'organisationnel
+
+ 5. Le thème des personnes compte des mesures de :
+      a) Sensibilisation
+      b) Vente
+      c) Météo
+      d) Voirie
+
+ 6. Le thème technologique inclut le :
+      a) Jardin
+      b) Chiffrement
+      c) Marché
+      d) Climat
+
+ 7. La 27002:2022 compte environ combien de mesures :
+      a) 12
+      b) 500
+      c) 93
+      d) 40
+
+ 8. Chaque mesure a un :
+      a) Prix
+      b) Climat
+      c) Jardin
+      d) Objectif
+
+ 9. On retient une mesure que si le risque la :
+      a) Justifie
+      b) Vend
+      c) Cache
+      d) Peint
+
+10. Une mesure sans risque est un :
+      a) Gain
+      b) Écart
+      c) Profit
+      d) Loisir
+
+11. Un risque sans mesure est un :
+      a) Gain
+      b) Profit
+      c) Écart
+      d) Loisir
+
+12. La déclaration d'applicabilité relie risques et :
+      a) Ventes
+      b) Météos
+      c) Jardins
+      d) Mesures
+
+13. La DdA justifie l'inclusion et l' :
+      a) Exclusion
+      b) Achat
+      c) Climat
+      d) Jardin
+
+14. Le thème physique traite les :
+      a) Ventes
+      b) Locaux
+      c) Météos
+      d) Marchés
+
+15. On applique une mesure pour son :
+      a) Prix
+      b) Climat
+      c) Objectif
+      d) Jardin
+
+16. L'Annexe A fournit une liste de :
+      a) Prix
+      b) Météo
+      c) Jardin
+      d) Contrôle
+
+17. Le thème organisationnel inclut les :
+      a) Politiques
+      b) Jardins
+      c) Climats
+      d) Marchés
+
+18. Les 93 mesures se répartissent en :
+      a) 2 thèmes
+      b) 4 thèmes
+      c) 6 thèmes
+      d) 8 thèmes
+
+19. La norme interdit d'appliquer l'Annexe A :
+      a) En bloc
+      b) Jamais
+      c) Partout
+      d) Vite
+
+20. La DdA indique l'état de mise en :
+      a) Vente
+      b) Météo
+      c) Jardin
+      d) Œuvre
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. L'Annexe A liste les mesures, la 27002 guide leur mise en œuvre.
+      Vrai / Faux
+
+22. La version 2022 compte quatre thèmes de mesures.
+      Vrai / Faux
+
+23. On applique toutes les mesures de l'Annexe A sans exception.
+      Vrai / Faux
+
+24. La 27002:2022 compte 93 mesures.
+      Vrai / Faux
+
+25. Chaque mesure a un objectif.
+      Vrai / Faux
+
+26. La déclaration d'applicabilité relie risques et mesures.
+      Vrai / Faux
+
+27. Une mesure se retient parce qu'elle figure dans l'Annexe A.
+      Vrai / Faux
+
+28. Toutes les mesures de l'Annexe A doivent être appliquées en bloc.
+      Vrai / Faux
+
+29. La version 2022 de l'ISO/IEC 27002 compte huit thèmes de mesures.
+      Vrai / Faux
+
+30. Une mesure de sécurité n'a pas d'objectif particulier.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. L'______ A liste les mesures de sécurité.
+
+32. La version 2022 compte ______ thèmes de mesures.
+
+33. La 27002:2022 compte ______ mesures.
+
+34. Chaque mesure a un ______.
+
+35. On retient une mesure si le ______ la justifie.
+
+36. La déclaration d'______ relie risques et mesures.
+
+37. La sensibilisation relève du thème des ______.
+
+38. Le chiffrement relève du thème ______.
+
+39. Une mesure sans risque est un ______.
+
+40. La 27002 guide la mise en ______ des mesures.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

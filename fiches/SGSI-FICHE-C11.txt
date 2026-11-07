@@ -1,0 +1,233 @@
+NDAP SUKULU · SGSI · fiche SGSI-FICHE-C11
+Chapitre 11 : Concepts et vocabulaire du risque
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. Un actif est un élément de :
+      a) Valeur
+      b) Vente
+      c) Météo
+      d) Jardin
+
+ 2. Une menace est une cause d' :
+      a) Gain
+      b) Incident
+      c) Profit
+      d) Loisir
+
+ 3. Une vulnérabilité est une :
+      a) Force
+      b) Vente
+      c) Faiblesse
+      d) Couleur
+
+ 4. L'impact est la :
+      a) Cause
+      b) Vente
+      c) Couleur
+      d) Conséquence
+
+ 5. La probabilité est la chance qu'un incident :
+      a) Se produise
+      b) Se vende
+      c) Se cache
+      d) Se peigne
+
+ 6. Le risque croît avec la probabilité et l' :
+      a) Odeur
+      b) Impact
+      c) Couleur
+      d) Saison
+
+ 7. Un impact nul rend le risque :
+      a) Maximal
+      b) Secret
+      c) Nul
+      d) Cher
+
+ 8. Le risque avant mesure est le risque :
+      a) Résiduel
+      b) Vendu
+      c) Caché
+      d) Inhérent
+
+ 9. Le risque après traitement est le risque :
+      a) Résiduel
+      b) Inhérent
+      c) Vendu
+      d) Caché
+
+10. Le risque résiduel est :
+      a) Toujours nul
+      b) Jamais nul
+      c) Vendu
+      d) Caché
+
+11. L'appétence au risque est le niveau :
+      a) Vendu
+      b) Caché
+      c) Accepté
+      d) Peint
+
+12. L'appétence est décidée par :
+      a) L'agent
+      b) La météo
+      c) Un tiers
+      d) La direction
+
+13. Une menace exploite une :
+      a) Vulnérabilité
+      b) Vente
+      c) Couleur
+      d) Saison
+
+14. « Risque = Probabilité × ______ » :
+      a) Prix
+      b) Impact
+      c) Météo
+      d) Jardin
+
+15. On accepte le risque résiduel :
+      a) En secret
+      b) En vendant
+      c) Explicitement
+      d) Jamais
+
+16. Supprimer un maillon du risque, c'est le :
+      a) Vendre
+      b) Cacher
+      c) Peindre
+      d) Réduire
+
+17. Pour l'état civil, l'appétence est :
+      a) Faible
+      b) Élevée
+      c) Nulle
+      d) Vendue
+
+18. La formule du risque est une grille de :
+      a) Vente
+      b) Raisonnement
+      c) Météo
+      d) Jardin
+
+19. « Risque = P × I » donne un classement :
+      a) Scientifique exact
+      b) Secret
+      c) Défendable
+      d) Vendu
+
+20. Le risque combine probabilité et :
+      a) Vente
+      b) Météo
+      c) Jardin
+      d) Impact
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. Une vulnérabilité est une faiblesse exploitable par une menace.
+      Vrai / Faux
+
+22. Un impact nul annule le risque.
+      Vrai / Faux
+
+23. Le risque résiduel est toujours nul après traitement.
+      Vrai / Faux
+
+24. L'appétence au risque est une décision de gouvernance.
+      Vrai / Faux
+
+25. Un actif est un élément de valeur à protéger.
+      Vrai / Faux
+
+26. Le risque inhérent est le risque avant toute mesure.
+      Vrai / Faux
+
+27. Après traitement, le risque résiduel devient toujours nul.
+      Vrai / Faux
+
+28. La formule du risque donne un nombre scientifique exact.
+      Vrai / Faux
+
+29. La formule Risque = P × I fournit une valeur scientifique exacte.
+      Vrai / Faux
+
+30. L'appétence au risque est une décision purement technique.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. Une ______ est une faiblesse exploitable par une menace.
+
+32. Un impact nul rend le risque ______.
+
+33. Le risque avant toute mesure est le risque ______.
+
+34. Le risque après traitement est le risque ______.
+
+35. L'______ au risque est le niveau accepté.
+
+36. Un ______ est un élément de valeur à protéger.
+
+37. Une ______ est une cause potentielle d'incident.
+
+38. Le risque résiduel n'est jamais ______.
+
+39. Risque = Probabilité × ______.
+
+40. L'appétence au risque est décidée par la ______.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

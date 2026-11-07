@@ -1,0 +1,233 @@
+NDAP SUKULU · SGSI · fiche SGSI-FICHE-C18
+Chapitre 18 : Surveillance, mesure et indicateurs
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. L'exigence de mesure est la clause :
+      a) 9.1
+      b) 5
+      c) 6
+      d) 10
+
+ 2. Mesurer, c'est choisir des indicateurs qui éclairent une :
+      a) Vente
+      b) Décision
+      c) Météo
+      d) Voirie
+
+ 3. Un KPI mesure la :
+      a) Vente
+      b) Météo
+      c) Performance
+      d) Voirie
+
+ 4. Un KRI alerte sur le :
+      a) Prix
+      b) Climat
+      c) Jardin
+      d) Risque
+
+ 5. Un bon indicateur est :
+      a) Mesurable
+      b) Flou
+      c) Secret
+      d) Vendu
+
+ 6. Un bon indicateur a une :
+      a) Couleur
+      b) Cible
+      c) Odeur
+      d) Saison
+
+ 7. Un indicateur que nul ne regarde est à :
+      a) Vendre
+      b) Peindre
+      c) Supprimer
+      d) Cacher
+
+ 8. Le tableau de bord est un outil de :
+      a) Vente
+      b) Météo
+      c) Voirie
+      d) Pilotage
+
+ 9. Le tableau de bord doit être lisible par un :
+      a) Non-technicien
+      b) Expert seul
+      c) Robot
+      d) Jardin
+
+10. Un indicateur hors cible appelle une :
+      a) Vente
+      b) Décision
+      c) Météo
+      d) Couleur
+
+11. La mesure relie les étapes Check et :
+      a) Plan
+      b) Do
+      c) Act
+      d) Vente
+
+12. « Comptes sans MFA » est un :
+      a) KPI
+      b) Prix
+      c) Jardin
+      d) KRI
+
+13. « Agents formés » est un :
+      a) KPI
+      b) KRI
+      c) Prix
+      d) Jardin
+
+14. Un indicateur doit être :
+      a) Oublié
+      b) Suivi
+      c) Vendu
+      d) Caché
+
+15. Le tableau de bord nourrit la revue de :
+      a) Vente
+      b) Météo
+      c) Direction
+      d) Voirie
+
+16. La norme des indicateurs est l'ISO/IEC :
+      a) 27001
+      b) 27005
+      c) 27000
+      d) 27004
+
+17. Un bon indicateur est :
+      a) Attribué
+      b) Anonyme
+      c) Vendu
+      d) Caché
+
+18. La mesure fournit des preuves :
+      a) Orales
+      b) Chiffrées
+      c) Secrètes
+      d) Vendues
+
+19. KPI et KRI sont :
+      a) Identiques
+      b) Inutiles
+      c) Complémentaires
+      d) Secrets
+
+20. Un bon tableau de bord tient sur :
+      a) Dix pages
+      b) Cent pages
+      c) La météo
+      d) Une page
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. L'exigence de surveillance et de mesure est la clause 9.1.
+      Vrai / Faux
+
+22. Un KPI mesure la performance, un KRI alerte sur le risque.
+      Vrai / Faux
+
+23. Un indicateur que personne ne regarde est à supprimer.
+      Vrai / Faux
+
+24. Le tableau de bord est un outil de pilotage.
+      Vrai / Faux
+
+25. Un indicateur hors cible appelle une décision.
+      Vrai / Faux
+
+26. Le tableau de bord ne doit être lisible que par des experts.
+      Vrai / Faux
+
+27. Le tableau de bord ne doit être lisible que par des experts techniques.
+      Vrai / Faux
+
+28. « Comptes sans MFA » est un indicateur de performance (KPI).
+      Vrai / Faux
+
+29. « Comptes sans MFA » est un KPI de performance.
+      Vrai / Faux
+
+30. Un indicateur que personne ne regarde doit être conservé.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. L'exigence de mesure est la clause ______.
+
+32. Un ______ mesure la performance.
+
+33. Un ______ alerte sur le risque.
+
+34. Un indicateur que nul ne regarde est à ______.
+
+35. Le tableau de bord est un outil de ______.
+
+36. Un indicateur hors cible appelle une ______.
+
+37. La mesure relie les étapes Check et ______.
+
+38. La norme des indicateurs est l'ISO/IEC ______.
+
+39. Un bon indicateur a une ______.
+
+40. Le tableau de bord doit être lisible par un ______.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

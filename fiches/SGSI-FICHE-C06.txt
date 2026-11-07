@@ -1,0 +1,233 @@
+NDAP SUKULU · SGSI · fiche SGSI-FICHE-C06
+Chapitre 6 : Chartes, conformité et protection des données
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. La charte informatique engage l'agent par sa :
+      a) Signature
+      b) Lecture
+      c) Photo
+      d) Voix
+
+ 2. Un principe de protection des données est la :
+      a) Vente
+      b) Minimisation
+      c) Météo
+      d) Couleur
+
+ 3. La finalité impose un but :
+      a) Flou
+      b) Secret
+      c) Déterminé
+      d) Marchand
+
+ 4. La conservation doit être :
+      a) Infinie
+      b) Cachée
+      c) Vendue
+      d) Limitée
+
+ 5. La loi camerounaise sur les données est :
+      a) 2024/017
+      b) 2010/012
+      c) 2010/013
+      d) Malabo
+
+ 6. La convention africaine est celle de :
+      a) Budapest
+      b) Malabo
+      c) Genève
+      d) Paris
+
+ 7. Le DPO veille à la :
+      a) Vente
+      b) Météo
+      c) Conformité des données
+      d) Voirie
+
+ 8. Le DPO tient le registre des :
+      a) Ventes
+      b) Véhicules
+      c) Agents
+      d) Traitements
+
+ 9. La sécurité part du :
+      a) Risque
+      b) Prix
+      c) Marché
+      d) Climat
+
+10. La conformité part de :
+      a) L'humeur
+      b) L'obligation
+      c) La vente
+      d) La météo
+
+11. La charte précise droits, devoirs et :
+      a) Prix
+      b) Météo
+      c) Sanctions
+      d) Couleurs
+
+12. La licéité exige une base :
+      a) Marchande
+      b) Secrète
+      c) Météo
+      d) Légale
+
+13. Le fichier des contribuables gardé sans fin viole :
+      a) La conservation limitée
+      b) La vente
+      c) La météo
+      d) La voirie
+
+14. La loi 2024/017 fait de la sécurité des données une :
+      a) Option
+      b) Obligation
+      c) Vente
+      d) Météo
+
+15. À Eséka, le rôle de DPO est confié à :
+      a) La presse
+      b) Un touriste
+      c) Un conseil extérieur
+      d) Un concurrent
+
+16. On peut être sécurisé et non :
+      a) Chiffré
+      b) Payé
+      c) Ouvert
+      d) Conforme
+
+17. La minimisation limite les données au :
+      a) Nécessaire
+      b) Maximum
+      c) Hasard
+      d) Marché
+
+18. La mairie est responsable de :
+      a) La météo
+      b) Ses traitements
+      c) La voirie
+      d) La bourse
+
+19. Un agent qui a signé ne peut plaider :
+      a) La fatigue
+      b) Le froid
+      c) L'ignorance
+      d) Le bruit
+
+20. La responsabilité impose de :
+      a) Vendre
+      b) Cacher
+      c) Nuire
+      d) Démontrer la conformité
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. La charte informatique engage l'agent par sa signature.
+      Vrai / Faux
+
+22. La loi 2024/017 régit la protection des données au Cameroun.
+      Vrai / Faux
+
+23. Sécurité et conformité se confondent totalement.
+      Vrai / Faux
+
+24. Le DPO veille à la conformité des traitements.
+      Vrai / Faux
+
+25. La conservation des données doit être limitée.
+      Vrai / Faux
+
+26. La Convention de Malabo porte sur la cybersécurité et les données.
+      Vrai / Faux
+
+27. Conserver un fichier sans fin respecte la minimisation.
+      Vrai / Faux
+
+28. La conformité se mesure uniquement au niveau de risque.
+      Vrai / Faux
+
+29. La minimisation autorise à collecter le plus de données possible.
+      Vrai / Faux
+
+30. Un agent non informé peut toujours plaider l'ignorance malgré sa signature.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. La charte informatique engage l'agent par sa ______.
+
+32. La loi camerounaise sur les données est la ______.
+
+33. La convention africaine sur les données est celle de ______.
+
+34. Le ______ veille à la conformité des traitements.
+
+35. Les données doivent être limitées au ______.
+
+36. La sécurité part du risque, la conformité de l'______.
+
+37. La ______ exige une base légale pour chaque traitement.
+
+38. La mairie est responsable de ses ______.
+
+39. La conservation des données doit être ______.
+
+40. Un agent qui a signé ne peut plaider l'______.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

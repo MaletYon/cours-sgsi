@@ -1,0 +1,219 @@
+% ============================================================================
+% Fichier  : partie3/P03_C10_iso27002.tex
+% Titre    : ISO/IEC 27002 et les Mesures de Sécurité
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% ============================================================================
+% Sources : ISO/IEC 27002:2022 ; ISO/IEC 27001:2022, Annexe A. Fictif : Eséka.
+% ============================================================================
+
+\chapter{ISO/IEC 27002 et les Mesures de Sécurité}
+\label{chap:iso27002}
+\chaptermark{ISO 27002 et l'Annexe A}
+
+\epigraph{%
+    « Les mesures ne se choisissent pas dans un catalogue par goût~:\\
+    elles se justifient par le risque. »%
+}{Principe du cours}
+
+\niveauChapitre{Intermédiaire}{Le Chapitre~\ref{chap:iso27000}.}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Situer \norme{ISO/IEC 27002} et l'Annexe~A de la 27001.
+    \item Énoncer les quatre thèmes de mesures de la version 2022.
+    \item Comprendre la structure d'une mesure (attributs, objectif).
+    \item Relier mesures et appréciation des risques.
+    \item Introduire la déclaration d'applicabilité.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Question directrice : parmi toutes les mesures possibles, lesquelles retenir ?}
+% ============================================================================
+
+La 27002 décrit des dizaines de mesures. La mairie ne les appliquera pas
+toutes~: elle retiendra celles que son risque justifie. Ce chapitre présente le
+catalogue et prépare le choix.
+
+\medskip
+\textbf{Plan du chapitre.}
+\begin{enumerate}
+    \item 27002 et Annexe~A (section~\ref{sec:c10-annexea}).
+    \item Les quatre thèmes (section~\ref{sec:c10-themes}).
+    \item Structure d'une mesure (section~\ref{sec:c10-structure}).
+    \item Mesures et risques (section~\ref{sec:c10-risques}).
+    \item Vers la déclaration d'applicabilité (section~\ref{sec:c10-soa}).
+\end{enumerate}
+
+\separateur
+
+% ============================================================================
+\section{27002 et Annexe A}
+\label{sec:c10-annexea}
+% ============================================================================
+
+\begin{boxdef}
+L'\termecle{Annexe~A} de \norme{ISO/IEC 27001} liste les mesures de sécurité de
+référence. La norme \norme{ISO/IEC 27002} en donne le \termecle{guide de mise
+en \oe uvre}~: pour chaque mesure, son objectif et des conseils d'application.
+\end{boxdef}
+
+L'Annexe~A fournit la liste de contrôle~; la 27002 explique comment faire. La
+version 2022 réorganise les mesures en quatre thèmes et introduit des
+\termecle{attributs} (type de mesure, propriété de sécurité, fonction).
+
+% ============================================================================
+\section{Les Quatre Thèmes}
+\label{sec:c10-themes}
+% ============================================================================
+
+\begin{tableaucours}{L{3.4cm}L{2.0cm}L{6.6cm}}{%
+    \tableauHeader{Thème} &
+    \tableauHeader{Nombre} &
+    \tableauHeader{Exemples}
+}
+Organisationnelles & 37 & Politiques, rôles, fournisseurs, incidents \\
+Liées aux personnes & 8 & Sensibilisation, filtrage, télétravail \\
+Physiques & 14 & Accès aux locaux, supports, équipements \\
+Technologiques & 34 & Accès, chiffrement, journalisation, sauvegarde \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~10.1. Les quatre thèmes de l'ISO/IEC 27002:2022}\end{center}
+
+Au total, 93~mesures. Les parties V du cours détaillent les mesures
+organisationnelles et humaines (Chapitre~\ref{chap:orga}), techniques
+(Chapitre~\ref{chap:technique}) et de continuité (Chapitre~\ref{chap:continuite}).
+
+% ============================================================================
+\section{Structure d'une Mesure}
+\label{sec:c10-structure}
+% ============================================================================
+
+\begin{boxprocedure}
+\textbf{Constatation.} La mesure « sauvegarde de l'information » (27002) a pour
+objectif de garantir la \emph{disponibilité}~; ses attributs la classent en
+mesure préventive et corrective.
+
+\medskip
+\textbf{Analyse.} Chaque mesure a un objectif (ce qu'elle protège) et un guide
+(comment l'appliquer). À la mairie, cette mesure impose une règle de
+sauvegarde quotidienne et un test de restauration (Chapitre~\ref{chap:continuite}).
+\end{boxprocedure}
+
+Comprendre la structure évite l'application mécanique~: on applique une mesure
+pour son \emph{objectif}, pas pour cocher une case.
+
+% ============================================================================
+\section{Mesures et Risques}
+\label{sec:c10-risques}
+% ============================================================================
+
+La norme est claire~: on ne retient pas une mesure parce qu'elle figure dans
+l'Annexe~A, mais parce que l'\termecle{appréciation des risques} (partie IV) la
+justifie. Les mesures sont la réponse au risque, pas une liste à appliquer en
+bloc.
+
+\begin{boxmetier}{Auditeur SMSI}
+\textbf{La traçabilité risque-mesure.} L'auditeur vérifie que chaque mesure
+retenue répond à un risque identifié, et que chaque risque significatif reçoit
+une mesure. Une mesure sans risque et un risque sans mesure sont deux écarts.
+\end{boxmetier}
+
+% ============================================================================
+\section{Vers la Déclaration d'Applicabilité}
+\label{sec:c10-soa}
+% ============================================================================
+
+\begin{boxdef}
+La \termecle{déclaration d'applicabilité} (\sigle{DdA}, \emph{Statement of
+Applicability})~: document qui, pour chaque mesure de l'Annexe~A, indique si
+elle est retenue, sa justification, et son état de mise en \oe uvre.
+\end{boxdef}
+
+La \sigle{DdA} est la pièce maîtresse qui relie les risques aux mesures. Elle
+est détaillée au Chapitre~\ref{chap:dda}, après l'étude des risques. Retenir
+ou écarter une mesure s'y justifie explicitement.
+
+\separateur
+
+\begin{boxresume}
+\textbf{Ce qu'il faut retenir de ce chapitre~:}
+\begin{itemize}
+    \item L'\textbf{Annexe~A} liste les mesures~; la \textbf{27002} guide leur
+          mise en \oe uvre.
+    \item La version 2022 compte \textbf{93 mesures} en quatre thèmes.
+    \item Chaque mesure a un \textbf{objectif}~; on l'applique pour cet
+          objectif.
+    \item Les mesures se justifient par le \textbf{risque}, non par le
+          catalogue.
+    \item La \textbf{déclaration d'applicabilité} relie risques et mesures.
+    \end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle de l'élève.} Je sais~: distinguer Annexe~A et
+27002~; citer les quatre thèmes~; décrire la structure d'une mesure~; relier
+mesure et risque~; définir la \sigle{DdA}.
+\end{boxinfo}
+
+\bigskip
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~10.1. Annexe A ou 27002 \niveaubase}]
+Laquelle liste les mesures, laquelle en guide la mise en \oe uvre~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~10.2. Les quatre thèmes \niveaubase}]
+Citez les quatre thèmes de mesures et un exemple pour chacun.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~10.3. Objectif d'une mesure \niveaubase}]
+Quel est l'objectif de la mesure « sauvegarde de l'information »~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~10.4. Mesure et risque \niveaumoyen}]
+Pourquoi n'applique-t-on pas toutes les mesures de l'Annexe~A~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~10.5. Classer des mesures \niveaumoyen}]
+Classez par thème~: chiffrement, sensibilisation, contrôle d'accès aux locaux,
+gestion des fournisseurs.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~10.6. Deux écarts \niveaumoyen}]
+Qu'est-ce qu'une « mesure sans risque » et un « risque sans mesure »~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~10.7. Mesures pour la mairie \niveaumoyen}]
+Citez trois mesures de l'Annexe~A particulièrement utiles à la mairie d'Eséka.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~10.8. Rôle de la DdA \niveaumoyen}]
+À quoi sert la déclaration d'applicabilité~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~10.9. Fiche de mesure \niveauexpert}]
+Rédigez une fiche de mesure pour « contrôle d'accès » (objectif, mise en
+\oe uvre à la mairie, preuve attendue).
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~10.10. Extrait de DdA \niveauexpert}]
+Rédigez un extrait de \sigle{DdA} pour cinq mesures (retenue~? justification~?
+état~?).
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item ISO/IEC 27002~\cite{iso27002}~; ISO/IEC 27001, Annexe~A~\cite{iso27001}.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Choisir des mesures suppose de connaître ses risques~: la
+partie IV s'ouvre au Chapitre~\ref{chap:vocabrisque} sur le vocabulaire du
+risque.
+\end{boxinfo}

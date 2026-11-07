@@ -1,0 +1,233 @@
+% ============================================================================
+% Fichier  : partie4/P04_C13_cartographie_traitement.tex
+% Titre    : Cartographie et Traitement des Risques
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% ============================================================================
+% Sources : ISO/IEC 27005:2022 ; ISO 31000:2018. Mairie d'Eséka : cas fictif.
+% ============================================================================
+
+\chapter{Cartographie et Traitement des Risques}
+\label{chap:traitement}
+\chaptermark{Cartographie et traitement}
+
+\epigraph{%
+    « Cartographier, c'est transformer une inquiétude diffuse\\
+    en une liste de décisions à prendre. »%
+}{Principe du cours}
+
+\niveauChapitre{Intermédiaire}{Les Chapitres~\ref{chap:vocabrisque} et~\ref{chap:methodes}.}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Construire et lire une matrice des risques.
+    \item Hiérarchiser les risques par niveau.
+    \item Énoncer les quatre stratégies de traitement.
+    \item Choisir une stratégie selon le risque et le coût.
+    \item Formaliser le risque résiduel et son acceptation.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Question directrice : une fois les risques connus, que décide-t-on ?}
+% ============================================================================
+
+Connaître ses risques ne sert à rien si l'on n'en fait rien. Ce chapitre
+transforme la liste des risques en décisions~: les classer, puis, pour chacun,
+choisir un traitement.
+
+\medskip
+\textbf{Plan du chapitre.}
+\begin{enumerate}
+    \item La matrice des risques (section~\ref{sec:c13-matrice}).
+    \item Hiérarchiser (section~\ref{sec:c13-hierarchie}).
+    \item Les quatre stratégies (section~\ref{sec:c13-strategies}).
+    \item Choisir un traitement (section~\ref{sec:c13-choisir}).
+    \item Le risque résiduel (section~\ref{sec:c13-residuel}).
+\end{enumerate}
+
+\separateur
+
+% ============================================================================
+\section{La Matrice des Risques}
+\label{sec:c13-matrice}
+% ============================================================================
+
+\begin{boxdef}
+La \termecle{matrice des risques} croise la \emph{probabilité} et l'\emph{impact}
+pour situer chaque risque dans une grille et en déduire un niveau.
+\end{boxdef}
+
+\begin{tableaucours}{L{2.4cm}L{2.0cm}L{2.0cm}L{2.0cm}L{2.0cm}}{%
+    \tableauHeader{Impact / Prob.} &
+    \tableauHeader{Faible} &
+    \tableauHeader{Moyenne} &
+    \tableauHeader{Élevée} &
+    \tableauHeader{Très él.}
+}
+Mineur & Faible & Faible & Moyen & Moyen \\
+Modéré & Faible & Moyen & Moyen & Élevé \\
+Majeur & Moyen & Moyen & Élevé & Très él. \\
+Critique & Moyen & Élevé & Très él. & Très él. \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~13.1. Matrice probabilité $\times$ impact}\end{center}
+
+% ============================================================================
+\section{Hiérarchiser}
+\label{sec:c13-hierarchie}
+% ============================================================================
+
+La matrice hiérarchise~: on traite d'abord les risques « très élevés » et
+« élevés », on surveille les « moyens », on documente l'acceptation des
+« faibles ». Cette hiérarchie fonde le \termecle{plan de traitement}~: on ne
+peut pas tout traiter en même temps, donc on priorise.
+
+\begin{boxprocedure}
+\textbf{Constatation.} À Eséka, le risque « perte de l'état civil » est très
+élevé~; le risque « défiguration du site web » est moyen.
+
+\medskip
+\textbf{Analyse.} La priorité va à l'état civil~: impact critique, probabilité
+démontrée. Le site web, moins critique, sera traité ensuite. Hiérarchiser,
+c'est choisir où mettre ses moyens limités.
+\end{boxprocedure}
+
+% ============================================================================
+\section{Les Quatre Stratégies}
+\label{sec:c13-strategies}
+% ============================================================================
+
+\begin{boxdef}
+Pour chaque risque, quatre \termecle{stratégies de traitement}~:
+\begin{itemize}
+    \item \termecle{Éviter}~: supprimer la cause (renoncer à l'activité
+          risquée).
+    \item \termecle{Réduire}~: diminuer la probabilité ou l'impact par des
+          mesures.
+    \item \termecle{Transférer}~: reporter le risque (assurance,
+          sous-traitance).
+    \item \termecle{Accepter}~: assumer le risque résiduel en connaissance de
+          cause.
+\end{itemize}
+\end{boxdef}
+
+% ============================================================================
+\section{Choisir un Traitement}
+\label{sec:c13-choisir}
+% ============================================================================
+
+\begin{tableaucours}{L{4.2cm}L{3.0cm}L{4.4cm}}{%
+    \tableauHeader{Risque} &
+    \tableauHeader{Stratégie} &
+    \tableauHeader{Mesure}
+}
+Perte de l'état civil & Réduire & Sauvegarde 3-2-1, test de restauration \\
+Fuite du fichier taxes & Réduire & Chiffrement, accès nominatif \\
+Panne électrique & Transférer & Contrat de maintenance, onduleur loué \\
+Site web décoratif & Accepter & Risque résiduel faible, documenté \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~13.2. Choix de traitement à la mairie}\end{center}
+
+Le choix met en balance le \emph{coût} du traitement et le \emph{gain} de
+réduction du risque~: réduire un risque faible à grands frais est un mauvais
+arbitrage.
+
+\begin{boxmetier}{Direction générale}
+\textbf{Accepter est une décision, pas un oubli.} Accepter un risque est
+légitime, à condition que ce soit explicite, documenté et décidé par la
+direction. Un risque « accepté » par simple inaction n'est pas accepté~: il est
+ignoré.
+\end{boxmetier}
+
+% ============================================================================
+\section{Le Risque Résiduel}
+\label{sec:c13-residuel}
+% ============================================================================
+
+Après traitement, il reste un \termecle{risque résiduel}. La norme exige que la
+direction l'\termecle{accepte formellement} (Chapitre~\ref{chap:dda}). Cette
+acceptation est tracée~: c'est la direction qui porte, en connaissance de
+cause, ce qui n'a pas été éliminé.
+
+\separateur
+
+\begin{boxresume}
+\textbf{Ce qu'il faut retenir de ce chapitre~:}
+\begin{itemize}
+    \item La \textbf{matrice} situe chaque risque et en déduit un niveau.
+    \item On \textbf{hiérarchise} pour traiter d'abord les risques les plus
+          forts.
+    \item Quatre \textbf{stratégies}~: éviter, réduire, transférer, accepter.
+    \item On \textbf{choisit} en pesant coût et gain.
+    \item Le \textbf{risque résiduel} est accepté formellement par la
+          direction.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle de l'élève.} Je sais~: lire une matrice des
+risques~; hiérarchiser~; énoncer les quatre stratégies~; choisir un
+traitement~; expliquer l'acceptation du risque résiduel.
+\end{boxinfo}
+
+\bigskip
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~13.1. Lire la matrice \niveaubase}]
+Un risque de probabilité élevée et d'impact critique~: quel niveau~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~13.2. Les stratégies \niveaubase}]
+Citez les quatre stratégies de traitement du risque.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~13.3. Hiérarchiser \niveaubase}]
+Entre un risque « très élevé » et un « moyen », lequel traite-t-on d'abord~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~13.4. Associer \niveaumoyen}]
+Associez une stratégie à chacun~: perte de l'état civil~; panne électrique~;
+site web décoratif.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~13.5. Coût-gain \niveaumoyen}]
+Pourquoi réduire un risque faible à grands frais est-il un mauvais arbitrage~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~13.6. Transférer \niveaumoyen}]
+Donnez un exemple de risque que la mairie peut transférer, et comment.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~13.7. Accepter ou ignorer \niveaumoyen}]
+Quelle différence entre un risque accepté et un risque ignoré~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~13.8. Résiduel \niveaumoyen}]
+Qui accepte le risque résiduel, et pourquoi doit-ce être tracé~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~13.9. Cartographie \niveauexpert}]
+Dressez la cartographie de cinq risques de la mairie dans la matrice, avec leur
+niveau.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~13.10. Plan de traitement \niveauexpert}]
+Construisez un plan de traitement pour ces cinq risques (stratégie, mesure,
+responsable, échéance).
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item ISO/IEC 27005~\cite{iso27005}~; ISO 31000~\cite{iso31000}.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Le plan de traitement se formalise dans un document
+central~: le Chapitre~\ref{chap:dda} présente la déclaration d'applicabilité.
+\end{boxinfo}

@@ -1,0 +1,223 @@
+% ============================================================================
+% Fichier  : partie4/P04_C14_declaration_applicabilite.tex
+% Titre    : La Déclaration d'Applicabilité et le Plan de Traitement
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% ============================================================================
+% Sources : ISO/IEC 27001:2022 (clause 6.1.3) ; ISO/IEC 27005. Fictif : Eséka.
+% ============================================================================
+
+\chapter{La Déclaration d'Applicabilité et le Plan de Traitement}
+\label{chap:dda}
+\chaptermark{La déclaration d'applicabilité}
+
+\epigraph{%
+    « La déclaration d'applicabilité est la carte d'identité du SMSI~:\\
+    elle dit ce qu'on fait, ce qu'on ne fait pas, et pourquoi. »%
+}{Principe du cours}
+
+\niveauChapitre{Intermédiaire}{Le Chapitre~\ref{chap:traitement}.}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Définir la déclaration d'applicabilité (\sigle{DdA}) et son rôle.
+    \item Construire une \sigle{DdA} à partir des risques et de l'Annexe~A.
+    \item Distinguer \sigle{DdA} et plan de traitement des risques.
+    \item Justifier l'inclusion et l'exclusion d'une mesure.
+    \item Faire acter le risque résiduel par la direction.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Question directrice : comment prouver que les mesures retenues sont les bonnes ?}
+% ============================================================================
+
+L'auditeur ne croit pas sur parole~: il demande à voir le lien entre risques et
+mesures. La déclaration d'applicabilité est le document qui établit ce lien.
+Ce chapitre la construit.
+
+\medskip
+\textbf{Plan du chapitre.}
+\begin{enumerate}
+    \item Rôle de la DdA (section~\ref{sec:c14-role}).
+    \item Construire la DdA (section~\ref{sec:c14-construire}).
+    \item DdA et plan de traitement (section~\ref{sec:c14-plan}).
+    \item Inclure, exclure (section~\ref{sec:c14-justifier}).
+    \item Acter le risque résiduel (section~\ref{sec:c14-acter}).
+\end{enumerate}
+
+\separateur
+
+% ============================================================================
+\section{Rôle de la DdA}
+\label{sec:c14-role}
+% ============================================================================
+
+\begin{boxdef}
+La \termecle{déclaration d'applicabilité} (\sigle{DdA})~: document exigé par la
+clause~6.1.3 de \norme{ISO/IEC 27001} qui, pour chaque mesure de l'Annexe~A,
+indique si elle est \emph{retenue}, sa \emph{justification} (inclusion ou
+exclusion) et son \emph{état} de mise en \oe uvre.
+\end{boxdef}
+
+La \sigle{DdA} est le document que tout auditeur demande en premier~: elle
+résume le \sigle{SMSI} en une page de synthèse et une grille. Elle fait le pont
+entre la partie IV (risques) et la partie V (mesures).
+
+% ============================================================================
+\section{Construire la DdA}
+\label{sec:c14-construire}
+% ============================================================================
+
+\begin{tableaucours}{L{3.4cm}L{1.6cm}L{3.2cm}L{3.0cm}}{%
+    \tableauHeader{Mesure (Annexe A)} &
+    \tableauHeader{Retenue} &
+    \tableauHeader{Justification} &
+    \tableauHeader{État}
+}
+Sauvegarde & Oui & Risque R1 (état civil) & En place \\
+Contrôle d'accès & Oui & Risque R2 (taxes) & En place \\
+Chiffrement & Oui & Risque R2 & En cours \\
+Développement sécurisé & Non & Pas de développement interne & Exclue \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~14.1. Extrait de la DdA de la mairie d'Eséka}\end{center}
+
+Chaque ligne relie une mesure à un risque (inclusion) ou explique pourquoi la
+mesure ne s'applique pas (exclusion). Rien n'est laissé implicite.
+
+% ============================================================================
+\section{DdA et Plan de Traitement}
+\label{sec:c14-plan}
+% ============================================================================
+
+\begin{boxdef}
+Le \termecle{plan de traitement des risques}~: document qui, pour chaque risque,
+précise la stratégie, les mesures, le responsable et l'échéance. La \sigle{DdA}
+dit \emph{quelles} mesures~; le plan dit \emph{comment et quand} les mettre en
+\oe uvre.
+\end{boxdef}
+
+Les deux documents sont complémentaires~: la \sigle{DdA} est la photographie
+des mesures~; le plan est la feuille de route. Ensemble, ils constituent le
+« Plan » du \sigle{PDCA}.
+
+% ============================================================================
+\section{Inclure, Exclure}
+\label{sec:c14-justifier}
+% ============================================================================
+
+\begin{boxprocedure}
+\textbf{Constatation.} La mairie exclut la mesure « développement sécurisé » au
+motif qu'elle n'écrit aucun logiciel elle-même.
+
+\medskip
+\textbf{Analyse.} L'exclusion est légitime et justifiée~: la mesure ne
+correspond à aucun risque de la mairie. Mais la justification doit être écrite~:
+une exclusion non justifiée est un écart d'audit. On ne retire une mesure que
+si le risque associé n'existe pas.
+\end{boxprocedure}
+
+\begin{boxmetier}{Auditeur SMSI}
+\textbf{Lire la DdA à rebours.} L'auditeur part de la \sigle{DdA} et remonte~:
+cette mesure retenue répond-elle à un risque réel~? cette mesure exclue l'est-
+elle à bon droit~? La \sigle{DdA} est le fil qui relie tout le \sigle{SMSI}.
+\end{boxmetier}
+
+% ============================================================================
+\section{Acter le Risque Résiduel}
+\label{sec:c14-acter}
+% ============================================================================
+
+Une fois la \sigle{DdA} et le plan établis, il reste un risque résiduel. La
+clause~6.1 exige que les \termecle{propriétaires des risques} approuvent le plan
+de traitement et \termecle{acceptent} le risque résiduel. À la mairie, c'est le
+maire qui signe cette acceptation.
+
+\begin{boxjuris}
+Faire acter le risque résiduel par la direction n'est pas une formalité~: c'est
+l'acte par lequel la responsabilité est assumée au bon niveau. En cas
+d'incident, cette trace montre que le risque avait été identifié, pesé et
+décidé, et non ignoré.
+\end{boxjuris}
+
+\separateur
+
+\begin{boxresume}
+\textbf{Ce qu'il faut retenir de ce chapitre~:}
+\begin{itemize}
+    \item La \textbf{DdA} indique, pour chaque mesure, si elle est retenue, sa
+          justification et son état.
+    \item Elle se \textbf{construit} à partir des risques et de l'Annexe~A.
+    \item La \textbf{DdA} dit quelles mesures~; le \textbf{plan de traitement}
+          dit comment et quand.
+    \item \textbf{Inclusion} et \textbf{exclusion} se justifient par écrit.
+    \item La direction \textbf{accepte} formellement le risque résiduel.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle de l'élève.} Je sais~: définir la \sigle{DdA}~; la
+construire~; la distinguer du plan de traitement~; justifier une inclusion ou
+une exclusion~; expliquer l'acceptation du risque résiduel.
+\end{boxinfo}
+
+\bigskip
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~14.1. Rôle de la DdA \niveaubase}]
+Qu'indique la \sigle{DdA} pour chaque mesure de l'Annexe~A~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~14.2. DdA ou plan \niveaubase}]
+Laquelle dit « quelles mesures », lequel dit « comment et quand »~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~14.3. Exclusion \niveaubase}]
+Pourquoi la mairie peut-elle exclure la mesure « développement sécurisé »~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~14.4. Une ligne \niveaumoyen}]
+Rédigez une ligne de \sigle{DdA} pour la mesure « journalisation ».
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~14.5. Exclusion non justifiée \niveaumoyen}]
+Pourquoi une exclusion non justifiée est-elle un écart d'audit~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~14.6. Lire à rebours \niveaumoyen}]
+Comment un auditeur se sert-il de la \sigle{DdA} pour vérifier le \sigle{SMSI}~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~14.7. Acceptation \niveaumoyen}]
+Qui, à la mairie, accepte le risque résiduel, et pourquoi la trace importe-t-
+elle~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~14.8. Complémentarité \niveaumoyen}]
+Montrez que DdA et plan de traitement sont complémentaires.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~14.9. DdA de la mairie \niveauexpert}]
+Construisez un extrait de \sigle{DdA} de huit mesures pour la mairie d'Eséka.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~14.10. Plan complet \niveauexpert}]
+Rédigez le plan de traitement des risques de la mairie (cinq risques, stratégie,
+mesures, responsable, échéance, acceptation).
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item ISO/IEC 27001, clause~6.1.3~\cite{iso27001}~; ISO/IEC 27005~\cite{iso27005}.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Le plan décidé, place à la mise en \oe uvre~: la partie V
+s'ouvre au Chapitre~\ref{chap:orga} sur les mesures organisationnelles et
+humaines.
+\end{boxinfo}

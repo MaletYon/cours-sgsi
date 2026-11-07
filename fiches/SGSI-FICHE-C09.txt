@@ -1,0 +1,233 @@
+NDAP SUKULU · SGSI · fiche SGSI-FICHE-C09
+Chapitre 9 : Support, fonctionnement, évaluation, amélioration
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. La clause 7 fournit les :
+      a) Ressources
+      b) Excuses
+      c) Couleurs
+      d) Climats
+
+ 2. La clause 7 assure les :
+      a) Ventes
+      b) Compétences
+      c) Météos
+      d) Jardins
+
+ 3. « Information documentée » signifie tracée et :
+      a) Vendue
+      b) Cachée
+      c) Retrouvable
+      d) Jetée
+
+ 4. Ce qui n'est pas documenté est réputé :
+      a) Parfait
+      b) Vendu
+      c) Caché
+      d) Inexistant
+
+ 5. La clause 8 concerne le :
+      a) Fonctionnement
+      b) Budget
+      c) Jardin
+      d) Marché
+
+ 6. La clause 8 exécute le traitement des :
+      a) Prix
+      b) Risques
+      c) Climats
+      d) Couleurs
+
+ 7. La clause 9 évalue les :
+      a) Prix
+      b) Météos
+      c) Performances
+      d) Jardins
+
+ 8. Une exigence de la clause 9 est l'audit :
+      a) Externe seul
+      b) Marchand
+      c) Météo
+      d) Interne
+
+ 9. La clause 10 traite les :
+      a) Non-conformités
+      b) Ventes
+      c) Couleurs
+      d) Jardins
+
+10. La clause 10 assure l'amélioration :
+      a) Unique
+      b) Continue
+      c) Vendue
+      d) Cachée
+
+11. La clause 7 relève de l'étape :
+      a) Plan
+      b) Check
+      c) Do
+      d) Act
+
+12. La clause 9 relève de l'étape :
+      a) Plan
+      b) Do
+      c) Act
+      d) Check
+
+13. La clause 10 relève de l'étape :
+      a) Act
+      b) Plan
+      c) Check
+      d) Do
+
+14. La maîtrise documentaire est l'épine dorsale de l' :
+      a) Achat
+      b) Audit
+      c) Jardin
+      d) Marché
+
+15. La revue de direction examine audits, mesures et :
+      a) Ventes
+      b) Jardins
+      c) Incidents
+      d) Couleurs
+
+16. Une sauvegarde non tracée, en audit :
+      a) Compte
+      b) Se vend
+      c) Se cache
+      d) Ne compte pas
+
+17. La clause 7 assure la :
+      a) Communication
+      b) Vente
+      c) Météo
+      d) Voirie
+
+18. Une non-conformité se traite à sa :
+      a) Surface
+      b) Cause
+      c) Couleur
+      d) Date
+
+19. Le dossier du SMSI contient la :
+      a) Météo
+      b) Voirie
+      c) Politique
+      d) Recette
+
+20. Chaque exigence satisfaite laisse une :
+      a) Vente
+      b) Couleur
+      c) Odeur
+      d) Preuve écrite
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. La clause 7 fournit ressources, compétences et communication.
+      Vrai / Faux
+
+22. Ce qui n'est pas documenté est réputé inexistant en audit.
+      Vrai / Faux
+
+23. La clause 9 mesure, audite et passe en revue de direction.
+      Vrai / Faux
+
+24. La clause 10 corrige à la cause et améliore en continu.
+      Vrai / Faux
+
+25. Une information documentée doit être tracée et retrouvable.
+      Vrai / Faux
+
+26. Une sauvegarde réelle mais non tracée compte en audit.
+      Vrai / Faux
+
+27. Une mesure non documentée est pleinement prise en compte en audit.
+      Vrai / Faux
+
+28. La clause 7 ne concerne ni les ressources ni les compétences.
+      Vrai / Faux
+
+29. Une non-conformité se traite seulement en surface.
+      Vrai / Faux
+
+30. L'amélioration continue est facultative dans un SMSI.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. La clause 7 fournit les ______.
+
+32. Ce qui n'est pas documenté est réputé ______.
+
+33. La clause 9 évalue les ______.
+
+34. La clause 10 assure l'amélioration ______.
+
+35. La clause 8 concerne le ______.
+
+36. La clause 9 relève de l'étape ______.
+
+37. Une information documentée est tracée et ______.
+
+38. Une non-conformité se traite à sa ______.
+
+39. La revue de ______ examine audits, mesures et incidents.
+
+40. Une sauvegarde non tracée ne ______ pas en audit.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................

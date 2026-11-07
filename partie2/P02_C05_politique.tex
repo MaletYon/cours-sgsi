@@ -1,0 +1,242 @@
+% ============================================================================
+% Fichier  : partie2/P02_C05_politique.tex
+% Titre    : La Politique de Sécurité du Système d'Information
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% ============================================================================
+% Sources : ISO/IEC 27001:2022 (clause 5.2) ; ISO/IEC 27002:2022. Fictif : Eséka.
+% ============================================================================
+
+\chapter{La Politique de Sécurité du Système d'Information}
+\label{chap:politique}
+\chaptermark{La politique de sécurité}
+
+\epigraph{%
+    « Une politique qui ne s'applique pas est pire que pas de politique~:\\
+    elle donne l'illusion d'être protégé. »%
+}{Principe du cours}
+
+\niveauChapitre{Fondamental}{Le Chapitre~\ref{chap:gouvernance}.}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Définir la politique de sécurité (\sigle{PSSI}) et ses objectifs.
+    \item Décrire la structure type d'une politique de sécurité.
+    \item Distinguer politique, procédure et charte.
+    \item Comprendre le cycle de vie d'une politique (validation, diffusion,
+          révision).
+    \item Relier la politique à l'exigence de la clause~5.2 de la norme.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Question directrice : comment transformer des intentions en règles opposables ?}
+% ============================================================================
+
+Le maire veut « plus de sécurité ». Cette intention ne protège rien tant
+qu'elle n'est pas écrite, validée, diffusée et appliquée. La politique de
+sécurité est le document qui opère cette transformation.
+
+\medskip
+\textbf{Plan du chapitre.}
+\begin{enumerate}
+    \item Qu'est-ce qu'une politique (section~\ref{sec:c05-definir}).
+    \item Objectifs et portée (section~\ref{sec:c05-objectifs}).
+    \item La structure type (section~\ref{sec:c05-structure}).
+    \item Politique, procédure, charte (section~\ref{sec:c05-niveaux}).
+    \item Le cycle de vie du document (section~\ref{sec:c05-cycle}).
+\end{enumerate}
+
+\separateur
+
+% ============================================================================
+\section{Qu'est-ce qu'une Politique}
+\label{sec:c05-definir}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{Politique de sécurité du système d'information} (\sigle{PSSI})~:
+document formel, approuvé par la direction, qui fixe les objectifs de sécurité,
+les règles à respecter et les responsabilités. Elle est le cadre de référence
+de toutes les décisions de sécurité.
+\end{boxdef}
+
+La \sigle{PSSI} est au \sigle{SMSI} ce que la constitution est à un État~: le
+texte fondateur dont découlent les règles particulières. Elle doit être courte,
+claire, et tenue par la direction, sans quoi elle reste lettre morte.
+
+% ============================================================================
+\section{Objectifs et Portée}
+\label{sec:c05-objectifs}
+% ============================================================================
+
+\begin{tableaucours}{L{4.0cm}L{8.2cm}}{%
+    \tableauHeader{Objectif} &
+    \tableauHeader{Ce qu'il apporte}
+}
+Établir un cadre & Une référence commune pour arbitrer \\
+Sensibiliser & Des règles connues de tous les agents \\
+Définir les responsabilités & Chacun sait ce qu'il doit faire \\
+Assurer la conformité & Le respect des obligations légales \\
+Faciliter la décision & Un critère pour trancher les cas particuliers \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~5.1. Les objectifs d'une politique de sécurité}\end{center}
+
+La \termecle{portée} délimite ce que couvre la politique~: quels services,
+quels sites, quelles informations. À Eséka, la politique couvre tous les
+services de la mairie et l'ensemble du patrimoine informationnel recensé.
+
+% ============================================================================
+\section{La Structure Type}
+\label{sec:c05-structure}
+% ============================================================================
+
+\begin{tableaucours}{L{4.2cm}L{8.0cm}}{%
+    \tableauHeader{Section} &
+    \tableauHeader{Contenu}
+}
+Introduction et contexte & Objectifs, portée, références réglementaires \\
+Gouvernance & Organisation, rôles, comité de sécurité \\
+Classification de l'information & Niveaux et règles de manipulation \\
+Contrôle d'accès & Création des comptes, authentification, privilèges \\
+Sécurité des opérations & Sauvegarde, journalisation, gestion des incidents \\
+Conformité & Audits, revue, sanctions \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~5.2. Structure type d'une politique de sécurité}\end{center}
+
+\begin{boxmetier}{RSSI}
+\textbf{Écrire pour être lu.} La RSSI d'Eséka proscrit le jargon~: une
+politique que les agents ne comprennent pas n'est pas appliquée. Chaque règle
+dit qui, quoi, quand, et la conséquence du non-respect.
+\end{boxmetier}
+
+% ============================================================================
+\section{Politique, Procédure, Charte}
+\label{sec:c05-niveaux}
+% ============================================================================
+
+\begin{boxdef}
+Trois niveaux se complètent~: la \termecle{politique} fixe les principes (le
+« quoi »)~; la \termecle{procédure} décrit les étapes d'exécution (le
+« comment »)~; la \termecle{charte} engage l'utilisateur sur ses droits et
+devoirs.
+\end{boxdef}
+
+La politique dit « les accès sont nominatifs »~; la procédure décrit comment
+créer et supprimer un compte~; la charte informatique, signée par l'agent,
+l'engage à ne pas partager son mot de passe (Chapitre~\ref{chap:conformite}).
+
+% ============================================================================
+\section{Le Cycle de Vie du Document}
+\label{sec:c05-cycle}
+% ============================================================================
+
+Une politique vit~: elle est \termecle{rédigée}, \termecle{validée} par la
+direction, \termecle{diffusée} à tous, \termecle{appliquée}, puis
+\termecle{révisée} périodiquement. Sans validation de la direction, elle n'a
+pas d'autorité~; sans révision, elle se périme.
+
+\begin{boxprocedure}
+\textbf{Constatation.} La mairie a rédigé une politique en 2022, jamais signée
+par le maire ni communiquée aux agents.
+
+\medskip
+\textbf{Analyse} (confiance élevée). Un document non validé et non diffusé
+n'est pas une politique~: c'est un brouillon. L'opération \textsc{Nyong}
+reprendra le cycle complet, de la validation à la diffusion contre signature.
+\end{boxprocedure}
+
+\begin{boxjuris}
+La clause~5.2 de \norme{ISO/IEC 27001} exige une politique de sécurité
+établie, approuvée par la direction, communiquée et disponible. L'absence de
+politique formelle est un écart majeur en audit de certification
+(Chapitre~\ref{chap:audit}).
+\end{boxjuris}
+
+\separateur
+
+\begin{boxresume}
+\textbf{Ce qu'il faut retenir de ce chapitre~:}
+\begin{itemize}
+    \item La \textbf{PSSI} est le texte fondateur du \sigle{SMSI}, approuvé par
+          la direction.
+    \item Elle poursuit cinq \textbf{objectifs} et définit une \textbf{portée}.
+    \item Sa \textbf{structure type} couvre gouvernance, accès, opérations,
+          conformité.
+    \item \textbf{Politique, procédure, charte} se distinguent par leur niveau.
+    \item Une politique a un \textbf{cycle de vie}~: validée, diffusée,
+          révisée~; la clause~5.2 l'exige.
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle de l'élève.} Je sais~: définir la \sigle{PSSI}~;
+citer ses objectifs~; décrire sa structure~; distinguer politique, procédure et
+charte~; énoncer son cycle de vie.
+\end{boxinfo}
+
+\bigskip
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~5.1. Définition \niveaubase}]
+Qu'est-ce qu'une politique de sécurité, et qui doit l'approuver~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~5.2. Objectifs \niveaubase}]
+Citez trois objectifs d'une \sigle{PSSI} et illustrez-en un pour la mairie.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~5.3. Trois niveaux \niveaubase}]
+Classez~: « les accès sont nominatifs »~; « voici comment créer un compte »~;
+« je m'engage à ne pas partager mon mot de passe ». Politique, procédure ou
+charte~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~5.4. Portée \niveaumoyen}]
+Rédigez la phrase de portée de la politique de la mairie d'Eséka.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~5.5. Brouillon ou politique \niveaumoyen}]
+Pourquoi le document de 2022 n'est-il pas une politique~? Que manque-t-il~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~5.6. Une règle complète \niveaumoyen}]
+Rédigez une règle de politique sur l'usage des clés \texttt{USB}, avec la
+conséquence du non-respect.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~5.7. Cycle de vie \niveaumoyen}]
+Énoncez les cinq étapes du cycle de vie d'une politique et le risque d'en
+oublier une.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~5.8. Écart d'audit \niveaumoyen}]
+Pourquoi l'absence de politique validée est-elle un écart majeur en audit~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~5.9. Table des matières \niveauexpert}]
+Dressez la table des matières complète de la politique de sécurité de la mairie
+d'Eséka.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~5.10. Section rédigée \niveauexpert}]
+Rédigez la section « Contrôle d'accès » de la politique de la mairie (une
+page).
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item ISO/IEC 27001, clause~5.2~\cite{iso27001}~; ISO/IEC 27002~\cite{iso27002}.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} La politique s'adosse à des obligations légales et à des
+engagements individuels~: le Chapitre~\ref{chap:conformite} traite chartes,
+conformité et données personnelles.
+\end{boxinfo}

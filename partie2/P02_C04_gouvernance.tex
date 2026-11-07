@@ -1,0 +1,240 @@
+% ============================================================================
+% Fichier  : partie2/P02_C04_gouvernance.tex
+% Titre    : La Gouvernance de la Sécurité
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% ============================================================================
+% Sources : ISO/IEC 27001:2022 (clause 5) ; COBIT 2019. Mairie d'Eséka : fictif.
+% ============================================================================
+
+\chapter{La Gouvernance de la Sécurité}
+\label{chap:gouvernance}
+\chaptermark{La gouvernance}
+
+\epigraph{%
+    « Sans responsable nommé, la sécurité est l'affaire de personne. »%
+}{Principe du cours}
+
+\niveauChapitre{Fondamental}{La partie I.}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Définir la gouvernance de la sécurité et la distinguer du management
+          opérationnel.
+    \item Préciser le rôle du \sigle{RSSI}, de la direction et du comité de
+          sécurité.
+    \item Comprendre le rattachement et l'indépendance du \sigle{RSSI}.
+    \item Établir une matrice de responsabilités (\sigle{RACI}).
+    \item Relier la gouvernance à l'engagement de la direction exigé par la
+          norme.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Question directrice : qui décide, qui exécute, qui contrôle ?}
+% ============================================================================
+
+Nommer une \sigle{RSSI} ne suffit pas~: encore faut-il définir ses pouvoirs,
+son rattachement et ses relations avec la direction et les services. Ce
+chapitre organise la gouvernance de la sécurité à la mairie.
+
+\medskip
+\textbf{Plan du chapitre.}
+\begin{enumerate}
+    \item Gouverner et manager (section~\ref{sec:c04-gouverner}).
+    \item Le RSSI (section~\ref{sec:c04-rssi}).
+    \item La direction et le comité de sécurité (section~\ref{sec:c04-comite}).
+    \item La matrice de responsabilités (section~\ref{sec:c04-raci}).
+    \item L'engagement de la direction (section~\ref{sec:c04-engagement}).
+\end{enumerate}
+
+\separateur
+
+% ============================================================================
+\section{Gouverner et Manager}
+\label{sec:c04-gouverner}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{Gouvernance de la sécurité}~: ensemble des responsabilités et
+pratiques par lesquelles la direction oriente la sécurité, fixe les objectifs
+et s'assure que les risques sont maîtrisés. Elle décide~; le management
+exécute.
+\end{boxdef}
+
+La gouvernance répond à « quoi et pourquoi »~; le management opérationnel à
+« comment ». Confondre les deux conduit soit à une direction qui bricole de la
+technique, soit à une technique sans mandat. La norme sépare nettement le rôle
+d'orientation (direction) du rôle de pilotage (\sigle{RSSI}).
+
+% ============================================================================
+\section{Le RSSI}
+\label{sec:c04-rssi}
+% ============================================================================
+
+\begin{tableaucours}{L{3.0cm}L{9.2cm}}{%
+    \tableauHeader{Mission} &
+    \tableauHeader{Contenu}
+}
+Définir & Proposer la stratégie et la politique de sécurité \\
+Piloter & Conduire l'appréciation des risques et le plan de traitement \\
+Coordonner & Mettre en relation direction, DSI, agents, prestataires \\
+Contrôler & Vérifier le respect des règles, suivre les indicateurs \\
+Conseiller & Éclairer la direction pour ses arbitrages \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~4.1. Les missions du RSSI}\end{center}
+
+\begin{boxprocedure}
+\textbf{Constatation.} À la mairie, Mme~\textsc{Abena} (RSSI) est aussi chef du
+service informatique, sous l'autorité du \sigle{DSI}.
+
+\medskip
+\textbf{Analyse} (confiance moyenne). Ce rattachement crée un conflit~: juger
+la sécurité des systèmes que l'on exploite soi-même, c'est être juge et
+partie. Il est préférable que la \sigle{RSSI} rende compte directement au
+maire, pour garder son indépendance de contrôle.
+\end{boxprocedure}
+
+% ============================================================================
+\section{La Direction et le Comité de Sécurité}
+\label{sec:c04-comite}
+% ============================================================================
+
+La direction (le maire) impulse, valide la politique, alloue les ressources et
+assume la responsabilité finale. Pour instruire ses décisions, elle s'appuie
+sur un \termecle{comité de sécurité}~: instance périodique qui réunit maire,
+\sigle{RSSI}, \sigle{DSI} et responsables de services, arbitre les risques et
+suit le plan d'action.
+
+\begin{boxmetier}{Direction générale}
+\textbf{Présider, pas assister.} Un comité de sécurité que le maire délègue
+systématiquement perd son autorité. La présence de la direction signale que la
+sécurité est une priorité, non une affaire de techniciens.
+\end{boxmetier}
+
+% ============================================================================
+\section{La Matrice de Responsabilités}
+\label{sec:c04-raci}
+% ============================================================================
+
+\begin{boxdef}
+Une matrice \termecle{RACI} attribue, pour chaque activité, qui est
+\emph{Responsable} (fait), \emph{Approbateur} (décide), \emph{Consulté} et
+\emph{Informé}. Elle supprime les zones où « on croyait que l'autre le
+faisait ».
+\end{boxdef}
+
+\begin{tableaucours}{L{4.0cm}L{2.0cm}L{2.0cm}L{2.0cm}}{%
+    \tableauHeader{Activité} &
+    \tableauHeader{Maire} &
+    \tableauHeader{RSSI} &
+    \tableauHeader{DSI}
+}
+Valider la politique & A & R & C \\
+Apprécier les risques & I & R & C \\
+Déployer une mesure & I & A & R \\
+Suivre les indicateurs & I & R & C \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~4.2. Extrait de la matrice RACI de la mairie}\end{center}
+
+% ============================================================================
+\section{L'Engagement de la Direction}
+\label{sec:c04-engagement}
+% ============================================================================
+
+La gouvernance n'existe que si la direction s'engage réellement. La clause~5
+de \norme{ISO/IEC 27001} l'exige~: la direction doit démontrer son
+\termecle{leadership} en établissant la politique, en attribuant les rôles et
+en fournissant les ressources (Chapitre~\ref{chap:clauses46}).
+
+\begin{boxjuris}
+En droit camerounais comme dans la norme, la responsabilité de la sécurité des
+données remonte au responsable de traitement. Le maire ne peut se retrancher
+derrière ses services~: la gouvernance formalise cette responsabilité, elle ne
+la dilue pas.
+\end{boxjuris}
+
+\separateur
+
+\begin{boxresume}
+\textbf{Ce qu'il faut retenir de ce chapitre~:}
+\begin{itemize}
+    \item La \textbf{gouvernance} oriente et décide~; le management exécute.
+    \item Le \textbf{RSSI} définit, pilote, coordonne, contrôle, conseille~;
+          son indépendance suppose un bon rattachement.
+    \item La \textbf{direction} impulse et assume~; le \textbf{comité de
+          sécurité} instruit ses décisions.
+    \item La \textbf{matrice RACI} supprime les responsabilités floues.
+    \item La norme exige l'\textbf{engagement} de la direction (clause~5).
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle de l'élève.} Je sais~: distinguer gouverner et
+manager~; énoncer les missions du RSSI~; expliquer le rôle du comité~; lire une
+matrice RACI~; relier la gouvernance à la clause~5.
+\end{boxinfo}
+
+\bigskip
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~4.1. Gouverner ou manager \niveaubase}]
+Classez~: fixer la politique~; configurer un pare-feu~; arbitrer un budget~;
+appliquer un correctif. Gouvernance ou management~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~4.2. Missions du RSSI \niveaubase}]
+Citez cinq missions du \sigle{RSSI} et donnez un exemple pour l'une d'elles.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~4.3. Le comité \niveaubase}]
+Qui siège au comité de sécurité de la mairie, et à quoi sert-il~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~4.4. Juge et partie \niveaumoyen}]
+Pourquoi rattacher la RSSI au DSI pose-t-il un problème d'indépendance~?
+Proposez un meilleur rattachement.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~4.5. RACI \niveaumoyen}]
+Complétez une ligne RACI pour l'activité « gérer les accès des agents ».
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~4.6. Leadership \niveaumoyen}]
+Donnez trois actes concrets par lesquels le maire démontre son engagement.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~4.7. Délégation \niveaumoyen}]
+Que peut déléguer le maire, que ne peut-il pas déléguer~? Justifiez.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~4.8. Zone floue \niveaumoyen}]
+Donnez un exemple de responsabilité floue à la mairie et montrez comment la
+RACI la lève.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~4.9. Charte de comité \niveauexpert}]
+Rédigez la charte du comité de sécurité de la mairie (composition, fréquence,
+missions, décisions).
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~4.10. Fiche de poste \niveauexpert}]
+Rédigez la fiche de poste de la RSSI de la mairie d'Eséka, avec rattachement et
+pouvoirs.
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item ISO/IEC 27001, clause~5~\cite{iso27001}~; COBIT 2019~\cite{cobit2019}.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} La gouvernance s'exprime d'abord dans un document~: le
+Chapitre~\ref{chap:politique} construit la politique de sécurité.
+\end{boxinfo}

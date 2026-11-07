@@ -1,0 +1,234 @@
+% ============================================================================
+% Fichier  : partie1/P01_C03_pdca.tex
+% Titre    : Le Cycle PDCA et l'Amélioration Continue
+% Auteur   : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% ============================================================================
+% Sources : ISO/IEC 27001:2022 (approche processus). Mairie d'Eséka : cas fictif.
+% ============================================================================
+
+\chapter{Le Cycle PDCA et l'Amélioration Continue}
+\label{chap:pdca}
+\chaptermark{Le cycle PDCA}
+
+\epigraph{%
+    « Un système de sécurité qui ne tourne pas se dégrade~:\\
+    ce qui était sûr hier ne l'est plus demain. »%
+}{Principe du cours}
+
+\niveauChapitre{Fondamental}{Les Chapitres~\ref{chap:cia} et~\ref{chap:enjeux}.}
+
+\begin{boxobjectifs}
+\begin{itemize}
+    \item Énoncer les quatre étapes du cycle \sigle{PDCA}.
+    \item Comprendre pourquoi la sécurité est un cycle et non un projet.
+    \item Relier chaque étape aux parties du cours et aux phases du fil rouge.
+    \item Distinguer correction, action corrective et amélioration.
+    \item Situer l'amélioration continue comme exigence de la norme.
+\end{itemize}
+\end{boxobjectifs}
+
+\bigskip
+
+% ============================================================================
+\section*{Question directrice : pourquoi la sécurité n'est-elle jamais « finie » ?}
+% ============================================================================
+
+La mairie pourrait croire qu'après avoir installé des mesures, le travail est
+accompli. Ce chapitre montre que la sécurité se dégrade si on ne l'entretient
+pas, et que le cycle \sigle{PDCA} est l'outil de cet entretien.
+
+\medskip
+\textbf{Plan du chapitre.}
+\begin{enumerate}
+    \item Les quatre étapes (section~\ref{sec:c03-etapes}).
+    \item Un cycle, pas un projet (section~\ref{sec:c03-cycle}).
+    \item PDCA et plan du cours (section~\ref{sec:c03-plan}).
+    \item Corriger, améliorer (section~\ref{sec:c03-corriger}).
+    \item L'amélioration continue, une exigence (section~\ref{sec:c03-exigence}).
+\end{enumerate}
+
+\separateur
+
+% ============================================================================
+\section{Les Quatre Étapes}
+\label{sec:c03-etapes}
+% ============================================================================
+
+\begin{boxdef}
+Le \termecle{cycle PDCA} (\emph{Plan, Do, Check, Act}), ou roue de Deming,
+organise l'amélioration continue en quatre étapes répétées~:
+\termecle{planifier}, \termecle{déployer}, \termecle{contrôler}, \termecle{agir}.
+\end{boxdef}
+
+\begin{tableaucours}{L{2.6cm}L{4.4cm}L{5.2cm}}{%
+    \tableauHeader{Étape} &
+    \tableauHeader{But} &
+    \tableauHeader{À la mairie}
+}
+Planifier & Fixer objectifs et mesures & Apprécier les risques, écrire la politique \\
+Déployer & Mettre en \oe uvre & Déployer les mesures, former les agents \\
+Contrôler & Vérifier l'efficacité & Mesurer, auditer, revue de direction \\
+Agir & Améliorer & Corriger les écarts, décider le cycle suivant \\
+\end{tableaucours}
+\vspace{-0.8em}
+\begin{center}{\small\itshape Tableau~3.1. Le cycle PDCA, étape par étape}\end{center}
+
+% ============================================================================
+\section{Un Cycle, pas un Projet}
+\label{sec:c03-cycle}
+% ============================================================================
+
+Un projet a une fin~; un cycle recommence. La menace évolue, les agents
+changent, les systèmes vieillissent~: une mesure efficace en janvier peut ne
+plus l'être en décembre. Le \sigle{PDCA} rattrape cette dérive en imposant de
+revenir régulièrement sur ce qui a été décidé.
+
+\begin{boxscenario}{Opération NYONG. Le piège du « c'est fait »}
+\textbf{Constatation.} Six mois après avoir imposé des mots de passe
+individuels, la mairie découvre que trois agents les ont de nouveau partagés.
+
+\medskip
+\textbf{Analyse} (confiance élevée). La mesure avait été déployée (\emph{Do})
+mais jamais contrôlée (\emph{Check}). Sans l'étape de contrôle, une mesure se
+relâche. Le cycle n'est pas une formalité~: c'est ce qui empêche le retour en
+arrière.
+\end{boxscenario}
+
+% ============================================================================
+\section{PDCA et Plan du Cours}
+\label{sec:c03-plan}
+% ============================================================================
+
+Le cours épouse le cycle. Les parties II et III \emph{planifient} (gouvernance,
+politique, cadre \norme{ISO/IEC 27001})~; la partie IV \emph{planifie} par le
+risque~; la partie V \emph{déploie} les mesures~; la partie VI \emph{contrôle}
+et \emph{agit} (audit, certification, incidents, amélioration).
+
+\begin{boxmetier}{RSSI}
+\textbf{Tenir la roue.} Le \sigle{RSSI} n'a pas pour mission de « finir » la
+sécurité, mais de faire tourner la roue~: chaque année, replanifier au vu des
+nouveaux risques et des écarts constatés. Son tableau de bord suit le cycle.
+\end{boxmetier}
+
+% ============================================================================
+\section{Corriger, Améliorer}
+\label{sec:c03-corriger}
+% ============================================================================
+
+\begin{boxdef}
+\termecle{Correction}~: action immédiate qui traite un écart constaté (rétablir
+un service). \termecle{Action corrective}~: action qui traite la \emph{cause}
+de l'écart pour qu'il ne se reproduise pas. \termecle{Amélioration}~:
+renforcement au-delà de la simple conformité.
+\end{boxdef}
+
+Rétablir les postes après la clé \texttt{USB} était une \emph{correction}.
+Interdire les clés personnelles et imposer des sauvegardes est une \emph{action
+corrective}. Automatiser la détection des clés non autorisées serait une
+\emph{amélioration}. La norme attend les trois, dans cet ordre de maturité.
+
+% ============================================================================
+\section{L'Amélioration Continue, une Exigence}
+\label{sec:c03-exigence}
+% ============================================================================
+
+L'amélioration continue n'est pas une bonne intention~: c'est la clause~10 de
+la norme \norme{ISO/IEC 27001} (Chapitre~\ref{chap:clauses710}). Un
+\sigle{SMSI} qui ne s'améliore pas n'est pas conforme. Le \sigle{PDCA} est donc
+à la fois une philosophie et une exigence vérifiée en audit.
+
+\begin{boxinfo}
+\textbf{À retenir pour tout le cours.} Chaque fois qu'une partie s'ouvre,
+demandez-vous à quelle étape du \sigle{PDCA} elle correspond. La structure du
+cours \emph{est} le cycle.
+\end{boxinfo}
+
+\separateur
+
+\begin{boxresume}
+\textbf{Ce qu'il faut retenir de ce chapitre~:}
+\begin{itemize}
+    \item Le \textbf{PDCA} (planifier, déployer, contrôler, agir) organise
+          l'amélioration continue.
+    \item La sécurité est un \textbf{cycle}, pas un projet~: sans entretien,
+          elle se dégrade.
+    \item Le \textbf{cours} suit les étapes du cycle.
+    \item \textbf{Correction}, \textbf{action corrective} et
+          \textbf{amélioration} se distinguent par ce qu'elles traitent.
+    \item L'\textbf{amélioration continue} est une exigence de la norme
+          (clause~10).
+\end{itemize}
+\end{boxresume}
+
+\begin{boxinfo}
+\textbf{Points de contrôle de l'élève.} Je sais~: énoncer les quatre étapes~;
+expliquer pourquoi la sécurité est un cycle~; relier le PDCA au plan du cours~;
+distinguer correction, action corrective et amélioration~; rattacher
+l'amélioration continue à la norme.
+\end{boxinfo}
+
+\bigskip
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~3.1. Les quatre étapes \niveaubase}]
+Nommez les quatre étapes du \sigle{PDCA} et donnez une action de la mairie pour
+chacune.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~3.2. Cycle ou projet \niveaubase}]
+Expliquez en deux phrases pourquoi la sécurité n'est pas un projet qui se
+termine.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~3.3. Trois mots \niveaubase}]
+Distinguez correction, action corrective et amélioration par un exemple de
+chacune.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~3.4. L'étape manquante \niveaumoyen}]
+Dans le cas des mots de passe repartagés, quelle étape du cycle a manqué~?
+Justifiez.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~3.5. Rattacher au cycle \niveaumoyen}]
+À quelle étape du PDCA rattachez-vous~: un audit interne~; une formation~; une
+appréciation des risques~; une revue de direction~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~3.6. De la correction à la cause \niveaumoyen}]
+Pour l'incident de la clé \texttt{USB}, proposez une correction, une action
+corrective et une amélioration.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~3.7. Dérive \niveaumoyen}]
+Donnez deux raisons pour lesquelles une mesure efficace peut cesser de l'être
+avec le temps.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~3.8. Exigence \niveaumoyen}]
+Pourquoi un SMSI qui ne s'améliore jamais n'est-il pas conforme à
+\norme{ISO/IEC 27001}~?
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~3.9. Planifier un tour \niveauexpert}]
+Décrivez un cycle PDCA annuel complet pour la mairie d'Eséka, de la
+planification à l'amélioration.
+\end{boxexo}
+
+\begin{boxexo}[title={\ding{45}\quad Exercice~3.10. Note au conseil \niveauexpert}]
+Rédigez une note expliquant au conseil municipal pourquoi la sécurité
+nécessite un budget récurrent, et non une dépense unique.
+\end{boxexo}
+
+\bigskip
+
+\begin{boxinfo}
+\textbf{Pour aller plus loin.}
+\begin{itemize}
+    \item ISO/IEC 27001, approche processus et clause~10~\cite{iso27001}.
+\end{itemize}
+\end{boxinfo}
+
+\begin{boxinfo}
+\textbf{Transition.} Faire tourner la roue suppose une organisation qui la
+porte~: le Chapitre~\ref{chap:gouvernance} ouvre la gouvernance de la sécurité.
+\end{boxinfo}

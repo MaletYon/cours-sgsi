@@ -1,0 +1,233 @@
+NDAP SUKULU · SGSI · fiche SGSI-FICHE-C12
+Chapitre 12 : Les méthodes d'appréciation des risques
+
+Version papier, à utiliser en attendant l'ouverture du portail NDAP SUKULU.
+La fiche complète compte 40 questions. Répondez sur la grille en fin de fiche.
+Durée indicative : 60 minutes. Seuil de réussite : 60 %.
+Les corrections figurent dans le livret de correction du cours.
+
+========================================================================
+Questions à choix multiple (une seule bonne réponse)
+========================================================================
+
+ 1. EBIOS Risk Manager est publiée par l' :
+      a) ANSSI
+      b) ISO
+      c) NIST
+      d) UA
+
+ 2. EBIOS RM compte combien d'ateliers :
+      a) 3
+      b) 5
+      c) 7
+      d) 10
+
+ 3. L'atelier 1 d'EBIOS est le :
+      a) Traitement
+      b) Scénario
+      c) Cadrage et socle
+      d) Budget
+
+ 4. EBIOS part des sources de :
+      a) Vente
+      b) Météo
+      c) Jardin
+      d) Risque
+
+ 5. OCTAVE est centrée sur les :
+      a) Actifs critiques
+      b) Ventes
+      c) Météos
+      d) Jardins
+
+ 6. OCTAVE compte combien de phases :
+      a) 2
+      b) 3
+      c) 5
+      d) 7
+
+ 7. OCTAVE est conduite par :
+      a) Un tiers
+      b) La météo
+      c) L'organisation
+      d) La presse
+
+ 8. MEHARI s'appuie sur des bases de :
+      a) Vente
+      b) Météo
+      c) Jardin
+      d) Connaissances
+
+ 9. MEHARI vient du :
+      a) CLUSIF
+      b) NIST
+      c) UA
+      d) GIEC
+
+10. La bonne méthode est celle que l'on peut :
+      a) Vendre
+      b) Conduire
+      c) Cacher
+      d) Peindre
+
+11. Toutes ces méthodes sont compatibles avec :
+      a) 27001 seul
+      b) La météo
+      c) 27005
+      d) La voirie
+
+12. La mairie choisit EBIOS en version :
+      a) Lourde
+      b) Secrète
+      c) Vendue
+      d) Allégée
+
+13. Les scénarios stratégiques sont des chemins de :
+      a) Haut niveau
+      b) Vente
+      c) Jardin
+      d) Marché
+
+14. L'atelier 5 d'EBIOS traite le :
+      a) Cadrage
+      b) Traitement du risque
+      c) Scénario
+      d) Budget
+
+15. Une méthode trop lourde n'est jamais :
+      a) Vendue
+      b) Cachée
+      c) Menée à terme
+      d) Peinte
+
+16. EBIOS RM est, pour la mairie :
+      a) Payante
+      b) Secrète
+      c) Interdite
+      d) Gratuite
+
+17. OCTAVE favorise l' :
+      a) Appropriation interne
+      b) Oubli
+      c) Vente
+      d) Climat
+
+18. EBIOS met l'accent sur les :
+      a) Prix
+      b) Scénarios
+      c) Météos
+      d) Jardins
+
+19. Une méthode rend le jugement :
+      a) Secret
+      b) Vendu
+      c) Traçable
+      d) Caché
+
+20. La mairie mène EBIOS lors de l'opération :
+      a) NYONG
+      b) MAKAK
+      c) MATOMB
+      d) KELLÉ
+
+========================================================================
+Vrai ou faux
+========================================================================
+
+21. EBIOS Risk Manager est publiée par l'ANSSI.
+      Vrai / Faux
+
+22. EBIOS RM compte cinq ateliers.
+      Vrai / Faux
+
+23. OCTAVE compte trois phases.
+      Vrai / Faux
+
+24. Toutes ces méthodes sont compatibles avec l'ISO/IEC 27005.
+      Vrai / Faux
+
+25. MEHARI s'appuie sur des bases de connaissances.
+      Vrai / Faux
+
+26. La meilleure méthode est toujours la plus lourde.
+      Vrai / Faux
+
+27. La meilleure méthode d'appréciation est systématiquement la plus lourde.
+      Vrai / Faux
+
+28. OCTAVE impose obligatoirement un prestataire extérieur.
+      Vrai / Faux
+
+29. OCTAVE est conduite par un prestataire extérieur obligatoire.
+      Vrai / Faux
+
+30. EBIOS Risk Manager compte dix ateliers.
+      Vrai / Faux
+
+========================================================================
+Textes à trous
+========================================================================
+
+31. EBIOS Risk Manager est publiée par l'______.
+
+32. EBIOS RM compte ______ ateliers.
+
+33. OCTAVE compte ______ phases.
+
+34. MEHARI s'appuie sur des bases de ______.
+
+35. Toutes ces méthodes sont compatibles avec l'ISO/IEC ______.
+
+36. La mairie choisit EBIOS en version ______.
+
+37. L'atelier 1 d'EBIOS est le ______ et socle.
+
+38. EBIOS part des sources de ______.
+
+39. MEHARI vient du ______.
+
+40. La mairie mène EBIOS lors de l'opération ______.
+
+========================================================================
+Grille de réponses   Nom : ............................  Matricule : ............
+========================================================================
+ 1. ............................................
+ 2. ............................................
+ 3. ............................................
+ 4. ............................................
+ 5. ............................................
+ 6. ............................................
+ 7. ............................................
+ 8. ............................................
+ 9. ............................................
+10. ............................................
+11. ............................................
+12. ............................................
+13. ............................................
+14. ............................................
+15. ............................................
+16. ............................................
+17. ............................................
+18. ............................................
+19. ............................................
+20. ............................................
+21. ............................................
+22. ............................................
+23. ............................................
+24. ............................................
+25. ............................................
+26. ............................................
+27. ............................................
+28. ............................................
+29. ............................................
+30. ............................................
+31. ............................................
+32. ............................................
+33. ............................................
+34. ............................................
+35. ............................................
+36. ............................................
+37. ............................................
+38. ............................................
+39. ............................................
+40. ............................................
