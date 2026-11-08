@@ -1,0 +1,5 @@
+Audit interne, mairie d'Eséka (opération MATOMB).
+(Document fictif établi pour le cours LPI342. Noms, dates, adresses et montants fictifs.)
+
+Rappel : un constat s'adosse à une preuve. Un écart sans preuve n'est qu'un avis.
+Une non-conformité majeure est une défaillance du système ; une mineure, un manquement isolé.

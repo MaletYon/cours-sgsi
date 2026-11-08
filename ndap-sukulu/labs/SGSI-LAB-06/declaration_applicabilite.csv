@@ -1,0 +1,6 @@
+Mesure;Retenue;Justification;État
+Sauvegarde;oui;risque R1 (état civil);en place
+Contrôle d'accès;oui;risque R2 (taxes);en place
+Chiffrement;oui;risque R2 (taxes);en cours
+Journalisation;oui;risque R3 (accès);en cours
+Développement sécurisé;non;aucun développement interne;exclue

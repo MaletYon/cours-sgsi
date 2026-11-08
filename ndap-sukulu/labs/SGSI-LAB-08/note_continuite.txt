@@ -1,0 +1,6 @@
+Plan de continuité, mairie d'Eséka.
+(Document fictif établi pour le cours LPI342. Noms, dates, adresses et montants fictifs.)
+
+Activité la plus critique : l'état civil.
+RTO visé : 4 heures. RPO visé : 24 heures (sauvegarde quotidienne).
+Mode dégradé : registre papier de secours.

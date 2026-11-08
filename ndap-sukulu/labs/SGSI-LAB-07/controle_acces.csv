@@ -1,0 +1,5 @@
+Compte;Rôle;Droits réels;Conformité
+agent_etatcivil;état civil;état civil;conforme
+agent_taxes;taxes;taxes + état civil;excessif
+stagiaire;aucun rôle;administration;excessif
+maire;direction;lecture tableaux de bord;conforme

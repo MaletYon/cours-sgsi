@@ -1,0 +1,5 @@
+Indicateur;Type;Cible;Valeur;État
+Agents formés;KPI;100 %;80 %;hors cible
+Sauvegardes testées;KPI;mensuel;à jour;conforme
+Comptes sans MFA;KRI;0;5;hors cible
+Incidents du mois;KRI;-;2;à surveiller
