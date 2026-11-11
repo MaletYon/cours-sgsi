@@ -2,7 +2,7 @@
 
 [← Tous les cours de MaletYon](https://github.com/maletyon) · [Livre (PDF)](SGSI_main.pdf) · [Présentations](Présentation/) · [Fiches par chapitre](fiches/) · [Corrigés](correction/README.md)
 
-**UE IS498** · Université de Garoua · Faculté des Sciences · Département de Mathématiques et Informatiques · Master Professionnel en Sécurité des Systèmes Informatiques et des Données · 30 heures
+**UE SIS498** · Université de Garoua · Faculté des Sciences · Département de Mathématiques et Informatiques · Master Professionnel en Sécurité des Systèmes Informatiques et des Données · 30 heures
 Auteur : MINKA MI NGUIDJOÏ Thierry Emmanuel · contact : maletyon@proton.me · année académique 2026-2027
 
 > *La sécurité n'est pas un produit que l'on achète, c'est une décision que l'on tient dans la durée.*
@@ -36,7 +36,7 @@ Chaque chapitre compte dix exercices gradués ; leurs corrigés, et ceux des fic
 
 ## NDAP SUKULU, la salle de classe compagnon
 
-*Ndap sukulu* signifie « la salle de classe » en bassa, et *Malet Yon* « ton enseignant ». NDAP SUKULU est l'environnement d'évaluation du cours : une fiche de 20 questions tirées d'une banque de 100 par chapitre, et dix laboratoires pratiques, minutés et en nombre de tentatives limité. Le code de cours est **IS498**. La présentation complète figure au début du livre.
+*Ndap sukulu* signifie « la salle de classe » en bassa, et *Malet Yon* « ton enseignant ». NDAP SUKULU est l'environnement d'évaluation du cours : une fiche de 20 questions tirées d'une banque de 100 par chapitre, et dix laboratoires pratiques, minutés et en nombre de tentatives limité. Le code de cours est **SIS498**. La présentation complète figure au début du livre.
 
 | Utilisation | Où |
 |---|---|
@@ -69,4 +69,4 @@ Les présentations se régénèrent avec `python Présentation/_sources/gen_spec
 
 ## Les trois cours de l'Université de Garoua
 
-Ce cours fait partie d'un corpus de trois UE du Master SSID : Supervision, Analyse Forensique et Gestion des Incidents ([SIS589](https://github.com/maletyon/cours-safi)), Forensique Numérique ([LPI342](https://github.com/maletyon/cours-forn)), Systèmes de Gestion de la Sécurité Informatique (IS498).
+Ce cours fait partie d'un corpus de trois UE du Master SSID : Supervision, Analyse Forensique et Gestion des Incidents ([SIS589](https://github.com/maletyon/cours-safi)), Forensique Numérique ([LPI342](https://github.com/maletyon/cours-forn)), Systèmes de Gestion de la Sécurité Informatique (SIS498).

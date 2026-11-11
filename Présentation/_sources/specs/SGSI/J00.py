@@ -1,7 +1,7 @@
 SPEC = [
     {"k": "title", "tag": "Vision globale du cours · 30 heures", "title": "Systèmes de Gestion\nde la Sécurité",
      "sub": "Du risque à la certification : piloter la sécurité de l'information",
-     "right": "UE IS498 · 15 séances de 2 heures", "size": 30},
+     "right": "UE SIS498 · 15 séances de 2 heures", "size": 30},
     {"k": "agenda", "title": "Sommaire", "kicker": "Ce document", "items": [
         ("", "**Pourquoi ce cours** : décider, mettre en œuvre, tenir la sécurité"),
         ("", "**Le plan** : un prologue, six parties, vingt chapitres"),
@@ -39,7 +39,7 @@ SPEC = [
         ("10", "labs NDAP SUKULU de 60 minutes"),
         ("21", "fiches d'auto-évaluation de 40 questions"),
         ("4", "phases : NYONG, KELLÉ, MAKAK, MATOMB"),
-    ], "bottom": "Labs et fiches se font **à la maison**, hors des 30 heures. Code du cours : **IS498**."},
+    ], "bottom": "Labs et fiches se font **à la maison**, hors des 30 heures. Code du cours : **SIS498**."},
     {"k": "table", "title": "Le calendrier (1/2)", "kicker": "Prologue, Parties I à III · jours 1 à 8", "head": ["Jour", "Thème", "Ch."], "widths": [1.3, 9.0, 1.6], "rows": [
         ["J01", "Ouverture · la décision de la mairie", "P00"],
         ["J02-J03", "Sécurité de l'information ; risque et décision ; PDCA", "C01-C03"],

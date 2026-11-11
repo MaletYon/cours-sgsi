@@ -1,4 +1,4 @@
-# NDAP SUKULU · SGSI (IS498) · évaluations du cours
+# NDAP SUKULU · SGSI (SIS498) · évaluations du cours
 
 *Ndap sukulu* signifie « la salle de classe » en bassa. Ce dossier contient la **version étudiant** de NDAP SUKULU pour ce cours : les fiches de questions de chaque chapitre et les labs, minutés et en nombre de tentatives limité. Elle s'utilise **dans un navigateur**, en ligne ou sans Internet, et ne demande aucune installation.
 
@@ -34,7 +34,7 @@ Saisissez le **matricule** et le **mot de passe** remis par votre enseignant. La
 
 ### 4. Remettre son travail
 
-*Mes remises*, bouton **Exporter mon fichier de synthèse** : un fichier `NDAP_SUKULU_IS498_<matricule>_<date>.json` est téléchargé. Remettez-le à votre enseignant (courriel, clé USB, plateforme de l'école). Il est chiffré pour lui seul et scellé avec votre clé : toute modification le rend invalide. Vous pouvez l'exporter autant de fois que vous voulez ; il contient toujours toutes vos sessions terminées.
+*Mes remises*, bouton **Exporter mon fichier de synthèse** : un fichier `NDAP_SUKULU_SIS498_<matricule>_<date>.json` est téléchargé. Remettez-le à votre enseignant (courriel, clé USB, plateforme de l'école). Il est chiffré pour lui seul et scellé avec votre clé : toute modification le rend invalide. Vous pouvez l'exporter autant de fois que vous voulez ; il contient toujours toutes vos sessions terminées.
 
 ### 5. Consulter ses résultats
 
@@ -44,16 +44,16 @@ Quand l'enseignant publie les résultats, ils apparaissent dans *Mes résultats*
 
 ## Pour l'enseignant
 
-L'enseignant travaille dans l'**espace enseignant**, une application séparée qui **n'est jamais publiée** (elle contient le coffre : clés, liste de classe, mots de passe, corrigés). Elle se trouve dans l'outil de construction : `Prototypes\Ndap Sukulu\editions\IS498\enseignant\NDAP_SUKULU_SGSI_enseignant.html`.
+L'enseignant travaille dans l'**espace enseignant**, une application séparée qui **n'est jamais publiée** (elle contient le coffre : clés, liste de classe, mots de passe, corrigés). Elle se trouve dans l'outil de construction : `Prototypes\Ndap Sukulu\editions\SIS498\enseignant\NDAP_SUKULU_SGSI_enseignant.html`.
 
 ### Mise en service (une fois par période)
 
 1. **Espace enseignant** : créer le coffre (phrase secrète d'au moins 12 caractères, à conserver : sans elle le coffre est irrécupérable), importer la liste de classe (CSV `matricule;nom;prenom`), vérifier la période (année académique, semestre).
 2. **Version apprenant** : générer `identifiants.js`, imprimer la feuille de coupons et distribuer les identifiants.
 3. **Contenus** (facultatif) : régler durées et tentatives, désactiver une évaluation, ajouter des questions ou des labs, puis « Publier les ajouts » pour obtenir `ajouts.js`.
-4. **Publier** : déposer `identifiants.js` (et `ajouts.js`) dans `Prototypes\Ndap Sukulu\cours\IS498\`, puis lancer :
+4. **Publier** : déposer `identifiants.js` (et `ajouts.js`) dans `Prototypes\Ndap Sukulu\cours\SIS498\`, puis lancer :
    ```
-   py outils\construire.py IS498 --publier "<chemin du dépôt cours-sgsi>"
+   py outils\construire.py SIS498 --publier "<chemin du dépôt cours-sgsi>"
    ```
    Le dossier `ndap-sukulu/` du dépôt est régénéré (version ordinateur, version téléphone, archive téléchargeable, ce fichier). La publication **est refusée** si un corrigé ou un fichier de l'espace enseignant s'y trouvait.
 5. **Mettre en ligne** : valider (`git add ndap-sukulu`, `git commit`) et pousser (`git push`). La première fois, activer GitHub Pages sur le dépôt : *Settings*, *Pages*, *Deploy from a branch*, branche `main`, dossier `/ (root)`. L'adresse est `https://maletyon.github.io/cours-sgsi/ndap-sukulu/`.
@@ -62,7 +62,7 @@ L'enseignant travaille dans l'**espace enseignant**, une application séparée q
 
 - **Remises** : importer les fichiers de synthèse reçus (plusieurs à la fois). Chaque fichier est vérifié (destinataire, signature de l'étudiant, intégrité) ; un réimport ne crée pas de doublon ; si une copie déjà reçue revient modifiée, la première remise fait foi et l'écart est signalé.
 - **Synthèse** : classement, moyennes, graphiques, copies corrigées (avec « Compter juste » ou « Compter faux » pour corriger le jugement automatique), export CSV.
-- **Publier les résultats** : générer `resultats.js` (une part chiffrée par étudiant, l'ensemble signé), le déposer dans `cours\IS498\` et republier comme à l'étape 4. Option : rang, détail juste ou faux par question, message à la classe.
+- **Publier les résultats** : générer `resultats.js` (une part chiffrée par étudiant, l'ensemble signé), le déposer dans `cours\SIS498\` et republier comme à l'étape 4. Option : rang, détail juste ou faux par question, message à la classe.
 
 ### Mettre à jour sans l'outil de construction
 

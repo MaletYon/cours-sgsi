@@ -1,11 +1,11 @@
-"""Métadonnées du cours SGSI (IS498, Université de Garoua) et répartition des
+"""Métadonnées du cours SGSI (SIS498, Université de Garoua) et répartition des
 15 séances de 2 heures (30 heures)."""
 
 COURS = r"C:\Users\Thierry MINKA\OneDrive\Documents\COURS"
 
 SGSI = {
     "sigle": "SGSI",
-    "code": "IS498",
+    "code": "SIS498",
     "titre": "Systèmes de Gestion de la Sécurité Informatique",
     "sous_titre": "Du risque à la certification : piloter la sécurité de l'information",
     "master": "Master Professionnel en Sécurité des Systèmes Informatiques et des Données",
